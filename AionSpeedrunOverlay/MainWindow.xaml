@@ -1,0 +1,398 @@
+<Window x:Class="AionSpeedrunOverlay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="Assets/aion-penguin.ico"
+        Title="Aion Speedrun Overlay"
+        Width="430"
+        MinWidth="360"
+        MinHeight="132"
+        SizeToContent="Height"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        ShowActivated="False"
+        ShowInTaskbar="True"
+        ResizeMode="NoResize"
+        TextOptions.TextFormattingMode="Display">
+
+    <Window.Resources><ResourceDictionary><ResourceDictionary.MergedDictionaries><ResourceDictionary Source="Themes/Scrollbars.xaml"/></ResourceDictionary.MergedDictionaries>
+        <SolidColorBrush x:Key="PanelBackground" Color="#5C0B1119"/>
+        <SolidColorBrush x:Key="NotesBackground" Color="#24131C27"/>
+        <SolidColorBrush x:Key="NumberBackground" Color="#331E2938"/>
+        <SolidColorBrush x:Key="PrimaryText" Color="#E2E8F0"/>
+        <SolidColorBrush x:Key="SecondaryText" Color="#CBD5E1"/>
+        <SolidColorBrush x:Key="MutedText" Color="#64748B"/>
+        <SolidColorBrush x:Key="ButtonText" Color="#F1F5F9"/>
+        <SolidColorBrush x:Key="IconText" Color="#DDE7F1"/>
+        <SolidColorBrush x:Key="AccentBackground" Color="#B0448CFF"/>
+        <SolidColorBrush x:Key="AccentBorder" Color="#CC75AAFF"/>
+        <SolidColorBrush x:Key="PanelBorder" Color="#5964748B"/>
+        <SolidColorBrush x:Key="NotesBorder" Color="#3D475569"/>
+        <SolidColorBrush x:Key="NumberBorder" Color="#805B687A"/>
+        <SolidColorBrush x:Key="SeparatorBrush" Color="#35475569"/>
+        <SolidColorBrush x:Key="EditorBorder" Color="#795B8FD9"/>
+        <SolidColorBrush x:Key="EditorTitle" Color="#BAE6FD"/>
+
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+        <Style x:Key="OverlayButton" TargetType="Button">
+            <Setter Property="Foreground" Value="{DynamicResource ButtonText}"/>
+            <Setter Property="Background" Value="#662C3747"/>
+            <Setter Property="BorderBrush" Value="#5578899F"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="11"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Chrome"
+                                Padding="{TemplateBinding Padding}"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="7">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Chrome"
+                                        Property="Background"
+                                        Value="#88607186"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="Chrome"
+                                        Property="Background"
+                                        Value="#AA202A38"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" Value="0.38"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="AccentButton"
+               TargetType="Button"
+               BasedOn="{StaticResource OverlayButton}">
+            <Setter Property="Background" Value="{DynamicResource AccentBackground}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource AccentBorder}"/>
+        </Style>
+
+        <Style x:Key="QuietButton"
+               TargetType="Button"
+               BasedOn="{StaticResource OverlayButton}">
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="Background" Value="#442C3747"/>
+        </Style>
+
+        <Style x:Key="IconButton" TargetType="Button">
+            <Setter Property="Foreground" Value="{DynamicResource IconText}"/>
+            <Setter Property="Background" Value="#01000000"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="IconSurface"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="4">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="IconSurface"
+                                        Property="Background"
+                                        Value="#263E4B5E"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="IconSurface"
+                                        Property="Background"
+                                        Value="#3D3E4B5E"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" Value="0.35"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </ResourceDictionary></Window.Resources>
+
+    <Border x:Name="SpeedrunPanel"
+            Padding="10,8"
+            Background="{DynamicResource PanelBackground}"
+            BorderBrush="{DynamicResource PanelBorder}"
+            BorderThickness="1"
+            CornerRadius="10">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,0,7">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock x:Name="CurrentQuestText"
+                           Grid.Column="0"
+                           Margin="2,0,8,0"
+                           VerticalAlignment="Center"
+                           Foreground="{DynamicResource SecondaryText}"
+                           FontSize="11"
+                           Text="Quest route"
+                           TextTrimming="CharacterEllipsis"/>
+
+                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                    <Button x:Name="MoveOverlayButton" Width="28" Height="28" Margin="2,0,0,0"
+                            Style="{StaticResource IconButton}" Content="↔"
+                            Cursor="SizeAll" FontSize="17"
+                            PreviewMouseLeftButtonDown="MoveOverlay_MouseLeftButtonDown"
+                            ToolTip="Drag to move overlay"
+                            AutomationProperties.Name="Move overlay"/>
+                    <Button x:Name="AppearanceButton" Width="28" Height="28" Margin="2,0,0,0"
+                            Style="{StaticResource IconButton}"
+                            Click="SettingsButton_Click" Content="&#xE713;"
+                            FontFamily="Segoe MDL2 Assets" FontSize="14"
+                            ToolTip="Overlay appearance"
+                            AutomationProperties.Name="Overlay appearance"/>
+                <Button x:Name="CloseOverlayButton"
+                        Width="28"
+                        Height="28"
+                        Margin="2,0,0,0"
+                        Padding="0"
+                        Style="{StaticResource IconButton}"
+                        Click="CloseButton_Click"
+                        Content="×"
+                        FontSize="16"
+                        FontWeight="Normal"/>
+                </StackPanel>
+            </Grid>
+
+            <Border x:Name="NotesView"
+                    Grid.Row="1"
+                    Background="{DynamicResource NotesBackground}"
+                    BorderBrush="{DynamicResource NotesBorder}"
+                    BorderThickness="1"
+                    CornerRadius="7">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+</Grid.RowDefinitions>
+
+                    <Grid Margin="9,5,6,4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock x:Name="NoteSourceText"
+                                   VerticalAlignment="Center"
+                                   Foreground="{DynamicResource MutedText}"
+                                   FontSize="9"
+                                   Text="Waiting for a route quest"/>
+
+                        <Button x:Name="EditNoteButton"
+                                Grid.Column="1"
+                                Width="24"
+                                Height="22"
+                                Padding="0"
+                                IsEnabled="False"
+                                Style="{StaticResource QuietButton}"
+                                Click="EditNoteButton_Click"
+                                Content="✎"
+                                FontFamily="Segoe UI Symbol"
+                                FontSize="12"
+                                ToolTip="Edit route note"/>
+                    </Grid>
+
+                    <TextBlock x:Name="EmptyNotesText"
+                               Grid.Row="1"
+                               Margin="11,7,11,10"
+                               Foreground="{DynamicResource SecondaryText}"
+                               FontSize="12"
+                               Text="Open a tracked quest to show its route note."
+                               TextWrapping="Wrap"/>
+
+                    <ItemsControl x:Name="QuestNotesList"
+                                  Grid.Row="1"
+                                  Visibility="Collapsed">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Margin="9,6,11,6">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="25"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Border Width="22"
+                                                Height="22"
+                                                VerticalAlignment="Top"
+                                                Background="{DynamicResource NumberBackground}"
+                                                BorderBrush="{DynamicResource NumberBorder}"
+                                                BorderThickness="1"
+                                                CornerRadius="3">
+                                            <TextBlock HorizontalAlignment="Center"
+                                                       VerticalAlignment="Center"
+                                                       Foreground="{DynamicResource SecondaryText}"
+                                                       FontFamily="Cascadia Mono, Consolas"
+                                                       FontSize="11"
+                                                       Text="{Binding Number}"/>
+                                        </Border>
+
+                                        <TextBlock Grid.Column="1"
+                                                   Margin="7,2,0,1"
+                                                   VerticalAlignment="Center"
+                                                   Foreground="{DynamicResource PrimaryText}"
+                                                   FontSize="12"
+                                                   LineHeight="18"
+                                                   Text="{Binding Text}"
+                                                   TextWrapping="Wrap"/>
+                                    </Grid>
+
+                                    <Border Grid.Row="1"
+                                            Height="1"
+                                            Margin="9,0"
+                                            Background="{DynamicResource SeparatorBrush}"
+                                            Visibility="{Binding ShowSeparator, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    <WrapPanel x:Name="NoteImagesPanel" Grid.Row="2" Margin="6,3,6,6" Visibility="Collapsed"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="NoteEditorPanel"
+                    Grid.Row="1"
+                    Padding="12"
+                    Background="#E0121822"
+                    BorderBrush="{DynamicResource EditorBorder}"
+                    BorderThickness="1"
+                    CornerRadius="9"
+                    Visibility="Collapsed">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+</Grid.RowDefinitions>
+
+                    <TextBlock x:Name="NoteEditorTitleText"
+                               Margin="0,0,0,8"
+                               Foreground="{DynamicResource EditorTitle}"
+                               FontSize="11"
+                               FontWeight="SemiBold"
+                               Text="Edit route note"
+                               TextTrimming="CharacterEllipsis"/>
+
+                    <TextBox x:Name="NoteEditorTextBox"
+                             Grid.Row="1"
+                             Height="230"
+                             Padding="10"
+                             AcceptsReturn="True"
+                             AcceptsTab="False"
+                             Background="#D90A0F17"
+                             BorderBrush="#66758AA5"
+                             BorderThickness="1"
+                             CaretBrush="White"
+                             Foreground="#F8FAFC"
+                             FontFamily="Segoe UI"
+                             FontSize="13"
+                             VerticalScrollBarVisibility="Auto"
+                             TextWrapping="Wrap"
+                             ToolTip="Enter one instruction per line; numbering is automatic."/>
+
+                    <StackPanel Grid.Row="2" Margin="0,8,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="AddNoteImageButton" Content="Add image" Style="{StaticResource QuietButton}" Click="AddNoteImage_Click"/>
+                            <Button x:Name="PasteNoteImageButton" Content="Paste image" Margin="6,0,0,0" Style="{StaticResource QuietButton}" Click="PasteNoteImage_Click"/>
+                        </StackPanel>
+                        <WrapPanel x:Name="EditorImagesPanel"/>
+                        <TextBlock Text="Up to 3 images · changes apply on Save" FontSize="10" Foreground="#94A3B8" Margin="0,4,0,0"/>
+                    </StackPanel>
+                    <Grid Grid.Row="3" Margin="0,10,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock VerticalAlignment="Center"
+                                   Foreground="{DynamicResource MutedText}"
+                                   FontSize="10"
+                                   Text="One instruction per line"/>
+
+                        <Button Grid.Column="1"
+                                Margin="6,0,0,0"
+                                Style="{StaticResource QuietButton}"
+                                Click="ResetNoteButton_Click"
+                                Content="Default" ToolTip="Restore default text and remove attached images"/>
+
+                        <Button Grid.Column="2"
+                                Margin="6,0,0,0"
+                                Style="{StaticResource QuietButton}"
+                                Click="CancelNoteButton_Click"
+                                Content="Cancel"/>
+
+                        <Button Grid.Column="3"
+                                Margin="6,0,0,0"
+                                Style="{StaticResource AccentButton}"
+                                Click="SaveNoteButton_Click"
+                                Content="Save"/>
+                    </Grid>
+                </Grid>
+            </Border>
+
+            <Grid Grid.Row="2" Margin="0,7,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="PreviousNoteButton" Content="←" Width="28" Height="26"
+                            Style="{StaticResource IconButton}" IsEnabled="False"
+                            Click="PreviousNote_Click" ToolTip="Previous confirmed step"
+                            AutomationProperties.Name="Previous confirmed step"/>
+                    <Button x:Name="NextNoteButton" Content="→" Width="28" Height="26"
+                            Style="{StaticResource IconButton}" IsEnabled="False"
+                            Click="NextNote_Click" ToolTip="Next step in history"
+                            AutomationProperties.Name="Next step in history"/>
+                </StackPanel>
+                <TextBlock x:Name="HistoryStatusText" Grid.Column="1" Margin="6,0"
+                           VerticalAlignment="Center" FontSize="10"
+                           Foreground="{DynamicResource SecondaryText}" Text="Live · waiting"
+                           TextWrapping="Wrap"/>
+                <Button x:Name="ReturnToLiveButton" Grid.Column="2" Content="Back to live"
+                        Style="{StaticResource QuietButton}" IsEnabled="False"
+                        Click="ReturnToLive_Click" ToolTip="Show the latest confirmed step and follow new steps"/>
+            </Grid>
+            <!-- Nur intern für Fehlerdiagnose; im normalen Overlay unsichtbar. -->
+            <TextBlock x:Name="DetectionStatusText" Visibility="Collapsed"/>
+        </Grid>
+    </Border>
+</Window>

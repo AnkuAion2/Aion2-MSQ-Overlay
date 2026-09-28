@@ -1,0 +1,39 @@
+.vs/
+**/bin/
+**/obj/
+artifacts/
+ChatGPT-Handoff-*/
+*.csproj.user
+*.user
+*.suo
+AionOverlay-TestResults-*.zip
+TEAM_TESTING.md
+TEST_REPORT.txt
+Collect-Test-Results.ps1
+build-team-package.ps1
+QUEST_OCR.md
+MASTERMAP_V3.md
+
+# Local user data, including copies placed in the working folder
+notes-overrides.json
+notes-overrides.json.tmp
+appearance.json
+appearance.json.tmp
+personal-best.json
+personal-best.json.tmp
+QuestCaptures/
+Captures/
+ReferenceCaptures/
+MasterMaps/
+
+# Local credentials and signing material
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Local quest faction preference
+quest-faction.json
+quest-faction.json.tmp

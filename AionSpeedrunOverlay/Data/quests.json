@@ -1,0 +1,49 @@
+[
+  {
+    "id": "contaminated",
+    "title": "Contaminated…",
+    "aliases": [
+      "Contaminated",
+      "Contaminated..."
+    ],
+    "notes": [
+      "Speedrun-Notizen für diese Quest in Data/quests.json eintragen."
+    ],
+    "steps": [
+      {
+        "id": "travel-down-the-canyon",
+        "objectiveAliases": [
+          "Travel down the canyon",
+          "Talk to Keller"
+        ],
+        "notes": [
+          "Speedrun-Notiz für diesen Quest-Schritt in Data/quests.json eintragen."
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "preparations f",
+    "title": "Preparations f…",
+    "aliases": [
+      "Preparations",
+      "Preparations f..."
+    ],
+    "notes": [
+      "At the end take Kisk to the right."
+    ]
+  },
+
+  {
+    "id": "a collective effort",
+    "title": "A Collective Effort",
+    "aliases": [
+      "A Collective",
+      "A Collective E..."
+    ],
+    "notes": [
+      "TP Back. Take and do GreenQuest. After taking FireAltar take Kisk to the left. TP > GQ > TP."
+    ]
+  }
+]

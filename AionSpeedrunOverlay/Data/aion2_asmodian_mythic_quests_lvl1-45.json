@@ -1,0 +1,4760 @@
+{
+  "schemaVersion": 2,
+  "game": "AION 2",
+  "race": "Asmodian",
+  "rarity": "Mythic",
+  "maxRecommendedLevel": 45,
+  "source": {
+    "database": "Aion2t",
+    "gameClientDate": "2026-08-19",
+    "note": "Quest IDs, recommended levels, chapters, objectives and steps transcribed from Aion2t quest detail pages; Aion2t states its game data is sourced via the official NCSOFT Aion 2 API."
+  },
+  "matchingHints": {
+    "preferStableQuestId": true,
+    "recommendedLevelIsRequiredForNormalQuestMatching": true,
+    "normalizeCaseWhitespacePunctuation": true,
+    "allowTruncatedPrefixMatching": true,
+    "useRouteIndexAsContext": true,
+    "useQuestAndStepObjectivesAsFallback": true
+  },
+  "quests": [
+    {
+      "id": "2100010",
+      "recommendedLevel": 1,
+      "allowWithoutLevel": true,
+      "chapter": "Fafnir's Fortress",
+      "title": "Ishalgen",
+      "aliases": [
+        "Ishalgen"
+      ],
+      "objectiveAliases": [
+        "Infiltrate Fafnir Fortress"
+      ],
+      "notes": ["Just follow the Tutorial."],
+      "steps": [
+        {
+          "id": "find-the-red-fafnir",
+          "title": "Find the Red Fafnir",
+          "objectiveAliases": [
+            "Find the Red Fafnir"
+          ],
+          "notes": [ "Just follow the Tutorial." ]
+        },
+        {
+          "id": "escape-fafnir-fortress",
+          "title": "Escape Fafnir Fortress",
+          "objectiveAliases": [
+            "Exit the fortress"
+          ],
+          "notes": [ "Just follow the Tutorial." ]
+        },
+        {
+          "id": "hide-in-a-safe-spot",
+          "title": "Hide in a safe spot",
+          "objectiveAliases": [
+            "Go to Aldelle Village"
+          ],
+          "notes": [ "Just follow the Tutorial." ]
+        }
+      ],
+      "routeIndex": 1
+    },
+    {
+      "id": "2101010",
+      "recommendedLevel": 2,
+      "chapter": "Betrayer and Survivor",
+      "title": "A Village in the Fog",
+      "aliases": [
+        "A Village in the Fog",
+        "A Village in the F..."
+      ],
+      "objectiveAliases": [
+        "Talk to Andre at Aldelle Village"
+      ],
+      "notes": [ "AutoWalk to MSQ > Adjust Settings > 2nd Hotkey for Interact > Under Key Settings - General" ],
+      "steps": [
+        {
+          "id": "meet-the-village-chief",
+          "title": "Meet the Village Chief",
+          "objectiveAliases": [
+            "Talk to Pelleir"
+          ],
+          "notes": [ "MSQ > You can still adjust settings > Use Quest AutoWalk (Alt + 1)" ]
+        },
+        {
+          "id": "remember-aldelle-village",
+          "title": "Remember Aldelle Village",
+          "objectiveAliases": [
+            "Bind with the Kibelisk"
+          ],
+          "notes": [ "MSQ > You can still adjust settings > Use Quest AutoWalk (Alt + 1)" ]
+        }
+      ],
+      "routeIndex": 2
+    },
+    {
+      "id": "2101020",
+      "recommendedLevel": 2,
+      "chapter": "Betrayer and Survivor",
+      "title": "Prepare to Escape",
+      "aliases": [
+        "Prepare to Escape"
+      ],
+      "objectiveAliases": [
+        "Talk to Ellin at Aldelle Village"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "visit-the-gear-supply-depot",
+          "title": "Visit the gear supply depot",
+          "objectiveAliases": [
+            "Talk to Stellan"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "find-gear-in-the-supply-chest",
+          "title": "Find gear in the Supply Chest",
+          "objectiveAliases": [
+            "Check the Supply Chest"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 3
+    },
+    {
+      "id": "2101030",
+      "recommendedLevel": 3,
+      "chapter": "Betrayer and Survivor",
+      "title": "Shadow Forest",
+      "aliases": [
+        "Shadow Forest"
+      ],
+      "objectiveAliases": [
+        "Talk to Stellan at Aldelle Village"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "return-to-pelleir",
+          "title": "Return to Pelleir",
+          "objectiveAliases": [
+            "Talk to Pelleir"
+          ],
+          "notes": [ "MSQ > Equip Items"]
+        },
+        {
+          "id": "try-using-the-selvis",
+          "title": "Try using the Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "search-munihelle-forest",
+          "title": "Search Munihelle Forest",
+          "objectiveAliases": [
+            "Investigate Munihelle Forest with Maard"
+          ],
+          "notes": [ "MSQ > Equip Items if not done yet" ]
+        },
+        {
+          "id": "find-maard-near-the-village",
+          "title": "Find Maard near the village",
+          "objectiveAliases": [
+            "Talk to Maard"
+          ], 
+          "notes": [ "MSQ > Can do Settings now aswell (Alt+1 for QuestAutoWalk)" ]
+        }
+      ],
+      "routeIndex": 4
+    },
+    {
+      "id": "2101040",
+      "recommendedLevel": 4,
+      "chapter": "Betrayer and Survivor",
+      "title": "Isolated Lake",
+      "aliases": [
+        "Isolated Lake"
+      ],
+      "objectiveAliases": [
+        "Talk to Pelleir at Aldelle Village"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "hear-about-the-mission",
+          "title": "Hear about the mission",
+          "objectiveAliases": [
+            "Talk to Caldern"
+          ],
+          "notes": ["MSQ AutoWalk > Check Skills and Items"]
+        },
+        {
+          "id": "ask-about-elvida",
+          "title": "Ask about Elvida",
+          "objectiveAliases": [
+            "Talk to Velhark"
+          ],
+          "notes": [ "MSQ AutoWalk > Check Skills and Items" ]
+        },
+        {
+          "id": "hear-about-the-search-operation",
+          "title": "Hear about the search operation",
+          "objectiveAliases": [
+            "Talk to Argit"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "remove-the-hazards-at-the-lake",
+          "title": "Remove the hazards at the lake",
+          "objectiveAliases": [
+            "Defeat the beasts at the lake"
+          ],
+          "notes": ["Take Kisk > Kill 3 mobs > MSQ"]
+        },
+        {
+          "id": "check-the-condition-of-the-jewel-at-tunapre-lake",
+          "title": "Check the condition of the jewel at Tunapre Lake",
+          "objectiveAliases": [
+            "Check the Veil Jewel"
+          ],
+          "notes": ["MSQ > Spam F (Interact) after Talking to Veil Jewel > Kill Mobs and Jewel > Talk to NPC"]
+        },
+        {
+          "id": "go-to-elvidas-residence",
+          "title": "Go to Elvida's residence",
+          "objectiveAliases": [
+            "Go to Elvida's residence"
+          ],
+          "notes": ["TP South > MSQ"]
+        }
+      ],
+      "routeIndex": 5
+    },
+    {
+      "id": "2101050",
+      "recommendedLevel": 5,
+      "chapter": "Betrayer and Survivor",
+      "title": "The Being Beneath the Lake",
+      "aliases": [
+        "The Being Beneath the Lake"
+      ],
+      "objectiveAliases": [
+        "Talk to Elvida at her residence"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "check-the-journal-mentioned-by-elvida",
+          "title": "Check the journal mentioned by Elvida",
+          "objectiveAliases": [
+            "Check the Timeworn Journal",
+            "Check the Worn Tome"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-about-your-resolve-to-ascend",
+          "title": "Talk about your resolve to ascend",
+          "objectiveAliases": [
+            "Talk to Elvida"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "go-to-the-path-beneath-the-lake",
+          "title": "Go to the path beneath the lake",
+          "objectiveAliases": [
+            "Enter Tunapre Lake Cave"
+          ],
+          "notes": [ "MSQ AutoWalk > Check Skills" ]
+        },
+        {
+          "id": "dive-and-move-deeper-into-the-cave",
+          "title": "Dive and move deeper into the cave",
+          "objectiveAliases": [
+            "Dive and move deeper into the cave",
+            "Move deeper into the cave"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "learn-to-fly",
+          "title": "Learn to fly",
+          "objectiveAliases": [
+            "Enter the Ascension Subspace"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 6
+    },
+    {
+      "id": "2101060",
+      "recommendedLevel": 6,
+      "chapter": "Betrayer and Survivor",
+      "title": "Spread Your Wings",
+      "aliases": [
+        "Spread Your Wings"
+      ],
+      "objectiveAliases": [
+        "Talk to Asahr in the Ascension Subspace"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "awaken-your-daeva-power-in-the-dream",
+          "title": "Awaken your Daeva power in the dream",
+          "objectiveAliases": [
+            "The One Who Perceives Complete"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "share-the-outcome",
+          "title": "Share the outcome",
+          "objectiveAliases": [
+            "Go to the Witch's Cabin"
+          ],
+          "notes": ["MSQ"]
+        }
+      ],
+      "routeIndex": 7
+    },
+    {
+      "id": "2101070",
+      "recommendedLevel": 6,
+      "chapter": "Betrayer and Survivor",
+      "title": "Signs of a Crash Landing",
+      "aliases": [
+        "Signs of a Crash Landing"
+      ],
+      "objectiveAliases": [
+        "Talk to Argit at Aldelle Village"
+      ],
+      "notes": ["TP South > MSQ"],
+      "steps": [
+        {
+          "id": "talk-to-argit-at-aldelle-village",
+          "title": "Talk to Argit at Aldelle Village",
+          "objectiveAliases": [
+            "Talk to Argit at Aldelle Village"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "report-the-situation-to-pelleir",
+          "title": "Report the situation to Pelleir",
+          "objectiveAliases": [
+            "Talk to Pelleir"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "go-to-anturn-cliff",
+          "title": "Go to Anturn Cliff",
+          "objectiveAliases": [
+            "Go to Milred"
+          ],
+          "notes": ["TP North > MSQ"]
+        },
+        {
+          "id": "learn-how-to-get-up-the-cliff",
+          "title": "Learn how to get up the cliff",
+          "objectiveAliases": [
+            "Talk to Milred"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "search-the-airship-at-the-top-of-anturn-cliff",
+          "title": "Search the airship at the top of Anturn Cliff",
+          "objectiveAliases": [
+            "Ride the Updraft to the top of Anturn Cliff"
+          ],
+          "notes": [ "MSQ > While interacting with Remnants > ALT+T and Equip Title > Continue MSQ" ]
+        },
+        {
+          "id": "return-to-aldelle-village",
+          "title": "Return to Aldelle Village",
+          "objectiveAliases": [
+            "Go to Aldelle Village"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "join-garlond-at-aldelle-village",
+          "title": "Join Garlond at Aldelle Village",
+          "objectiveAliases": [
+            "Talk to Garlond"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "introduce-garlond-to-the-chief",
+          "title": "Introduce Garlond to the chief",
+          "objectiveAliases": [
+            "Talk to Pelleir"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "gather-supplies-at-aldelle-village",
+          "title": "Gather supplies at Aldelle Village",
+          "objectiveAliases": [
+            "Obtain supplies from the Supply Chest"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "join-garlond-at-the-brigade-camp-entrance",
+          "title": "Join Garlond at the Brigade Camp entrance",
+          "objectiveAliases": [
+            "Talk to Garlond"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 8
+    },
+    {
+      "id": "2101080",
+      "recommendedLevel": 7,
+      "chapter": "Betrayer and Survivor",
+      "title": "Prison Compound Infiltration Plan",
+      "aliases": [
+        "Prison Compound Infiltration Plan"
+      ],
+      "objectiveAliases": [
+        "Talk to Garlond at Azrakar Brigade Camp"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "find-information-about-azrakar-brigade-prison-compound",
+          "title": "Find information about Azrakar Brigade Prison Compound",
+          "objectiveAliases": [
+            "Defeat Azrakar Watcher",
+            "Investigate the Azrakar Brigade Command"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "deliver-the-information-to-anders",
+          "title": "Deliver the information to Anders",
+          "objectiveAliases": [
+            "Talk to Anders"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "obtain-the-key-from-balaur",
+          "title": "Obtain the key from Balaur",
+          "objectiveAliases": [
+            "Collect the key"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "accept-the-selvis-call",
+          "title": "Accept the Selvis call",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "join-anders-in-front-of-the-camp-storage",
+          "title": "Join Anders in front of the camp storage",
+          "objectiveAliases": [
+            "Talk to Anders"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "search-azrakar-brigade-storage",
+          "title": "Search Azrakar Brigade Storage",
+          "objectiveAliases": [
+            "Enter the guard camp storage"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 9
+    },
+    {
+      "id": "2101090",
+      "recommendedLevel": 7,
+      "chapter": "Betrayer and Survivor",
+      "title": "Brigade Prison Compound Infiltration Operation",
+      "aliases": [
+        "Brigade Prison Compound Infiltration Operation"
+      ],
+      "objectiveAliases": [
+        "Talk to Anders at the Azrakar Brigade Prison Compound entrance"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "infiltrate-azrakar-brigade-prison-compound",
+          "title": "Infiltrate Azrakar Brigade Prison Compound",
+          "objectiveAliases": [
+            "Enter the prison compound"
+          ],
+          "notes": ["MSQ > Equip Items > Do Skills > ACTIVATE SCROLLS > Continue MSQ"]
+        },
+        {
+          "id": "escape-from-azrakar-brigade-prison-compound",
+          "title": "Escape from Azrakar Brigade Prison Compound",
+          "objectiveAliases": [
+            "Go outside the Prison Compound"
+          ],
+          "notes": ["Talk to NPC outside > Interact with Lever > TP North"]
+        },
+        {
+          "id": "return-to-aldelle-village",
+          "title": "Return to Aldelle Village",
+          "objectiveAliases": [
+            "Go to Aldelle Village"
+          ],
+          "notes": ["TP North > MSQ"]
+        },
+        {
+          "id": "meet-with-the-mercenaries",
+          "title": "Meet with the mercenaries",
+          "objectiveAliases": [
+            "Talk to Hergal"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 10
+    },
+    {
+      "id": "2101100",
+      "recommendedLevel": 9,
+      "chapter": "Betrayer and Survivor",
+      "title": "The Longest Night",
+      "aliases": [
+        "The Longest Night"
+      ],
+      "objectiveAliases": [
+        "Talk to Pelleir at Aldelle Village"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "sleep-at-the-village-cabin",
+          "title": "Sleep at the village cabin",
+          "objectiveAliases": [
+            "Go to the village cabin"
+          ],
+          "notes": [ "MSQ > Items + Skills" ]
+        },
+        {
+          "id": "help-garisond-and-others-who-got-ambushed",
+          "title": "Help Garisond and others who got ambushed",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 11
+    },
+    {
+      "id": "2102010",
+      "recommendedLevel": 10,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Finding Nemon",
+      "aliases": [
+        "Finding Nemon"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at Shadow Hall"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "find-nemon-at-shadow-hall",
+          "title": "Find Nemon at Shadow Hall",
+          "objectiveAliases": [
+            "Go to Shadow Hall"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "uncover-who-is-behind-the-ishalgen-commission",
+          "title": "Uncover who is behind the Ishalgen commission",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "prepare-to-go-to-the-crash-site",
+          "title": "Prepare to go to the crash site",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": [ "MSQ > From now on take Feathers on your way until u get 81 (Thats 27 Feather pick ups)" ]
+        },
+        {
+          "id": "receive-gear",
+          "title": "Receive gear",
+          "objectiveAliases": [
+            "Talk to Hans"
+          ],
+          "notes": [ "MSQ > From now on take Feathers on your way until u get 81 (Thats 27 Feather pick ups)" ]
+        },
+        {
+          "id": "find-the-gear-in-the-supply-chest",
+          "title": "Find the gear in the Supply Chest",
+          "objectiveAliases": [
+            "Check the Supply Chest"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 12
+    },
+    {
+      "id": "2102015",
+      "recommendedLevel": 10,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Survival Supplies",
+      "aliases": [
+        "Survival Supplies"
+      ],
+      "objectiveAliases": [
+        "Talk to Hans at Safe Haven"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "receive-additional-supplies",
+          "title": "Receive additional supplies",
+          "objectiveAliases": [
+            "Go to VeKauf"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 13
+    },
+    {
+      "id": "2102020",
+      "recommendedLevel": 10,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Gathering Essentials",
+      "aliases": [
+        "Gathering Essentials"
+      ],
+      "objectiveAliases": [
+        "Talk to VeKauf at Safe Haven"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "have-the-selvis-repaired",
+          "title": "Have the Selvis repaired",
+          "objectiveAliases": [
+            "Talk to Markan"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "check-the-repaired-selvis",
+          "title": "Check the repaired Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 14
+    },
+    {
+      "id": "2102030",
+      "recommendedLevel": 11,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Crash Site Rendezvous",
+      "aliases": [
+        "Crash Site Rendezvous"
+      ],
+      "objectiveAliases": [
+        "Talk to Dinoh at Safe Haven"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "find-hadala-at-galoriks-inspection-area",
+          "title": "Find Hadala at Galorik's Inspection Area",
+          "objectiveAliases": [
+            "Talk to Hadala"
+          ],
+          "notes": ["MSQ > Open Minimap overlay (Top Right Btn on Minimap) > Always remember to Equip Items and Skills from time to time"]
+        },
+        {
+          "id": "collect-the-neutralizer-materials",
+          "title": "Collect the neutralizer materials",
+          "objectiveAliases": [
+            "Collect {npc:M_D1_DC_PollutedFlower_01} fruit",
+            "Collect {npc:M_D1_DC_DranaMole_01} shell"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "report-the-material-collection-status",
+          "title": "Report the material collection status",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "find-the-herbalist-and-gather-neutralizer-materials",
+          "title": "Find the herbalist and gather neutralizer materials",
+          "titleAliases": [
+            "Find the herbalist and gather neutrallzer materials",
+            "gather neutrallzer materials Obtaln the sediment (2)5)"
+          ],
+          "objectiveAliases": [
+            "Talk to Matir"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-ulgorn-at-galoriks-inspection-area",
+          "title": "Talk to Ulgorn at Galorik's Inspection Area",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "? NorthEast > Take Kisk SouthEast > TP West > MSQ" ]
+        }
+      ],
+      "routeIndex": 15
+    },
+    {
+      "id": "2102040",
+      "recommendedLevel": 11,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Contaminated Area",
+      "aliases": [
+        "Contaminated Area",
+        "Contaminated",
+        "Contaminated..."
+      ],
+      "objectiveAliases": [
+        "Talk to Ulgorn at Galorik's Inspection Area"
+      ],
+      "notes": [
+        "MSQ"
+      ],
+      "steps": [
+        {
+          "id": "go-to-the-temporary-investigation-base",
+          "title": "Go to the Temporary Investigation Base",
+          "objectiveAliases": [],
+          "notes": ["TP SouthEast > MSQ"]
+        },
+        {
+          "id": "travel-down-the-canyon",
+          "title": "Travel down the canyon",
+          "objectiveAliases": [
+            "Talk to Keller"
+          ],
+          "notes": [
+            "MSQ" ]
+        },
+        {
+          "id": "collect-the-neutralizer-materials",
+          "title": "Collect the neutralizer materials",
+          "objectiveAliases": [
+            "Extract Drakana from {npc:M_D1_CC_DranaMole_01}",
+            "Collect Fragments from {npc:M_D1_CC_DranaWorm_01}",
+            "Collect Eggshells from Dredgion Remnants"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "give-the-materials-and-check-the-supplies-for-transport",
+          "title": "Give the materials and check the supplies for transport",
+          "objectiveAliases": [
+            "Talk to Keller"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-niror-at-the-temporary-investigation-base",
+          "title": "Talk to Niror at the Temporary Investigation Base",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": ["TP to kisk next to you > MSQ > Take GreenQuest"]
+        }
+      ],
+      "routeIndex": 16
+    },
+    {
+      "id": "2102050",
+      "recommendedLevel": 12,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Express Daeva Delivery",
+      "aliases": [
+        "Express Daeva Delivery"
+      ],
+      "objectiveAliases": [
+        "Talk to Ulgorn at the Temporary Investigation Base"
+      ],
+      "notes": [ "MSQ > Take GreenQuest" ],
+      "steps": [
+        {
+          "id": "restore-the-supply-route",
+          "title": "Restore the supply route",
+          "objectiveAliases": [
+            "Retrieve the Lost Supplies",
+            "Defeat {npc:M_D1_DC_DranaPredator_01}",
+            "Defeat {npc:M_D1_DC_Incomplete_01}"
+          ],
+          "notes": [ "Dont forget GreenQuest > ? SouthWest > MSQ + GQuest" ]
+        },
+        {
+          "id": "talk-to-ulgorn-at-quai-campsite",
+          "title": "Talk to Ulgorn at Quai Campsite",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": ["Kisk NorthWest > ? South > ? in West > GreenQuest > MSQ"]
+        }
+      ],
+      "routeIndex": 17
+    },
+    {
+      "id": "2102060",
+      "recommendedLevel": 12,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Veiled Truth",
+      "aliases": [
+        "Veiled Truth"
+      ],
+      "objectiveAliases": [
+        "Talk to Ulgorn at Quai Campsite"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "meet-baba-at-quai-campsite",
+          "title": "Meet Baba at Quai Campsite",
+          "objectiveAliases": [
+            "Go inside"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "assess-the-situation-at-quai-campsite",
+          "title": "Assess the situation at Quai Campsite",
+          "objectiveAliases": [
+            "Talk to Baba"
+          ],
+          "notes": ["Talk to Baba the Goat"]
+        },
+        {
+          "id": "find-the-brokers-associate",
+          "title": "Find the broker's associate",
+          "objectiveAliases": [
+            "Go to Barvir"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "obtain-additional-information-about-the-broker",
+          "title": "Obtain additional information about the broker",
+          "objectiveAliases": [
+            "Talk to Barvir"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 18
+    },
+    {
+      "id": "2102065",
+      "recommendedLevel": 13,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Urgent Pursuit",
+      "aliases": [
+        "Urgent Pursuit"
+      ],
+      "objectiveAliases": [
+        "Talk to Ulgorn at Quai Campsite",
+        "Talk to Asahr at Dream Crossroad"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "find-out-where-the-broker-is",
+          "title": "Find out where the broker is",
+          "objectiveAliases": [
+            "Talk to Tagar"
+          ],
+          "notes": ["? NorthWest > MSQ"]
+        },
+        {
+          "id": "eliminate-the-hindrance",
+          "title": "Eliminate the hindrance",
+          "objectiveAliases": [
+            "Defeat {npc:M_D1_UC_Muta_01_001}",
+            "Defeat {npc:M_D1_UC_GraveUn_01_001}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "investigate-the-shaded-cave",
+          "title": "Investigate the Shaded Cave",
+          "objectiveAliases": [
+            "Enter the Shaded Cave"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "get-invited-into-the-dream",
+          "title": "Get invited into the dream",
+          "objectiveAliases": [
+            "Go to the Dream Crossroad"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 19
+    },
+    {
+      "id": "2102070",
+      "recommendedLevel": 13,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Cemetery Cleanup",
+      "aliases": [
+        "Cemetery Cleanup"
+      ],
+      "objectiveAliases": [
+        "Talk to Asahr at Dream Crossroad"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "listen-to-asahrs-advice",
+          "title": "Listen to Asahr's advice",
+          "objectiveAliases": [
+            "Talk to Asahr"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "discuss-further-plans",
+          "title": "Discuss further plans",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "ask-tagar-for-opinions",
+          "title": "Ask Tagar for opinions",
+          "objectiveAliases": [
+            "Talk to Tagar"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "help-the-gravekeeper-with-chores",
+          "title": "Help the gravekeeper with chores",
+          "objectiveAliases": [
+            "Defeat Vampire Vivel",
+            "Defeat Rafflesia"
+          ],
+          "notes": ["Equip Belt + Deava Points > MSQ"]
+        },
+        {
+          "id": "investigate-the-graverobber-den",
+          "title": "Investigate the Graverobber Den",
+          "objectiveAliases": [
+            "Retrieve the items stolen by graverobbers"
+          ],
+          "notes": ["? North > MSQ Stronghold > TP South after Stronghold"]
+        }
+      ],
+      "routeIndex": 20
+    },
+    {
+      "id": "2102080",
+      "recommendedLevel": 14,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Back on the Scent",
+      "aliases": [
+        "Back on the Scent"
+      ],
+      "objectiveAliases": [
+        "Talk to Tagar at Gravekeeper Camp"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "clear-the-path-to-the-crematorium",
+          "title": "Clear the path to the crematorium",
+          "objectiveAliases": [
+            "Defeat {npc:M_D1_UC_GraveUn_01_002}",
+            "Defeat {npc:M_D1_UC_WraKnt_01_V01_001}",
+            "Investigate Brok's traces on the corpse"
+          ],
+          "notes": ["Take GreenQuest > Do both ? in East > Its the 1st Casket after going through 2nd Arch > MSQ and GQuest"]
+        }
+      ],
+      "routeIndex": 21
+    },
+    {
+      "id": "2102090",
+      "recommendedLevel": 15,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Dead Men Tell No Tales",
+      "aliases": [
+        "Dead Men Tell No Tales"
+      ],
+      "objectiveAliases": [
+        "Talk to Kolina at the Neglected Crematorium"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "discuss-further-plans",
+          "title": "Discuss further plans",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "clear-nearby-threats",
+          "title": "Clear nearby threats",
+          "objectiveAliases": [
+            "Defeat {npc:M_D1_UC_GraveGh_01_003}",
+            "Defeat {npc:M_D1_UC_GraveUn_01_003}"
+          ],
+          "notes": ["Take Feathers on the way > You need to be at 81 Feathers soon > MSQ"]
+        },
+        {
+          "id": "obtain-information-about-brok",
+          "title": "Obtain information about Brok",
+          "objectiveAliases": [
+            "Talk to the hiding man"
+          ],
+          "notes": ["? West > ? North (Make sure to Screenshot the puzzle) > ? East > Remember to do Skills > MSQ (BE AT 81 FEATHERS)"]
+        }
+      ],
+      "routeIndex": 22
+    },
+    {
+      "id": "2102100",
+      "recommendedLevel": 16,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Buried Atrocities",
+      "aliases": [
+        "Buried Atrocities"
+      ],
+      "objectiveAliases": [
+        "Talk to Ulgorn in front of the Crypt"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "investigate-the-crypt",
+          "title": "Investigate the Crypt",
+          "objectiveAliases": [
+            "Enter the Crypt"
+          ],
+          "notes": ["MSQ > Equip Green Guard item"]
+        },
+        {
+          "id": "get-invited-into-the-dream",
+          "title": "Get invited into the dream",
+          "objectiveAliases": [
+            "Go to the Dream Crossroad"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 23
+    },
+    {
+      "id": "2102105",
+      "recommendedLevel": 16,
+      "chapter": "Stranger in a Strange Land",
+      "title": "Empyrean Monolith",
+      "aliases": [
+        "Empyrean Monolith"
+      ],
+      "objectiveAliases": [
+        "Talk to Ulgorn at Shadow Hall"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "assess-the-situation",
+          "title": "Assess the situation",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "find-ruins-administrator-ollen",
+          "title": "Find Ruins Administrator Ollen",
+          "objectiveAliases": [
+            "Talk to Ollen"
+          ],
+          "notes": ["Equip Amulet + Daeva points > MSQ and hand in Feathers > EQUIP TITLE"]
+        },
+        {
+          "id": "obtain-the-empyrean-trace-altgard",
+          "title": "Obtain the Empyrean Trace: Altgard",
+          "objectiveAliases": [
+            "Retrieve the Empyrean Trace: Altgard",
+            "Obtain the Empyrean Trace: Altgard"
+          ],
+          "notes": [ "Equip Amulet + Daeva points > MSQ and hand in Feathers > EQUIP TITLE" ]
+        },
+        {
+          "id": "resonate-with-the-monolith-to-obtain-rewards",
+          "title": "Resonate with the Monolith to obtain rewards",
+          "objectiveAliases": [
+            "Obtain the Revelation Amulet Enhance Scroll"
+          ],
+          "notes": [ "Equip Amulet + Daeva points > MSQ and hand in Feathers > EQUIP TITLE" ]
+        },
+        {
+          "id": "inform-ollen-of-successful-resonance",
+          "title": "Inform Ollen of successful resonance",
+          "objectiveAliases": [
+            "Talk to Ollen"
+          ],
+          "notes": [ "MSQ > make sure to equip title" ]
+        },
+        {
+          "id": "talk-to-nemon-at-shadow-hall",
+          "title": "Talk to Nemon at Shadow Hall",
+          "objectiveAliases": [
+            "Talk to Ollen"
+          ],
+          "notes": [ "MSQ > make sure to equip title" ]
+        }
+      ],
+      "routeIndex": 24
+    },
+    {
+      "id": "2102110",
+      "recommendedLevel": 18,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "A New Lead",
+      "aliases": [
+        "A New Lead"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at Shadow Hall",
+        "Talk to Menrik at Fang Hideout"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "take-odyle-jelly",
+          "title": "Take Odyle Jelly",
+          "objectiveAliases": [
+            "Check the Worn Chest"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "deliver-the-odyle-jelly-to-the-quai-merchants",
+          "title": "Deliver the Odyle Jelly to the Quai Merchants",
+          "objectiveAliases": [
+            "Talk to Baba"
+          ],
+          "notes": ["Fly south and take Greenquests > NorthWest Greenquest > Do all GreenQuests > When killing Mutated Queen Klaw do both ? Dungeons next to it > Continue GQ > After GQ continue MSQ"]
+        },
+        {
+          "id": "retrieve-the-quai-merchants-goods",
+          "title": "Retrieve the Quai Merchants Goods",
+          "objectiveAliases": [
+            "Collect the supplies stolen by marauders",
+            "Collect the merchants goods from the Pile of Loot"
+          ],
+          "notes": [ "TP West > MSQ" ]
+        },
+        {
+          "id": "talk-to-menrik-at-fang-hideout",
+          "title": "Talk to Menrik at Fang Hideout",
+          "objectiveAliases": [
+          ],
+          "notes": [ "Do Greenquest (if not done already) > MSQ" ]
+        }
+      ],
+      "routeIndex": 25
+    },
+    {
+      "id": "2102115",
+      "recommendedLevel": 18,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "Malice Laid Bare",
+      "aliases": [
+        "Malice Laid Bare"
+      ],
+      "objectiveAliases": [
+        "Talk to Menrik at Fang Hideout"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "interrogate-blades-captive",
+          "title": "Interrogate Blades Captive",
+          "objectiveAliases": [
+            "Enter the captive's prison cell"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "discuss-further-plans",
+          "title": "Discuss further plans",
+          "objectiveAliases": [
+            "Talk to Menrik"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "collect-transformation-materials-for-infiltration",
+          "title": "Collect transformation materials for infiltration",
+          "objectiveAliases": [
+            "Collect the Balaur Language Manual",
+            "Collect the Draconute Superior Soldier's weapon",
+            "Collect the Draconute Tinkerer's tissue sample"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "deliver-the-transformation-materials",
+          "title": "Deliver the transformation materials",
+          "titleAliases": [
+            "aaz-i1 Deltver the transformation"
+          ],
+          "objectiveAliases": [
+            "Talk to Menrik"
+          ],
+          "notes": ["? West > ? West > TP Back to MSQ > MSQ"]
+        },
+        {
+          "id": "learn-the-balaur-language",
+          "title": "Learn the Balaur language",
+          "objectiveAliases": [
+            "Use the Language Artifact to learn"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 26
+    },
+    {
+      "id": "2102120",
+      "recommendedLevel": 19,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "Broken Fang",
+      "aliases": [
+        "Broken Fang"
+      ],
+      "objectiveAliases": [
+        "Talk to Menrik at Fang Hideout"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "execute-the-infiltration-plan",
+          "title": "Execute the infiltration plan",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": [ "Buy Potions and Scrolls > MSQ" ]
+        },
+        {
+          "id": "search-for-the-fang-legionnaire-who-infiltrated",
+          "title": "Search for the Fang Legionnaire who infiltrated",
+          "objectiveAliases": [
+            "Investigate the Fallen Member",
+            "Talk to Draconute Warrior",
+            "Talk to Draconute Ranger",
+            "Talk to Draconute Superior Combatant"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-ulgorn-via-selvis",
+          "title": "Talk to Ulgorn via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "join-ulgorn",
+          "title": "Join Ulgorn",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "hear-about-the-legionnaires-who-infiltrated",
+          "title": "Hear about the legionnaires who infiltrated",
+          "objectiveAliases": [
+            "Talk to Gamilla"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "collect-materials-to-repair-the-selvis",
+          "title": "Collect materials to repair the Selvis",
+          "objectiveAliases": [
+            "Collect the eyes from Outpost Probe",
+            "Collect the ore from Dratona Tinkerer",
+            "Collect the metal fragments from the Broken Remnants"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 27
+    },
+    {
+      "id": "2102130",
+      "recommendedLevel": 19,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "Watchful Eyes",
+      "aliases": [
+        "Watchful Eyes"
+      ],
+      "objectiveAliases": [
+        "Talk to Gamilla at the Temporary Retreat"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "check-if-the-hiding-legionnaires-are-still-alive",
+          "title": "Check if the hiding legionnaires are still alive",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "discuss-the-voice-that-was-heard",
+          "title": "Discuss the voice that was heard",
+          "objectiveAliases": [
+            "Talk to Gamilla"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "check-for-survivors-at-sanctum-dumpsite",
+          "title": "Check for survivors at Sanctum Dumpsite",
+          "objectiveAliases": [
+            "Check for survivors"
+          ],
+          "notes": ["? South of Kisk > ? SouthWest > MSQ"]
+        },
+        {
+          "id": "obtain-the-storage-key-from-the-balaurs-belongings",
+          "title": "Obtain the storage key from the Balaur's belongings",
+          "objectiveAliases": [
+            "Obtain the key"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-bataar-at-sanctum-dumpsite",
+          "title": "Talk to Bataar at Sanctum Dumpsite",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 28
+    },
+    {
+      "id": "2102140",
+      "recommendedLevel": 20,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "Imminent Threat",
+      "aliases": [
+        "Imminent Threat",
+        "Imminent T..."
+      ],
+      "objectiveAliases": [
+        "Talk to Bataar at Sanctum Dumpsite"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "discuss-what-will-happen-next-with-ulgorn",
+          "title": "Discuss what will happen next",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "find-the-potentially-helpful-ledger-and-zikels-seal",
+          "title": "Find the potentially helpful ledger and Zikel's Seal",
+          "objectiveAliases": [
+            "Examine the Barracks Storage"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "join-ulgorn",
+          "title": "Join Ulgorn",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "enter-zikels-sanctum",
+          "title": "Enter Zikel's Sanctum",
+          "objectiveAliases": [
+            "Examine the Monolith"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "discuss-what-will-happen-next-with-nemon",
+          "title": "Discuss what will happen next",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-hadala-at-safe-haven",
+          "title": "Talk to Hadala at Safe Haven",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": ["MSQ > Take Greenquest next to it"]
+        }
+      ],
+      "routeIndex": 29
+    },
+    {
+      "id": "2102150",
+      "recommendedLevel": 20,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "Crossroad",
+      "aliases": [
+        "Crossroad"
+      ],
+      "objectiveAliases": [
+        "Talk to Hadala at Safe Haven"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "check-the-journal-ulgorn-gave",
+          "title": "Check the journal Ulgorn gave",
+          "objectiveAliases": [
+            "Check Kraki's Journal"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "find-nemon-at-the-inspection-area",
+          "title": "Find Nemon at the inspection area",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["Complete GreenQuest SouthWest > TP South"]
+        },
+        {
+          "id": "go-and-find-nemons-item",
+          "title": "Go and find Nemon's item",
+          "objectiveAliases": [
+            "Go to the Watcher's Tent"
+          ],
+          "notes": ["TP Quai Campsite (South) > GQ then follow MSQ"]
+        },
+        {
+          "id": "rendezvous-at-the-watchers-tent",
+          "title": "Rendezvous at the Watcher's Tent",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "defeat-the-balaur-guarding-the-lake",
+          "title": "Defeat the Balaur guarding the lake",
+          "objectiveAliases": [
+            "Defeat the Balaur"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "retrieve-the-hidden-artifact",
+          "title": "Retrieve the hidden artifact",
+          "objectiveAliases": [
+            "Retrieve Nemon's item from the chest in the pond"
+          ],
+          "notes": [ "MSQ > TP Back after taking the item in pond" ]
+        },
+        {
+          "id": "talk-to-nemon-at-the-watchers-tent",
+          "title": "Talk to Nemon at the Watcher's Tent",
+          "objectiveAliases": [
+            "Talk to Nemon at the Watcher's Tent"
+          ],
+          "notes": [ "TP Back > MSQ" ]
+        }
+      ],
+      "routeIndex": 30
+    },
+    {
+      "id": "2102160",
+      "recommendedLevel": 21,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "Creeping Shadow",
+      "aliases": [
+        "Creeping Shadow"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the Watcher's Tent"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "find-out-where-urd-is-moslan",
+          "title": "Find out where Urd is",
+          "objectiveAliases": [
+            "Go to Moslan Forest"
+          ],
+          "notes": ["2 Kisks East > GQuest Derk > GQuest NorthWest > Fly South to next GreenQuest > Fly out of cave > Then fly up leftside (south) to MSQ"]
+        },
+        {
+          "id": "discuss-the-discovered-corpse",
+          "title": "Discuss the discovered corpse",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "find-out-where-urd-is-odars-shade",
+          "title": "Find out where Urd is",
+          "objectiveAliases": [
+            "Go to Odar's Shade"
+          ],
+          "notes": [ "Take Kisk at MSQ > dont talk to MSQ NPC > TP NorthWest (Creioon Campsite) Greenquest > TP North (Galorik) GreenQuest > TP North (SafeHaven) + GreenQuest > Take Windstream behind NPC and take Kisk on Top > TP SouthEast MSQ" ]
+        },
+        {
+          "id": "ask-why-the-forest-was-burned-down",
+          "title": "Ask why the forest was burned down",
+          "objectiveAliases": [
+            "Talk to Young Elim Nana"
+          ],
+          "notes": [ "Take Kisk at MSQ > dont talk to MSQ NPC > TP NorthWest (Creioon Campsite) Greenquest > TP North (Galorik) GreenQuest > TP North (SafeHaven) + GreenQuest > Take Windstream behind NPC and take Kisk on Top > TP SouthEast MSQ" ]
+        },
+        {
+          "id": "search-for-traces-of-survivors",
+          "title": "Search for traces of survivors",
+          "objectiveAliases": [
+            "Examine the Nornir Corpse",
+            "Search for Elim survivor",
+            "Search for Nornir survivors"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "report-the-situation-to-nemon",
+          "title": "Report the situation to Nemon",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "avenge-the-dead-nornir",
+          "title": "Avenge the dead Nornir",
+          "objectiveAliases": [
+            "Defeat the Blades nearby"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-at-the-collapsed-chasm",
+          "title": "Talk to Nemon at the Collapsed Chasm",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": ["? West > Kisk West > Go SouthEast and SKIP the Stronghold > ? SouthEast > TP to kisk from inside ?"]
+        }
+      ],
+      "routeIndex": 31
+    },
+    {
+      "id": "2102170",
+      "recommendedLevel": 21,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "Children of the Elim",
+      "aliases": [
+        "Children of the Elim"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the Collapsed Chasm"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "gain-the-elims-favor",
+          "title": "Gain the Elim's favor",
+          "objectiveAliases": [
+            "Collect the Forest Essence",
+            "Defeat {npc:M_D1_MF_Ursuss_01_001}",
+            "Defeat {npc:M_D1_MF_DranaMole_01_003}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "deliver-the-forest-essence",
+          "title": "Deliver the Forest Essence",
+          "objectiveAliases": [
+            "Talk to Ninir"
+          ],
+          "notes": [ "TP back to kisk" ]
+        },
+        {
+          "id": "find-the-young-elim",
+          "title": "Find the Young Elim",
+          "objectiveAliases": [
+            "Go to where the Young Elim may be"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "find-the-young-elim-survivors",
+          "title": "Find the Young Elim survivors",
+          "objectiveAliases": [
+            "Search the {env:E_D1_HQ_TreeHole_06}",
+            "Search the {env:E_D1_HQ_TreeHole_07}",
+            "Search the {env:E_D1_HQ_TreeHole_08}",
+            "Search the {env:E_D1_HQ_TreeHole_09}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "discuss-the-search-progress-for-the-young-elim",
+          "title": "Discuss the search progress for the Young Elim",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "search-the-next-location",
+          "title": "Search the next location",
+          "objectiveAliases": [
+            "Go to where the Young Elim may be"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "go-to-the-location-nemon-mentioned",
+          "title": "Go to the location Nemon mentioned",
+          "objectiveAliases": [
+            "Go to Elim's Rest"
+          ],
+          "notes": [ "Grab Kisk East (DONT TURN IN QUEST) > ? North > ? NorthWest > Kisk East > ? East > TP to kisk (MSQ)" ]
+        },
+        {
+          "id": "talk-to-nemon-at-the-elims-rest",
+          "title": "Talk to Nemon at Elim's Rest",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "Grab Kisk East (DONT TURN IN QUEST) > ? North > ? NorthWest > Kisk East > ? East > TP to kisk (MSQ)" ]
+        }
+      ],
+      "routeIndex": 32
+    },
+    {
+      "id": "2102175",
+      "recommendedLevel": 21,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "In the Elims' Name",
+      "aliases": [
+        "In the Elims' Name"
+      ],
+      "objectiveAliases": [
+        ""
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "find-the-hiding-young-elim",
+          "title": "Find the hiding young Elim",
+          "objectiveAliases": [
+            "Search the Fallen Tree"
+          ],
+          "notes": ["Left Tree first > Right Tree after"]
+        },
+        {
+          "id": "report-on-the-rescued-young-elim",
+          "title": "Report on the rescued Young Elim",
+          "objectiveAliases": [
+            "Talk to Ninir"
+          ],
+          "notes": ["? East > TP To Kisk (Collapsed Chasm) from inside"]
+        },
+        {
+          "id": "talk-to-hadala-via-selvis",
+          "title": "Talk to Hadala via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "Speak with NPCs > TP North" ]
+        },
+        {
+          "id": "find-eccos-whereabouts",
+          "title": "Find Ecco's whereabouts",
+          "objectiveAliases": [
+            "Go to Odar's Shade"
+          ],
+          "notes": ["TP North"]
+        }
+      ],
+      "routeIndex": 33
+    },
+    {
+      "id": "2102180",
+      "recommendedLevel": 22,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "Verdant Melody",
+      "aliases": [
+        "Verdant Melody"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at Odar's Shade"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "investigate-the-etheria-rift",
+          "title": "Investigate the Etheria Rift",
+          "objectiveAliases": [
+            "Rescue Ecco the Forest Spirit"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "ask-to-awaken-odar",
+          "title": "Ask to awaken Odar",
+          "objectiveAliases": [
+            "Talk to Ecco"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "learn-where-the-nornir-are",
+          "title": "Learn where the Nornir are",
+          "objectiveAliases": [
+            "Talk to Ecco"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 34
+    },
+    {
+      "id": "2102185",
+      "recommendedLevel": 22,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "Daeva in a Dream",
+      "aliases": [
+        "Daeva in a Dream"
+      ],
+      "objectiveAliases": [
+        "Talk to Ecco at Odar's Shade"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "ascend-to-the-next-dimension-of-power-as-a-daeva",
+          "title": "Ascend to the next dimension of power as a Daeva",
+          "objectiveAliases": [
+            "Complete The One Who Hears the Voice"
+          ],
+          "notes": ["Do RedQuest > Equip Guard (once u made it +5) > Equip Wings at the end"]
+        }
+      ],
+      "routeIndex": 35
+    },
+    {
+      "id": "2102190",
+      "recommendedLevel": 22,
+      "chapter": "You're in the Palm of Our Hands",
+      "title": "Disturbed Balance",
+      "aliases": [
+        "Disturbed Balance"
+      ],
+      "objectiveAliases": [
+        "Talk to Ecco at Odar's Shade"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "go-to-the-place-ecco-mentioned",
+          "title": "Go to the place Ecco mentioned",
+          "objectiveAliases": [
+            "Go to Krao Cave Entrance"
+          ],
+          "notes": ["Take Windstream > Do Stigmas and items > ? in SouthEast > MSQ - Krao cave enter Solo"]
+        },
+        {
+          "id": "hear-about-krao-cave",
+          "title": "Hear about Krao Cave",
+          "objectiveAliases": [
+            "Talk to Ecco"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "investigate-krao-cave",
+          "title": "Investigate Krao Cave",
+          "objectiveAliases": [
+            "Complete the Krao Cave investigation"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-at-odars-shade",
+          "title": "Talk to Nemon at Odar's Shade",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP NorthWest > MSQ" ]
+        }
+      ],
+      "routeIndex": 36
+    },
+    {
+      "id": "2102200",
+      "recommendedLevel": 24,
+      "chapter": "Ill-Fated Encounter",
+      "title": "Searching for Survivors",
+      "aliases": [
+        "Searching for Survivors"
+      ],
+      "objectiveAliases": [
+        ""
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "go-to-uruthumheim",
+          "title": "Go to Uruthumheim",
+          "objectiveAliases": [
+            "Go to the Abandoned Site"
+          ],
+          "notes": ["TP to kisk West > do not do Greenquests > You can accept them and unpin them in (J Regional) > Follow MSQ"]
+        },
+        {
+          "id": "assess-the-current-situation",
+          "title": "Assess the current situation",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "gather-information-on-uruthumheim",
+          "title": "Gather information on Uruthumheim",
+          "objectiveAliases": [
+            "Defeat the Blades",
+            "Examine the Nornir Supply Chest",
+            "Examine the Nornir Corpse"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "receive-an-urgent-message",
+          "title": "Receive an urgent message",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-tonemon-near-the-northern-altar",
+          "title": "Talk to Nemon near the Northern Altar",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": ["MSQ"]
+        }
+      ],
+      "routeIndex": 37
+    },
+    {
+      "id": "2102201",
+      "recommendedLevel": 24,
+      "chapter": "Ill-Fated Encounter",
+      "title": "Prison Break",
+      "aliases": [
+        "Prison Break"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon near the Northern Altar"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "rescue-the-prisoners-with-nemon",
+          "title": "Rescue the prisoners with Nemon",
+          "objectiveAliases": [
+            "Rescue the prisoners"
+          ],
+          "notes": [ "MSQ > After leaving Instance > Go West for ?" ]
+        },
+        {
+          "id": "talk-to-hadala-at-the-minushan-site",
+          "title": "Talk to Hadala at the Minushan Site",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "? East > ? NorthWest > Kisk West > ? West > MSQ South > Remember to skill Stigmas every level" ]
+        }
+      ],
+      "routeIndex": 38
+    },
+    {
+      "id": "2102202",
+      "recommendedLevel": 24,
+      "chapter": "Ill-Fated Encounter",
+      "title": "Finding Stolen Relics",
+      "aliases": [
+        "Finding Stolen Relics"
+      ],
+      "objectiveAliases": [
+        "Talk to Hadala at Minushan Site"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "retrieve-the-stolen-relics",
+          "title": "Retrieve the stolen relics",
+          "objectiveAliases": [
+            "Retrieve the Golden Uruthum Statue",
+            "Retrieve the History of Uruthumheim",
+            "Retrieve the Fragment of Minusha's Heart"
+          ],
+          "notes": [ "Kisk West > MSQ > After MSQ TP back" ]
+        },
+        {
+          "id": "talk-to-gohok-at-minushan-site",
+          "title": "Talk to Gohok at Minushan Site",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP South > MSQ" ]
+        }
+      ],
+      "routeIndex": 39
+    },
+    {
+      "id": "2102210",
+      "recommendedLevel": 25,
+      "chapter": "Ill-Fated Encounter",
+      "title": "Voice of Rage",
+      "aliases": [
+        "Voice of Rage"
+      ],
+      "objectiveAliases": [
+        ""
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "clear-the-way-to-the-eastern-altar",
+          "title": "Clear the way to the Eastern Altar",
+          "objectiveAliases": [
+            "Defeat the Balaur in front of the Eastern Altar",
+            "Defeat {npc:M_D1_SH_Drakan_01_CV01_01} and Ranger",
+            "Destroy the {npc:M_D1_SH_Fafnium_01_01}"
+          ],
+          "notes": ["MSQ "]
+        },
+        {
+          "id": "find-another-nornir-survivor",
+          "title": "Find another Nornir survivor",
+          "objectiveAliases": [
+            "Join Gohok in front of the Eastern Altar"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "find-the-nornir-inside-the-eastern-altar",
+          "title": "Find the Nornir inside the Eastern Altar",
+          "objectiveAliases": [],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-at-the-collapsed-oracle",
+          "title": "Talk to Nemon at the Collapsed Oracle",
+          "objectiveAliases": [],
+          "notes": [ "TP SouthEast > MSQ" ]
+        }
+      ],
+      "routeIndex": 40
+    },
+    {
+      "id": "2102220",
+      "recommendedLevel": 25,
+      "chapter": "Ill-Fated Encounter",
+      "title": "Tangled Past",
+      "aliases": [
+        "Tangled Past"
+      ],
+      "objectiveAliases": [
+        ""
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "investigate-the-collapsed-oracle",
+          "title": "Investigate the Collapsed Oracle",
+          "objectiveAliases": [
+            "Track Urd's whereabouts"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "discuss-what-to-do-next",
+          "title": "Discuss what to do next",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "go-to-the-location-hallina-mentioned",
+          "title": "Go to the location Hallina mentioned",
+          "objectiveAliases": [
+            "Go to Nornir Assembly"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "talk-to-nemon-at-the-entrance-to-the-nornir-assembly",
+          "title": "Talk to Nemon at the entrance to the Nornir Assembly",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-urd-at-nornir-assembly",
+          "title": "Talk to Urd at the Nornir Assembly",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "Dont forget to take Kisk at the bottom" ]
+        }
+      ],
+      "routeIndex": 41
+    },
+    {
+      "id": "2102225",
+      "recommendedLevel": 26,
+      "chapter": "Ill-Fated Encounter",
+      "title": "The High Priest Slumbers",
+      "aliases": [
+        "The High Priest Slumbers"
+      ],
+      "objectiveAliases": [
+        "Talk to Urd at Nornir Assembly"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "check-if-hystans-body-is-safe",
+          "title": "Check if Hystan's body is safe",
+          "objectiveAliases": [
+            "Go to Nornir Altar"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-urd-at-nornir-assembly",
+          "title": "Talk to Urd at Nornir Assembly",
+          "objectiveAliases": [
+            "Go to Nornir Altar"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 42
+    },
+    {
+      "id": "2102230",
+      "recommendedLevel": 26,
+      "chapter": "Ill-Fated Encounter",
+      "title": "Striving for Coexistence",
+      "aliases": [
+        "Striving for Coexistence"
+      ],
+      "objectiveAliases": [
+        ""
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "take-a-walk-around-the-assembly-to-relax",
+          "title": "Take a walk around the assembly to relax",
+          "objectiveAliases": [
+            "Talk to Varron"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "obtain-the-recovery-potion-ingredients-from-soft-breeze-spirit",
+          "title": "Obtain the recovery potion ingredients from Soft Breeze Spirit",
+          "objectiveAliases": [
+            "Gather antidote ingredients"
+          ],
+          "notes": ["MSQ > You can take the Windstream here (Bottom one NOT THE HIGER UP) > Exit Windstream at Quest Location"]
+        },
+        {
+          "id": "find-supplies-for-the-patients",
+          "title": "Find supplies for the patients",
+          "objectiveAliases": [
+            "Check the General Goods Chest",
+            "Check the Garment Chest"
+          ],
+          "notes": ["Kisk North > TP South > Buy Scrolls if needed > MSQ"]
+        },
+        {
+          "id": "talk-to-varron-at-nornir-assembly",
+          "title": "Talk to Varron at Nornir Assembly",
+          "objectiveAliases": [],
+          "notes": ["MSQ"]
+        }
+      ],
+      "routeIndex": 43
+    },
+    {
+      "id": "2102235",
+      "recommendedLevel": 27,
+      "chapter": "Ill-Fated Encounter",
+      "title": "Preparations for Restoration",
+      "aliases": [
+        "Preparations for Restoration",
+        "Preparations",
+        "Preparations f..."
+      ],
+      "objectiveAliases": [
+        "Talk to Varron at Nornir Assembly"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "talk-to-ulgorn-via-selvis",
+          "title": "Talk to Ulgorn via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "hear-about-nemons-past",
+          "title": "Hear about Nemon's past",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "hear-more-about-nemons-past",
+          "title": "Hear more about Nemon's past",
+          "objectiveAliases": [
+            "Talk to Hadala"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "return-to-urd",
+          "title": "Return to Urd",
+          "objectiveAliases": [
+            "Talk to Urd"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "seek-guidance-from-hallina",
+          "title": "Seek guidance from Hallina",
+          "objectiveAliases": [
+            "Talk to Hallina"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "prepare-to-restore-the-spirit-altar",
+          "title": "Prepare to restore the Spirit Altar",
+          "objectiveAliases": [
+            "Go to the Old Purifying Altar"
+          ],
+          "notes": ["TP North > MSQ"]
+        },
+        {
+          "id": "clear-around-the-wind-altar",
+          "title": "Clear around the Wind Altar",
+          "objectiveAliases": [
+            "Defeat the contaminated spirits",
+            "Remove Poison Blood Clot"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-hadala-via-selvis",
+          "title": "Talk to Hadala via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 44
+    },
+    {
+      "id": "2102240",
+      "recommendedLevel": 27,
+      "chapter": "Ill-Fated Encounter",
+      "title": "A Collective Effort",
+      "aliases": [
+        "A Collective Effort",
+        "A Collective",
+        "A Collective E..."
+      ],
+      "objectiveAliases": [
+        "Talk to Hadala at the Wind Altar"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "restore-the-wind-altar",
+          "title": "Restore the Wind Altar",
+          "objectiveAliases": [
+            "Purify the Wind Altar"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-ulgorn-via-selvis",
+          "title": "Talk to Ulgorn via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "Kisk West after talking to the Lady" ]
+        },
+        {
+          "id": "relay-the-selvis-message-to-hadala",
+          "title": "Relay the Selvis message to Hadala",
+          "objectiveAliases": [
+            "Talk to Hadala"
+          ],
+          "notes": [ "Kisk West after talking to the Lady" ]
+        },
+        {
+          "id": "meet-ulgorn-at-guide-rest-stop",
+          "title": "Meet Ulgorn at Guide Rest Stop",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": [ "Kisk West > TP East > Take Greenquest" ]
+        },
+        {
+          "id": "clear-around-the-fire-altar",
+          "title": "Clear around the Fire Altar",
+          "objectiveAliases": [
+            "Eliminate the Rift Fragment",
+            "Defeat Flame Rock Spider",
+            "Remove the Vines Corroded by Poison Blood"
+          ],
+          "notes": ["MSQ and GreenQuest"]
+        },
+        {
+          "id": "restore-the-fire-altar",
+          "title": "Restore the Fire Altar",
+          "objectiveAliases": [
+            "Purify the Fire Altar",
+            "Restore the Are Altar",
+            "Purify the Are Altar"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "report-on-the-restoration-of-the-fire-altar",
+          "title": "Report on the restoration of the Fire Altar",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "return-to-guide-rest-stop",
+          "title": "Return to Guide Rest Stop",
+          "objectiveAliases": [
+            "Talk to Zaksen"
+          ],
+          "notes": [ "Kisk West > TP South > Hand in MSQ and GreenQuest > TP Back North" ]
+        },
+        {
+          "id": "talk-to-darmand-at-the-faded-stump",
+          "title": "Talk to Darmand at the Faded Stump",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP North > MSQ" ]
+        }
+      ],
+      "routeIndex": 45
+    },
+    {
+      "id": "2102250",
+      "recommendedLevel": 29,
+      "chapter": "Ill-Fated Encounter",
+      "title": "Land of Rifts",
+      "aliases": [
+        "Land of Rifts"
+      ],
+      "objectiveAliases": [
+        "Talk to Darmand at the Faded Stump"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "clear-around-the-earth-altar",
+          "title": "Clear around the Earth Altar",
+          "objectiveAliases": [
+            "Remove {env:E_D1_PoisonGas_001}",
+            "Defeat {npc:M_D1_PF_EarthEle_01_01}",
+            "Defeat {npc:M_D1_PF_Gravi_02_01}"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "restore-the-earth-altar-with-darmand",
+          "title": "Restore the Earth Altar with Darmand",
+          "objectiveAliases": [
+            "Purify the Earth Altar"
+          ],
+          "notes": ["After Purifying Kisk North"]
+        },
+        {
+          "id": "talk-to-nemon-via-selvis",
+          "title": "Talk to Nemon via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-at-the-water-altar",
+          "title": "Talk to Nemon at the Water Altar",
+          "objectiveAliases": [
+            "Talk to Nemon at the Water"
+          ],
+          "notes": [ "Kisk North > Fly Back > MSQ" ]
+        }
+      ],
+      "routeIndex": 46
+    },
+    {
+      "id": "2102255",
+      "recommendedLevel": 30,
+      "chapter": "Ill-Fated Encounter",
+      "title": "Dying Light",
+      "aliases": [
+        "Dying Light"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the Water Altar"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "restore-the-water-altar",
+          "title": "Restore the Water Altar",
+          "objectiveAliases": [
+            "Purify the Water Altar"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "report-the-restoration-of-the-water-altar",
+          "title": "Report the restoration of the Water Altar",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "clear-around-the-water-altar",
+          "title": "Clear around the Water Altar",
+          "objectiveAliases": [
+            "Remove {env:E_D1_PoisonWater_001}",
+            "Defeat {npc:M_D1_PF_WaterEle_01_01}",
+            "Defeat {npc:M_D1_PF_FafBlood_02_01}"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "ask-about-grisillas-condition",
+          "title": "Ask about Grisilla's condition",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["MSQ > Remember Stigmas/Skills/DaevaBoard"]
+        },
+        {
+          "id": "help-heal-grisilla",
+          "title": "Help heal Grisilla",
+          "objectiveAliases": [
+            "Remove Contaminated Root",
+            "Defeat {npc:M_D1_PF_AltBug_01_01}",
+            "Defeat {npc:M_D1_PF_Neuth_02_01}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-via-selvis",
+          "title": "Talk to Nemon via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "TP West > MSQ" ]
+        },
+        {
+          "id": "talk-to-grisilla-at-healing-spring",
+          "title": "Talk to Grisilla at Healing Spring",
+          "objectiveAliases": [
+            "Talk to Grisilla at Healing Spring",
+            "Talk to Gut eer eH aling Spring"
+          ],
+          "notes": [ "TP West > MSQ" ]
+        }
+      ],
+      "routeIndex": 47
+    },
+    {
+      "id": "2102260",
+      "recommendedLevel": 30,
+      "chapter": "Ill-Fated Encounter",
+      "title": "Contaminated Sacred Tree",
+      "aliases": [
+        "Contaminated Sacred Tree"
+      ],
+      "objectiveAliases": [
+        "Talk to Grisilla at Healing Spring"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "join-grisilla-at-the-root-entrance",
+          "title": "Join Grisilla at the root entrance",
+          "objectiveAliases": [
+            "Talk to Grisilla"
+          ],
+          "notes": ["TP East (Guide Rest Stop) > Fly West > Entrance to the Tree is BottomLeft > MSQ"]
+        },
+        {
+          "id": "help-grisilla-purify-the-roots",
+          "title": "Help Grisilla purify the roots",
+          "objectiveAliases": [
+            "Enter the Root of the Sacred Tree"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "deliver-the-life-essence",
+          "title": "Deliver the Life Essence",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["After talking > TP West"]
+        },
+        {
+          "id": "talk-to-urd-at-the-healing-spring",
+          "title": "Talk to Urd at the Healing Spring",
+          "objectiveAliases": [
+            "Talk to Urd"
+          ],
+          "notes": [ "TP West > MSQ" ]
+        }
+      ],
+      "routeIndex": 48
+    },
+    {
+      "id": "2102270",
+      "recommendedLevel": 30,
+      "chapter": "Ill-Fated Encounter",
+      "title": "The Past Revealed",
+      "aliases": [
+        "The Past Revealed",
+        "The Past Re.."
+      ],
+      "objectiveAliases": [
+        ""
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "meet-urd-before-the-altar",
+          "title": "Meet Urd before the altar",
+          "objectiveAliases": [
+            "Talk to Urd"
+          ],
+          "notes": [ "TP SouthEast (Nornir) > MSQ > New Deava Board at 30" ]
+        },
+        {
+          "id": "go-to-see-the-high-priests-memories",
+          "title": "Go to see the high priest's memories",
+          "objectiveAliases": [
+            "Go to Nornir Altar"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "ask-around-about-the-destruction-archon",
+          "title": "Ask around about the Destruction Archon",
+          "objectiveAliases": [
+            "Talk to Hallina",
+            "Talk to Varron"
+          ],
+          "notes": ["MSQ"]
+        }
+      ],
+      "routeIndex": 49
+    },
+    {
+      "id": "2102280",
+      "recommendedLevel": 30,
+      "chapter": "Ill-Fated Encounter",
+      "title": "Canyon's Secret",
+      "aliases": [
+        "Canyon's Secret",
+        "Canyon's S..'"
+      ],
+      "objectiveAliases": [
+        "Talk to Ulgorn at the Nornir Assembly"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "hear-about-the-valley-that-was-discovered",
+          "title": "Hear about the valley that was discovered",
+          "objectiveAliases": [
+            "Talk to Dinoh"
+          ],
+          "notes": ["TP North > Kisk North > Kisk SouthEast > Kisk North > > Another Kisk North (Windstream) > MSQ"]
+        },
+        {
+          "id": "investigate-the-urugugu-canyon",
+          "title": "Investigate the Urugugu Canyon",
+          "objectiveAliases": [
+            "Complete the Urugugu Canyon investigation"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "share-information-gathered-from-the-canyon",
+          "title": "Share information gathered from the canyon",
+          "objectiveAliases": [
+            "Talk to Dinoh"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "talk-to-ulgorn-at-the-nornir-assembly",
+          "title": "Talk to Ulgorn at the Nornir Assembly",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": ["Kisk North > TP Far South > MSQ"]
+        }
+      ],
+      "routeIndex": 50
+    },
+    {
+      "id": "2102300",
+      "recommendedLevel": 32,
+      "chapter": "I Only Wanted You",
+      "title": "Bitter Reality",
+      "aliases": [
+        "Bitter Reality"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the Nornir Assembly"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "join-menrik-at-briskwind-shelter",
+          "title": "Join Menrik at Briskwind Shelter",
+          "objectiveAliases": [
+            "Talk to Menrik"
+          ],
+          "notes": [ "Wings + GreenQuest other side of Town > TP SaveHaven do GQuest > TP Nornir > TP North and do GQuest > TP SouthEast do Quest > TP Abandonded Site and follow GQuest until finished > TP North and MSQ" ]
+        },
+        {
+          "id": "collect-information-from-refugees",
+          "title": "Collect information from refugees",
+          "objectiveAliases": [
+            "Talk to Petra",
+            "Talk to Bjorik"
+          ],
+          "notes": ["MSQ > Avoid the Windstream here"]
+        },
+        {
+          "id": "pass-on-new-information-to-nemon",
+          "title": "Pass on new information to Nemon",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "learn-the-mau-language",
+          "title": "Learn the Mau language",
+          "objectiveAliases": [
+            "Use the Language Artifact to learn",
+            "Read the Mau Language Manual"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 51
+    },
+    {
+      "id": "2102310",
+      "recommendedLevel": 32,
+      "chapter": "I Only Wanted You",
+      "title": "Eye of the Red Tower",
+      "aliases": [
+        "Eye of the Red Tower"
+      ],
+      "objectiveAliases": [
+        "Talk to Menrik at Briskwind Shelter"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "infiltrate-dranactus",
+          "title": "Infiltrate Dranactus",
+          "objectiveAliases": [
+            "Defeat {npc:M_D1_DR_SkurvWar_02_001}",
+            "Defeat {npc:M_D1_DR_KrallWar_02_001}"
+          ],
+          "notes": ["MSQ" ]
+        },
+        {
+          "id": "talk-to-menrik-via-selvis",
+          "title": "Talk to Menrik via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "collect-information",
+          "title": "Collect Information",
+          "objectiveAliases": [
+            "Collect the Tarzel from the food chest",
+            "Read the Overseer's Manual"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "explain-the-situation-to-menrik-via-selvis",
+          "title": "Explain the situation to Menrik via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "go-to-another-laborers-tent",
+          "title": "Go to another Laborer's Tent",
+          "objectiveAliases": [
+            "Talk to Laborer Holta",
+            "Talk to Laborer Teak"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-via-selvis",
+          "title": "Talk to Nemon via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-menrik-at-the-north-laborers-tent",
+          "title": "Talk to Menrik at the North Laborer's Tent",
+          "objectiveAliases": [
+            "Talk to Menrik at the North Laborer's Tent",
+            "Talk to Menrik at the North",
+            "Talk to Menrik at the Npj",
+            "Tal Mito Menrik at the Npj"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 52
+    },
+    {
+      "id": "2102320",
+      "recommendedLevel": 32,
+      "chapter": "I Only Wanted You",
+      "title": "The Survivors",
+      "aliases": [
+        "The Survivors"
+      ],
+      "objectiveAliases": [
+        "Talk to Menrik at the North Laborer's Tent"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "clear-up-near-the-watchtower-camp",
+          "title": "Clear up near the Watchtower Camp",
+          "objectiveAliases": [
+            "Defeat {npc:M_D1_DR_Dratona_01}",
+            "Defeat {npc:M_D1_DR_Dratona_02_01}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-via-selvis",
+          "title": "Talk to Nemon via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "neutralize-the-watchtower-camp",
+          "title": "Neutralize the Watchtower Camp",
+          "objectiveAliases": [
+            "Enter the Watchtower Camp",
+            "Neutralize the Watchtower",
+            "Neutrallze the Watchtower",
+            "Neutrallze the Watchtower Camp"
+          ],
+          "notes": [ "Kisk North > TP SouthEast > MSQ" ]
+        },
+        {
+          "id": "talk-to-menrik-at-briskwind-shelter",
+          "title": "Talk to Menrik at Briskwind Shelter",
+          "objectiveAliases": [
+            "Talk to Menrik at Briskwind Shelter"
+          ],
+          "notes": [ "TP SouthWest > MSQ" ]
+        }
+      ],
+      "routeIndex": 53
+    },
+    {
+      "id": "2102330",
+      "recommendedLevel": 32,
+      "chapter": "I Only Wanted You",
+      "title": "Rescue Operation",
+      "aliases": [
+        "Rescue Operation",
+        "Rescue Ope..."
+      ],
+      "objectiveAliases": [
+        "Talk to Menrik at Briskwind Shelter"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "collect-supplies-to-deliver-to-the-hidden-cave",
+          "title": "Collect supplies to deliver to the Hidden Cave",
+          "objectiveAliases": [
+            "Collect supplies to deltyer to the Hidden Cave",
+            "Steal weapons from {npc:M_D1_DR_DracoWar_03_001}",
+            "Steal armor from {npc:M_D1_DR_DracoArc_03_001}",
+            "Search for food and recovery potions from the supply chest"
+          ],
+          "notes": ["TP North > MSQ"]
+        },
+        {
+          "id": "find-out-what-is-currently-happening-in-the-hidden-cave",
+          "title": "Find out what is currently happening in the Hidden Cave",
+          "objectiveAliases": [
+            "Join with Menrik"
+          ],
+          "notes": ["TP back > MSQ"]
+        },
+        {
+          "id": "explore-the-escape-route",
+          "title": "Explore the escape route",
+          "objectiveAliases": [
+            "Search for the patrol log"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "collect-materials-for-drakan-transformation",
+          "title": "Collect materials for Drakan transformation",
+          "objectiveAliases": [
+            "Collect tissue samples from {npc:M_D1_DR_BeritraC_01_001}",
+            "Steal clothes from {npc:M_D1_DR_BeritraC_02_001}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "return-to-the-hidden-cave-and-join-with-menrik",
+          "title": "Return to the Hidden Cave and join with Menrik",
+          "objectiveAliases": [
+            "Go to the Hidden Cave"
+          ],
+          "notes": ["TP back > MSQ"]
+        }
+      ],
+      "routeIndex": 54
+    },
+    {
+      "id": "2102340",
+      "recommendedLevel": 32,
+      "chapter": "I Only Wanted You",
+      "title": "Last of the Destruction Archons",
+      "aliases": [
+        "Last of the Destruction Archons",
+        "Last of the Dest..."
+      ],
+      "objectiveAliases": [
+        "Talk to Ulgorn in the Hidden Cave"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "prepare-to-infiltrate-the-underkeep",
+          "title": "Prepare to infiltrate the underkeep",
+          "objectiveAliases": [
+            "Go to the entrance of the underkeep"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "rescue-a-destruction-archon",
+          "title": "Rescue a Destruction Archon",
+          "objectiveAliases": [
+            "Go into the underkeep"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "discuss-further-plans-with-the-group",
+          "title": "Discuss further plans with the group",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["MSQ > Avoid the lasers inside the dungeon"]
+        },
+        {
+          "id": "find-out-the-current-situation-of-briskwind-shelter",
+          "title": "Find out the current situation of Briskwind Shelter",
+          "objectiveAliases": [
+            "Talk to Ulgorn",
+            "Talk to Menrik"
+          ],
+          "notes": ["TP SouthWest > MSQ"]
+        },
+        {
+          "id": "gather-intel-from-reuben",
+          "title": "Gather intel from Reuben",
+          "objectiveAliases": [
+            "Check how Reuben is doing"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 55
+    },
+    {
+      "id": "2102345",
+      "recommendedLevel": 32,
+      "chapter": "I Only Wanted You",
+      "title": "A Daeva Dreaming Anew",
+      "aliases": [
+        "A Daeva Dreaming Anew",
+        "A Daeva Dr.."
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at Briskwind Shelter"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "ascend-to-the-next-dimension-of-power-as-a-daeva",
+          "title": "Ascend to the next dimension of power as a Daeva",
+          "objectiveAliases": [
+            "Complete The One Who Dreams"
+          ],
+          "notes": [ "Take GreenQuest > Equip Statue and other items > RedQuest" ]
+        },
+        {
+          "id": "talk-to-nemon-at-briskwind-shelter",
+          "title": "Talk to Nemon at Briskwind Shelter",
+          "objectiveAliases": [
+            "Talk to Nemon at Briskwind Shelter"
+          ],
+          "notes": [ "Make sure to be finished talking to GreenQuest > MSQ" ]
+        }
+      ],
+      "routeIndex": 56
+    },
+    {
+      "id": "2102350",
+      "recommendedLevel": 33,
+      "chapter": "I Only Wanted You",
+      "title": "Last Refuge",
+      "aliases": [
+        "Last Refuge"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at Briskwind Shelter"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "join-nemon-at-the-location-she-mentioned",
+          "title": "Join Nemon at the location she mentioned",
+          "objectiveAliases": [
+            "Go to Basfelt Waterfall"
+          ],
+          "notes": ["TP to SafeHaven NorthKisk > Do GreenQuest > TP SouthWest (Galorik) and follow GQuest > TP Galorik after Derk-Dungeon do GQuest > TP SafeHaven and do GQuest > TP far East and equip Rune and do MSQ"]
+        },
+        {
+          "id": "find-out-what-is-currently-happening-at-basfelt-waterfall",
+          "title": "Find out what is currently happening at Basfelt Waterfall",
+          "objectiveAliases": [
+            "Talk to Ulgorn"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "ask-around-to-learn-what-is-happening-at-basfelt-ruins",
+          "title": "Ask around to learn what is happening at Basfelt Ruins",
+          "objectiveAliases": [
+            "Talk to Balla",
+            "Talk to Varatul"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-the-graverobber",
+          "title": "Talk to the Graverobber",
+          "objectiveAliases": [
+            "Talk to Chedan"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "discuss-plans-with-the-group",
+          "title": "Discuss plans with the group",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "investigate-the-marauder-base-near-the-entrance-of-the-ruins",
+          "title": "Investigate the Marauder base near the entrance of the ruins",
+          "objectiveAliases": [
+            "Investigate the marauder goods chest",
+            "Retrieve loot from {npc:M_D1_BR_FighterM_01_01}",
+            "Retrieve antiques from {npc:M_D1_BR_FighterF_01_01}"
+          ],
+          "notes": ["TP South > MSQ"]
+        },
+        {
+          "id": "report-the-situation-to-nemon",
+          "title": "Report the situation to Nemon",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "gather-intel-about-the-archon-from-the-graverobber-campsite",
+          "title": "Gather Intel about the Archon from the Graverobber Campsite",
+          "objectiveAliases": [
+            "Talk to Chedan"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "collect-accurate-intel",
+          "title": "Collect accurate intel",
+          "objectiveAliases": [
+            "Talk to Dufaux",
+            "Talk to Dixie"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "discuss-future-plans",
+          "title": "Discuss future plans",
+          "objectiveAliases": [
+            "Talk to Nemon at the Graverobber Campsite"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 57
+    },
+    {
+      "id": "2102360",
+      "recommendedLevel": 33,
+      "chapter": "I Only Wanted You",
+      "title": "Scripture in the Ruins",
+      "aliases": [
+        "Scripture in the Ruins",
+        "Scripture in the..."
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the entrance to Reuben's Hideout"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "investigate-reubens-hideout",
+          "title": "Investigate Reuben's Hideout",
+          "objectiveAliases": [
+            "Enter Reuben's Hideout"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "ask-the-graverobbers",
+          "title": "Ask the graverobbers",
+          "objectiveAliases": [
+            "Talk to Nemon at the Graverobber Campsite"
+          ],
+          "notes": ["TP SouthEast > MSQ"]
+        },
+        {
+          "id": "obtain-information-about-the-fortress-and-the-scripture",
+          "title": "Obtain information about the Fortress and the Scripture",
+          "objectiveAliases": [
+            "Talk to Hevid",
+            "Talk to Dixie",
+            "Talk to Dufaux"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "pass-on-new-information-to-nemon",
+          "title": "Pass on new information to Nemon",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "find-the-loot-stolen-by-marauders",
+          "title": "Find the loot stolen by marauders",
+          "objectiveAliases": [
+            "Retrieve the stolen pendant from {npc:M_D1_BR_FighterM_02_01}",
+            "Retrieve the stolen chalice from {npc:M_D1_BR_FighterF_02_01}",
+            "Retrieve Azphel Statue from the Loot Chest"
+          ],
+          "notes": ["Take GQuest > MSQ + GQuest"]
+        }
+      ],
+      "routeIndex": 58
+    },
+    {
+      "id": "2102370",
+      "recommendedLevel": 33,
+      "chapter": "I Only Wanted You",
+      "title": "Blood Monument",
+      "aliases": [
+        "Blood Monument",
+        "Blood Monu..."
+      ],
+      "objectiveAliases": [
+        "Talk to Ulgorn at Graverobber Campsite",
+        "Talk to Ulgorn at Graverobber",
+        "Talk to Ulgorn at Graverbgber",
+        "Talk to Ulgorn atiitaGerBpper",
+        "Pass Ulgora as Graverobber Campaiee",
+        "TalkitojUligorniatiGraverobber"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "find-the-secret-document-reuben-mentioned",
+          "title": "Find the secret document Reuben mentioned",
+          "objectiveAliases": [
+            "Go to the Abandoned Ruins"
+          ],
+          "notes": ["Finish GQuest > Equip Blue Item correctly > MSQ"]
+        },
+        {
+          "id": "gain-additional-information-from-dixie",
+          "title": "Gain additional information from Dixie",
+          "objectiveAliases": [
+            "Talk to Dixie"
+          ],
+          "notes": ["TP NorthEast > MSQ"]
+        },
+        {
+          "id": "do-a-favor-for-graverobber-dixie",
+          "title": "Do a favor for Graverobber Dixie",
+          "objectiveAliases": [
+            "Defeat {npc:M_D1_BR_Imp_01_01}",
+            "Defeat {npc:M_D1_BR_Agrint_01_01}",
+            "Recover belongings of Dixie's fallen comrade"
+          ],
+          "notes": ["Take GQuest > MSQ + GQuest > Follow MSQ"]
+        },
+        {
+          "id": "talk-to-nemon-via-selvis",
+          "title": "Talk to Nemon via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "join-nemon-at-the-destroyed-ruins",
+          "title": "Join Nemon at the Destroyed Ruins",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "insert-zikels-seal-into-the-blood-monument",
+          "title": "Insert Zikel's Seal into the Blood Monument",
+          "objectiveAliases": [
+            "Operate the Blood Monument"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 59
+    },
+    {
+      "id": "2102380",
+      "recommendedLevel": 34,
+      "chapter": "I Only Wanted You",
+      "title": "Impending Threat",
+      "aliases": [
+        "Impending Threat"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the Destroyed Ruins"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "reduce-the-number-of-watchful-eyes",
+          "title": "Reduce the number of watchful eyes",
+          "objectiveAliases": [
+            "Destroy {npc:M_D1_BR_DraTotemA_01_01}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "answer-nemons-selvis-call",
+          "title": "Answer Nemon's Selvis Call",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "capture-a-blades-captive",
+          "title": "Capture a Blades Captive",
+          "objectiveAliases": [
+            "Stealthily capture a prisoner"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "eliminate-tracking-blades",
+          "title": "Eliminate tracking Blades",
+          "objectiveAliases": [
+            "Defeat the ruins Blades"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "accept-nemons-call",
+          "title": "Accept Nemon's call",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-at-the-fissure-cave",
+          "title": "Talk to Nemon at the Fissure Cave",
+          "objectiveAliases": [
+            "Talk to Nemon at the Assure Cave",
+            "Talk to Nedgtthe Beute Cave"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 60
+    },
+    {
+      "id": "2102390",
+      "recommendedLevel": 34,
+      "chapter": "I Only Wanted You",
+      "title": "Visible Trap",
+      "aliases": [
+        "Visible Trap"
+      ],
+      "objectiveAliases": [
+        ""
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "defeat-the-blades-and-secure-a-retreat",
+          "title": "Defeat the Blades and secure a retreat",
+          "objectiveAliases": [
+            "Defeat {npc:M_D1_BR_AltKnife_01_03}",
+            "Defeat {npc:M_D1_BR_AltKnife_05_01}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "purchase-archons-sword-from-the-shulak-street-vendor",
+          "title": "Purchase Archon's Sword from the Shulak Street Vendor",
+          "objectiveAliases": [
+            "Talk to Purakhi"
+          ],
+          "notes": ["TP West for GreenQuest > TP South > MSQ"]
+        },
+        {
+          "id": "fulfill-purakhis-request",
+          "title": "Fulfill Purakhi's request",
+          "objectiveAliases": [
+            "Retrieve the unexploded bomb",
+            "Collect the Soulless Archon Armor"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-at-the-shulak-street-stall",
+          "title": "Talk to Nemon at the Shulak Street Stall",
+          "titleAliases": [
+            "att 4 Talk to Nemen at the Shulak Street Stall",
+            "att 1 Talk to Nemon at the Shulak Street Stall"
+          ],
+          "objectiveAliases": [
+            "Talk to Nemon at the Shulak Street Stall",
+            "att 4 Talk to Nemen at the Shulak Street Stall",
+            "att 1 Talk to Nemon at the Shulak Street Stall",
+            "Stree teen"
+          ],
+          "notes": [ "TP West > MSQ" ]
+        }
+      ],
+      "routeIndex": 61
+    },
+    {
+      "id": "2102400",
+      "recommendedLevel": 34,
+      "chapter": "I Only Wanted You",
+      "title": "Destruction Archon Underground Fortress",
+      "aliases": [
+        "Destruction Archon Underground Fortress"
+      ],
+      "objectiveAliases": [
+        ""
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "investigate-the-destruction-archon-underground-fortress-entrance",
+          "title": "Investigate the Destruction Archon Underground Fortress",
+          "objectiveAliases": [
+            "Go to the entrance of the Underground Fortress"
+          ],
+          "notes": ["TP East > MSQ"]
+        },
+        {
+          "id": "learn-how-to-use-the-monolith",
+          "title": "Learn how to use the Monolith",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "investigate-the-destruction-archon-underground-fortress-core-clues",
+          "title": "Investigate the Destruction Archon Underground Fortress",
+          "objectiveAliases": [
+            "Investigate clues about the core"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "comfort-nemon",
+          "title": "Comfort Nemon",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-at-the-shulak-street-stall",
+          "title": "Talk to Nemon at the Shulak Street Stall",
+          "objectiveAliases": [
+            "Talk to Nemon at the Shulak Street Stall"
+          ],
+          "notes": [ "TP West > MSQ" ]
+        }
+      ],
+      "routeIndex": 62
+    },
+    {
+      "id": "2102450",
+      "recommendedLevel": 35,
+      "chapter": "I Only Wanted You",
+      "title": "Enemy Territory",
+      "aliases": [
+        "Enemy Territory",
+        "Enemy Territ..."
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the Shulak Street Stall"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "ask-expert-sculkhi-for-information",
+          "title": "Ask expert Sculkhi for information",
+          "objectiveAliases": [
+            "Talk to Sculkhi"
+          ],
+          "notes": ["MSQ (Fly south)"]
+        },
+        {
+          "id": "join-nemon-at-the-steel-hammer-merchant-hq",
+          "title": "Join Nemon at the Steel Hammer Merchant HQ",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "gather-information-on-the-blades-base",
+          "title": "Gather information on the Blades' base",
+          "objectiveAliases": [
+            "Talk to Seikhi",
+            "Talk to Brokhi"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "share-the-gathered-information-with-nemon",
+          "title": "Share the gathered information with Nemon",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "gain-the-cooperation-of-the-chief-of-the-steel-hammer-merchants",
+          "title": "Gain the cooperation of the Chief of the Steel Hammer Merchants",
+          "objectiveAliases": [
+            "Talk to Merchant Chief Crobakhi"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "deliver-supplies-to-the-steel-hammer-workcamp",
+          "title": "Deliver supplies to the Steel Hammer Workcamp",
+          "objectiveAliases": [
+            "Collect mined Fafnite Gemstone",
+            "Retrieve the pickaxes from {npc:M_D1_FD_Shulack_01_01}"
+          ],
+          "notes": [ "Kisk West > MSQ" ]
+        },
+        {
+          "id": "deliver-supplies-to-the-steel-hammer-workcamp",
+          "title": "Talk to Mannikiki at the Steel Hammer Workcamp",
+          "objectiveAliases": [
+            "Talk to Mamniidid at the Steel Hammer Workcamp",
+            "Talk to Mannikikd at the Steel Hammer Workcamp",
+            "Talk to Mannitdd at the Steel Hammer Workcap"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 63
+    },
+    {
+      "id": "2102460",
+      "recommendedLevel": 35,
+      "chapter": "I Only Wanted You",
+      "title": "Powder of Death",
+      "aliases": [
+        "Powder of Death",
+        "Powder of D...",
+        "Powder of..."
+      ],
+      "objectiveAliases": [""
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "clear-the-path-to-the-shuttered-workstation",
+          "title": "Clear the path to the Shuttered Workstation",
+          "objectiveAliases": [
+            "Defeat {npc:M_D1_FD_Shulack_01_v01_01}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "check-the-shuttered-workstation-situation",
+          "title": "Check the Shuttered Workstation situation",
+          "objectiveAliases": [
+            "Enter the Shuttered Workstation"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "listen-to-a-detailed-explanation-from-mannikiki",
+          "title": "Listen to a detailed explanation from Mannikiki",
+          "objectiveAliases": [
+            "Talk to Mannikiki"
+          ],
+          "notes": ["TP NorthEast > MSQ"]
+        },
+        {
+          "id": "find-survivors-in-the-east-of-the-deposit",
+          "title": "Find survivors in the east of the deposit",
+          "objectiveAliases": [
+            "Search for survivors around quarry entrance",
+            "Search for survivors inside central quarry",
+            "Search for survivors around quarry wall"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "accept-nemons-call",
+          "title": "Accept Nemon's Call",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "find-items-for-the-surviving-workers",
+          "title": "Find items for the surviving workers",
+          "objectiveAliases": [
+            "Find the worker's lost bag",
+            "Defeat the dangerous {npc:M_D1_FD_AltBug_01_01}",
+            "Defeat the dangerous Luminous Cadaver Insectoid"
+          ],
+          "notes": [ "Be careful with Flightpower > MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon",
+          "title": "Talk to Nemon at the Steel Hammer Workcamp",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "Kisk East (Hole in the wall) > TP West > MSQ" ]
+        }
+      ],
+      "routeIndex": 64
+    },
+    {
+      "id": "2102470",
+      "recommendedLevel": 36,
+      "chapter": "I Only Wanted You",
+      "title": "Creion of Gribade",
+      "aliases": [
+        "Creion of Gribade",
+        "Creion of Griba..."
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the Steel Hammer Workcamp"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "go-to-the-steel-hammer-merchants-hq",
+          "title": "Go to the Steel Hammer Merchants HQ",
+          "objectiveAliases": [
+            "Ask around about the Creions"
+          ],
+          "notes": ["TP NorthWest > MSQ"]
+        },
+        {
+          "id": "go-to-the-chilly-cave",
+          "title": "Go to the chilly cave",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["TP East > MSQ"]
+        },
+        {
+          "id": "investigate-the-mysterious-grotto",
+          "title": "Investigate the Mysterious Grotto",
+          "objectiveAliases": [
+            "Find where the Creions are"
+          ],
+          "notes": [ "MSQ > After clearing the Dungeon TP from inside South" ]
+        }
+      ],
+      "routeIndex": 65
+    },
+    {
+      "id": "2102480",
+      "recommendedLevel": 36,
+      "chapter": "I Only Wanted You",
+      "title": "Frozen Fafnite",
+      "aliases": [
+        "Frozen Fafnite"
+      ],
+      "objectiveAliases": [
+        "Talk to Mannikiki at the Steel Hammer Workcamp"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "collect-the-mined-fafnite-gemstones",
+          "title": "Collect the mined Fafnite Gemstones",
+          "objectiveAliases": [
+            "Collect supplies from the Fafnite cart",
+            "Defeat {npc:M_D1_FD_DranaVar_01_CV01_001} around the supplies",
+            "Defeat {npc:M_D1_FD_DranaVar_04_CV01_001} around the supplies"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "return-to-mannikiki",
+          "title": "Return to Mannikiki",
+          "objectiveAliases": [
+            "Talk to Mannikiki"
+          ],
+          "notes": ["TP/Fly NorthEast > MSQ"]
+        },
+        {
+          "id": "meet-the-creion",
+          "title": "Meet the Creion",
+          "objectiveAliases": [
+            "Talk to Snotra"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "resolve-the-giant-fafnite-gemstone-problem",
+          "title": "Resolve the Giant Fafnite Gemstone problem",
+          "objectiveAliases": [
+            "Enter the Shuttered Workstation"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "meet-outside-the-shuttered-workstation",
+          "title": "Meet outside the Shuttered Workstation",
+          "objectiveAliases": [
+            "Talk to Snotra"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "report-the-situation-to-mannikiki",
+          "title": "Report the situation to Mannikiki",
+          "objectiveAliases": [
+            "Talk to Mannikiki"
+          ],
+          "notes": ["TP North > MSQ"]
+        },
+        {
+          "id": "recover-the-belongings-of-the-steel-hammer-workers",
+          "title": "Recover the belongings of the Steel Hammer workers",
+          "objectiveAliases": [
+            "Recover the Miner's belongings",
+            "Recover the Cart Worker's belongings",
+            "Recover the Sentinel's belongings",
+            "Defeat the Faded Predator and Floater that disrupt the recovery"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "report-to-nemon",
+          "title": "Report to Nemon",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-at-the-steel-hammer-workcamp",
+          "title": "Talk to Nemon at the Steel Hammer Workcamp",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP NorthEast > MSQ" ]
+        }
+      ],
+      "routeIndex": 66
+    },
+    {
+      "id": "2102550",
+      "recommendedLevel": 37,
+      "chapter": "I Only Wanted You",
+      "title": "Inevitable Encounter",
+      "aliases": [
+        "Inevitable Encounter"
+      ],
+      "objectiveAliases": [
+        "Talk to Crobakhi at the Steel Hammer Workcamp"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "join-nemon-in-front-of-the-merchants-yard",
+          "title": "Join Nemon in front of the Merchant's Yard",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "discover-the-blades-hideout",
+          "title": "Discover the Blades Hideout",
+          "objectiveAliases": [
+            "Enter the Merchant's Yard"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "join-nemon-at-the-abandoned-campsite-entrance",
+          "title": "Join Nemon at the Abandoned Campsite entrance",
+          "objectiveAliases": [
+            "Talk to Nemon at the Abandoned Campsite entrance"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "investigate-the-abandoned-campsite",
+          "title": "Investigate the Abandoned Campsite",
+          "objectiveAliases": [
+            "Enter the Campsite"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 67
+    },
+    {
+      "id": "2102565",
+      "recommendedLevel": 37,
+      "chapter": "I Only Wanted You",
+      "title": "Unveiling the Truth",
+      "aliases": [
+        "Unveiling the Truth"
+      ],
+      "objectiveAliases": [
+        "Talk to Pordhet at the Abandoned Campsite"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "defeat-the-blades-threatening-the-abandoned-campsite",
+          "title": "Defeat the Blades threatening the Abandoned Campsite",
+          "objectiveAliases": [
+            "Defeat the Blades Scout near the campsite",
+            "Defeat the Blades Sentry near the campsite",
+            "Check the Reconnaissance Report"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "report-the-situation-to-nemon-via-selvis",
+          "title": "Report the situation to Nemon via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "return-to-the-abandoned-campsite",
+          "title": "Return to the Abandoned Campsite",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "TP back East > MSQ" ]
+        },
+        {
+          "id": "collect-protection-serum-from-the-blades",
+          "title": "Collect Protection Serum from the Blades",
+          "objectiveAliases": [
+            "Defeat the Blades"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "report-the-situation-to-nemon",
+          "title": "Report the situation to Nemon",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "find-the-protection-serum-in-the-blades-camp",
+          "title": "Find the Protection Serum in the Blades Camp",
+          "objectiveAliases": [
+            "Examine the Stacked Documents",
+            "Search the Document Box"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "obtain-the-blades-supply-storage-key",
+          "title": "Obtain the Blades Supply Storage key",
+          "objectiveAliases": [
+            "Steal the key from {npc:M_D1_WGC_AltKnife_05_01}"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 68
+    },
+    {
+      "id": "2102575",
+      "recommendedLevel": 37,
+      "chapter": "I Only Wanted You",
+      "title": "Lake of Confrontation",
+      "aliases": [
+        "Lake of Confrontation"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon in front of the Blades Supply Storage"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "search-the-blades-supply-storage",
+          "title": "Search the Blades Supply Storage",
+          "objectiveAliases": [
+            "Enter the Blades Supply Storage"
+          ],
+          "notes": [ "MSQ"     ]
+        },
+        {
+          "id": "return-to-the-abandoned-campsite",
+          "title": "Return to the Abandoned Campsite",
+          "objectiveAliases": [
+            "Talk to Pordhet"
+          ],
+          "notes": [ "Leave through door > Kisk East (inside fog, so u cant see it on map) > TP West > MSQ > TP back where u came from" ]
+        },
+        {
+          "id": "talk-to-nemon-on-the-cliff-above-iduns-lake",
+          "title": "Talk to Nemon on the cliff above Idun's Lake",
+          "objectiveAliases": [
+            "Talk to Nemon on the cliff above Idun's Lake",
+            "Talk to Nemon on the cliff above",
+            "Talk to Nemon at the diff at"
+          ],
+          "notes": [ "TP back where u came from (SouthEast) > MSQ" ]
+        }
+      ],
+      "routeIndex": 69
+    },
+    {
+      "id": "2102585",
+      "recommendedLevel": 37,
+      "chapter": "I Only Wanted You",
+      "title": "An Ill Fate's Resolution",
+      "aliases": [
+        "An Ill Fate's Resolution"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon on the cliff above Idun's Lake",
+        "Talk to Nemon on the cliff above",
+        "Talk to Nemon at the diff at"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "prepare-to-enter-iduns-lake",
+          "title": "Prepare to enter Idun's Lake",
+          "objectiveAliases": [
+            "Use Protection Serum"
+          ],
+          "notes": []
+        },
+        {
+          "id": "go-to-iduns-lake",
+          "title": "Go to Idun's Lake",
+          "objectiveAliases": [
+            "Approach Idun's Lake"
+          ],
+          "notes": [ "Hit the Beam at the lake (dont dive into it) > Kisk SouthEast > MSQ" ]
+        },
+        {
+          "id": "find-the-blades-hideout-beneath-iduns-lake",
+          "title": "Find the Blades Hideout beneath Idun's Lake",
+          "objectiveAliases": [
+            "Search the hideout entrance beneath the lake"
+          ],
+          "notes": [ "Hit the Beam at the lake (dont dive into it) > Kisk SouthEast > MSQ" ]
+        },
+        {
+          "id": "investigate-the-blades-hideout",
+          "title": "Investigate the Blades Hideout",
+          "objectiveAliases": [
+            "Enter the hideout under the lake"
+          ],
+          "notes": [ "MSQ > Suspicious Letter on the Left is correct > Continue " ]
+        }
+      ],
+      "routeIndex": 70
+    },
+    {
+      "id": "2102590",
+      "recommendedLevel": 37,
+      "chapter": "I Only Wanted You",
+      "title": "Mirror of Greed",
+      "aliases": [
+        "Mirror of Greed"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at Idun's Lake Clifftop"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "go-to-the-fire-temple-entrance",
+          "title": "Go to the Fire Temple Entrance",
+          "objectiveAliases": [
+            "Talk to Trekhi"
+          ],
+          "notes": ["TP NorthWest FireTemple > Do FireTemple"]
+        },
+        {
+          "id": "investigate-the-fire-temple",
+          "title": "Investigate the Fire Temple",
+          "objectiveAliases": [
+            "Complete the Fire Temple investigation"
+          ],
+          "notes": [ "Do FireTemple > After Dungeon TP directly to far East > MSQ" ]
+        },
+        {
+          "id": "talk-to-crobakhi-at-the-steel-hammer-merchants-hq",
+          "title": "Talk to Crobakhi at the Steel Hammer Merchants HQ",
+          "objectiveAliases": [
+            "Talk to Crobakhi at the Steel Hammer Merchants HQ"
+          ],
+          "notes": [ "TP North > MSQ" ]
+        }
+      ],
+      "routeIndex": 71
+    },
+    {
+      "id": "2102600",
+      "recommendedLevel": 40,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Fafnite's Whereabouts",
+      "aliases": [
+        "Fafnite's Whereabouts"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the Steel Hammer Merchant HQ"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "locate-amuntas-hideout",
+          "title": "Locate Amunta's Hideout",
+          "objectiveAliases": [
+            "Talk to Popokiki"
+          ],
+          "notes": ["MSQ > Equip Accessory"]
+        },
+        {
+          "id": "investigate-amuntas-hideout",
+          "title": "Investigate Amunta's Hideout",
+          "objectiveAliases": [
+            "Enter Amunta's Hideout"
+          ],
+          "notes": ["TP South > MSQ"]
+        },
+        {
+          "id": "find-the-escaped-daybreak-society",
+          "title": "Find the escaped Daybreak Society",
+          "objectiveAliases": [
+            "Search the Damaged Wagon Wheel"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "follow-the-tracks-of-daybreak-society-who-fled",
+          "title": "Follow the tracks of Daybreak Society who fled",
+          "objectiveAliases": [
+            "Search the Blood-Stained Rock"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "talk-to-nemon-via-selvis",
+          "title": "Talk to Nemon via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "lessen-the-mau-search-partys-watch",
+          "title": "Lessen the Mau Search Party's watch",
+          "objectiveAliases": [
+            "Defeat the Search Party Sentry and Tayga"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "explain-the-situation-to-the-escaped-mau",
+          "title": "Explain the situation to the escaped Mau",
+          "objectiveAliases": [
+            "Talk to the escaped Mau"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "find-other-members-of-the-society",
+          "title": "Find other members of the society",
+          "objectiveAliases": [
+            "Find and talk to Arita",
+            "Find and talk to Traska"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-umbaba-at-amuntas-hideout",
+          "title": "Talk to Umbaba at Amunta's Hideout",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP South > MSQ" ]
+        }
+      ],
+      "routeIndex": 72
+    },
+    {
+      "id": "2102610",
+      "recommendedLevel": 40,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Exiled Ritualist",
+      "aliases": [
+        "Exiled Ritualist"
+      ],
+      "objectiveAliases": [
+        "Talk to Umbaba at Amunta's Hideout"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "prepare-to-rescue-amunta-in-advance",
+          "title": "Prepare to rescue Amunta in advance",
+          "objectiveAliases": [
+            "Defeat {npc:M_D1_EGC_Lycan_01_02}",
+            "Defeat {npc:M_D1_EGC_Lycan_03_02}",
+            "Remove {npc:M_D1_EGC_BCTotemSmall_01_001}",
+            "Defeat Black Claw Guard Troopers Searcher",
+            "Defeat Black Claw Guard Troopers Sentry",
+            "Remove Black Claw Guard Troopers Totem"
+          ],
+          "notes": ["Roof > MSQ"]
+        },
+        {
+          "id": "rescue-amunta-from-the-prisoners-grotto",
+          "title": "Rescue Amunta from the Prisoners Grotto",
+          "objectiveAliases": [
+            "Enter the Prisoners Grotto"
+          ],
+          "notes": [ "MSQ > 3rd Chest from the right" ]
+        },
+        {
+          "id": "talk-to-amunta-at-amuntas-hideout",
+          "title": "Talk to Amunta at Amunta's Hideout",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP North > MSQ" ]
+        }
+      ],
+      "routeIndex": 73
+    },
+    {
+      "id": "2102612",
+      "recommendedLevel": 40,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Healing Herbs",
+      "aliases": [
+        "Healing Herbs"
+      ],
+      "objectiveAliases": [
+        "Talk to Lakiba at Amunta's Hideout"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "collect-herbs-for-treatment",
+          "title": "Collect herbs for treatment",
+          "objectiveAliases": [
+            "Collect herbs from the supplies",
+            "Defeat {npc:M_D1_EGC_BeritraC_01_01}",
+            "Defeat {npc:M_D1_EGC_BeritraC_05_01}"
+          ],
+          "notes": [ "Roof > MSQ" ]
+        },
+        {
+          "id": "talk-to-lakiba-at-amuntas-hideout",
+          "title": "Talk to Lakiba at Amunta's Hideout",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP NorthWest > MSQ" ]
+        }
+      ],
+      "routeIndex": 74
+    },
+    {
+      "id": "2102615",
+      "recommendedLevel": 40,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Treatment",
+      "aliases": [
+        "Treatment"
+      ],
+      "objectiveAliases": [
+        "Talk to Lakiba at Amunta's Hideout"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "treat-the-fallen-daybreak-society-members",
+          "title": "Treat the Fallen Daybreak Society Members",
+          "objectiveAliases": [
+            "Administer herbal medicine to the first member",
+            "Administer herbal medicine to the second member"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-amunta-at-amuntas-hideout",
+          "title": "Talk to Amunta at Amunta's Hideout",
+          "objectiveAliases": [
+            "Talk to Amunta at Amunta's Hideout"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 75
+    },
+    {
+      "id": "2102620",
+      "recommendedLevel": 40,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Symbol of Liberation",
+      "aliases": [
+        "Symbol of Liberation",
+        "Symbol of L...",
+        "Symbol of Li...",
+        "Symbol of Lj..."
+      ],
+      "objectiveAliases": [
+        "Talk to Amunta at Amunta's Hideout"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "collect-materials-to-repair-zemurrus-totem",
+          "title": "Collect materials to repair Zemurru's Totem",
+          "objectiveAliases": [
+            "Search the Pile of Broken Totems",
+            "Collect materials from {npc:M_D1_EGC_DraTotemM_01}",
+            "Retrieve the Drakan Patrol Sorcery Talisman"
+          ],
+          "notes": ["Roof > MSQ"]
+        },
+        {
+          "id": "deliver-totem-restoration-materials-to-amunta",
+          "title": "Deliver totem restoration materials to Amunta",
+          "objectiveAliases": [
+            "Talk to Amunta"
+          ],
+          "notes": ["TP back NorthWest > MSQ"]
+        },
+        {
+          "id": "go-to-the-steel-hammer-temporary-trading-post",
+          "title": "Go to the Steel Hammer Temporary Trading Post",
+          "objectiveAliases": [
+            "Meet with Amunta"
+          ],
+          "notes": ["TP far South > MSQ"]
+        },
+        {
+          "id": "find-materials-necessary-for-infiltration",
+          "title": "Find materials necessary for infiltration",
+          "objectiveAliases": [
+            "Gather materials from the Shulak Cart"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-amunta-at-zemurrus-tomb",
+          "title": "Talk to Amunta at Zemurru's Tomb",
+          "objectiveAliases": [
+            "Talk to Amunta at Zemurru's Tomb"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 76
+    },
+    {
+      "id": "2102650",
+      "recommendedLevel": 41,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Daybreak Society",
+      "aliases": [
+        "Daybreak Society"
+      ],
+      "objectiveAliases": [
+        "Talk to Amunta at Zemurru's Tomb"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "transform-into-a-mau",
+          "title": "Transform into a Mau",
+          "objectiveAliases": [
+            "Talk to Karumba"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "infiltrate-the-black-claw-village",
+          "title": "Infiltrate the Black Claw Village",
+          "objectiveAliases": [
+            "Talk to {npc:N_D1_Q_Barkum_01}",
+            "Talk to {npc:N_D1_Q_Umbanda_01}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "investigate-the-black-claw-village-records",
+          "title": "Investigate the Black Claw Village records",
+          "objectiveAliases": [
+            "Check {env:E_D1_BlackClawReport_001}",
+            "Check {env:E_D1_BlackClawReport_002}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-via-selvis",
+          "title": "Talk to Nemon via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "obtain-additional-information-on-black-claw-village",
+          "title": "Obtain additional information on Black Claw Village",
+          "objectiveAliases": [
+            "Talk to {npc:N_D1_Q_Ubokum_01}",
+            "Check {env:E_D1_BlackClawReport_003}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "investigate-additional-black-claw-village-records",
+          "title": "Investigate additional Black Claw Village records",
+          "objectiveAliases": [
+            "Talk to {npc:N_D1_Q_Chikata_01}",
+            "Check {env:E_D1_BlackClawReport_004}"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "go-to-the-place-nemon-mentioned",
+          "title": "Go to the place Nemon mentioned",
+          "objectiveAliases": [
+            "Go to the Secret Rendezvous Point"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 77
+    },
+    {
+      "id": "2102660",
+      "recommendedLevel": 41,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Daybreak Society Rescue Operation",
+      "aliases": [
+        "Daybreak Society Rescue Operation"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the rendezvous point"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "distract-the-black-claw-soldiers",
+          "title": "Distract the Black Claw soldiers",
+          "objectiveAliases": [
+            "Destroy the Balaur Sacred Totem",
+            "Defeat {npc:M_D1_BCV_KrallWar_03_01}",
+            "Defeat {npc:M_D1_BCV_Tayga_01_01}"
+          ],
+          "notes": ["Kisk SouthWest > Theres an entrance behind small trees SouthEast of Kisk > MSQ"]
+        },
+        {
+          "id": "talk-to-nemon-via-selvis",
+          "title": "Talk to Nemon via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "rescue-the-daybreak-society-member",
+          "title": "Rescue the Daybreak Society member",
+          "objectiveAliases": [
+            "Follow the tracks of the Society Member"
+          ],
+          "notes": ["MSQ > After finishing Instance do: > Kisk SouthEast > TP NorthWest > MSQ > Prepare to take GreenQuests"]
+        }
+      ],
+      "routeIndex": 78
+    },
+    {
+      "id": "2102670",
+      "recommendedLevel": 42,
+      "chapter": "Encountering Zikel's Core",
+      "title": "The Breaking of the Day",
+      "aliases": [
+        "The Breaking of the Day"
+      ],
+      "objectiveAliases": [
+        "Talk to Kumrica at Kumrica's Cellar"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "prepare-to-infiltrate-muqakas-quarters-entry-permit",
+          "title": "Prepare to infiltrate Muqaka's Quarters",
+          "objectiveAliases": [
+            "Collect an entry permit from the supply chest"
+          ],
+          "notes": ["Take GreenQuests > MSQ + GQuest"]
+        },
+        {
+          "id": "prepare-to-infiltrate-muqakas-quarters-materials",
+          "title": "Prepare to infiltrate Muqaka's Quarters",
+          "objectiveAliases": [
+            "Obtain {npc:M_D1_BCV_KrallWar_01_V01_01}'s vambraces",
+            "Obtain {npc:M_D1_BCV_KrallArc_01_V01_01}'s weapon",
+            "Defeat {npc:M_D1_BCV_DranaManduriRanger_01_01}",
+            "Obtain Chief's Bodyguard's vambraces",
+            "Obtain Chief's Sentinel's weapon",
+            "Defeat Black Claw Manduri Scout"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-kumrica-at-kumricas-cellar",
+          "title": "Talk to Kumrica at Kumrica's Cellar",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP NorthEast > MSQ + GQuest" ]
+        }
+      ],
+      "routeIndex": 79
+    },
+    {
+      "id": "2102680",
+      "recommendedLevel": 42,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Chief of the Black Claw",
+      "aliases": [
+        "Chief of the Black Claw"
+      ],
+      "objectiveAliases": [
+        "Talk to Kumrica at Kumrica's Cellar"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "rescue-nemon-at-muqakas-quarters",
+          "title": "Rescue Nemon at Muqaka's Quarters",
+          "objectiveAliases": [
+            "Go to Muqaka's Quarters"
+          ],
+          "notes": [ "Equip Items > MSQ" ]
+        },
+        {
+          "id": "talk-to-kumrica-at-kumricas-cellar",
+          "title": "Talk to Kumrica at Kumrica's Cellar",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP SouthEast > MSQ" ]
+        }
+      ],
+      "routeIndex": 80
+    },
+    {
+      "id": "2102690",
+      "recommendedLevel": 43,
+      "chapter": "Encountering Zikel's Core",
+      "title": "High Priest's Fafnite",
+      "aliases": [
+        "High Priest's Fafnite"
+      ],
+      "objectiveAliases": [
+        "Talk to Kumrica at Kumrica's Cellar"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "receive-transformation-magic-from-kunpata",
+          "title": "Receive transformation magic from Kunpata",
+          "objectiveAliases": [
+            "Talk to Kunpata"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "approach-lagta-fortress",
+          "title": "Approach Lagta Fortress",
+          "objectiveAliases": [
+            "Talk to the Lagta Brigade Sentinel"
+          ],
+          "notes": ["MSQ (Fly West, long Flight)"]
+        },
+        {
+          "id": "go-deeper-into-lagta-fortress",
+          "title": "Go deeper into Lagta Fortress",
+          "objectiveAliases": [
+            "Talk to the Fafnite Storage Watcher"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "find-the-high-priests-fafnite",
+          "title": "Find the High Priest's Fafnite",
+          "objectiveAliases": [
+            "Go to the Fafnite Storage"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "join-nemon-in-front-of-lagta-fortress",
+          "title": "Join Nemon in front of Lagta Fortress",
+          "objectiveAliases": [
+            "Talk to Nemon in front of the fortress"
+          ],
+          "notes": [ "MSQ > After talking TP NorthEast" ]
+        },
+        {
+          "id": "talk-to-nemon-at-zemurru-s-grave",
+          "title": "Talk to Nemon at Zemurru's Grave",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP NorthEast > MSQ" ]
+        }
+      ],
+      "routeIndex": 81
+    },
+    {
+      "id": "2102750",
+      "recommendedLevel": 44,
+      "chapter": "Encountering Zikel's Core",
+      "title": "The High Priest Awakens",
+      "aliases": [
+        "The High Priest Awakens"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at Zemurru's Grave"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "return-to-the-nornir-assembly",
+          "title": "Return to the Nornir Assembly",
+          "objectiveAliases": [
+            "Talk to Urd"
+          ],
+          "notes": ["TP far NorthWest (Nornir) > MSQ"]
+        },
+        {
+          "id": "awaken-the-high-priests-body",
+          "title": "Awaken the High Priest's body",
+          "objectiveAliases": [
+            "Go to Nornir Altar"
+          ],
+          "notes": ["MSQ > Can take Windstream > MSQ"]
+        },
+        {
+          "id": "collect-information-about-the-impetusium",
+          "title": "Collect information about the Impetusium",
+          "objectiveAliases": [
+            "Talk to Nornir Sandre",
+            "Talk to Nornir Oldan"
+          ],
+          "notes": ["TP to the same City > MSQ"]
+        }
+      ],
+      "routeIndex": 82
+    },
+    {
+      "id": "2102760",
+      "recommendedLevel": 44,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Lingering Apparitions",
+      "aliases": [
+        "Lingering Apparitions"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the Nornir Assembly"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "go-to-the-impetusium",
+          "title": "Go to the Impetusium",
+          "objectiveAliases": [
+            "Join Nemon at the Outskirts Stall"
+          ],
+          "notes": ["TP Kisk far South > MSQ"]
+        },
+        {
+          "id": "search-the-apparition-in-the-collapsed-hall-of-fame",
+          "title": "Search the apparition in the Collapsed Hall of Fame",
+          "objectiveAliases": [
+            "Operate the Impetusium Guardstone"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "try-to-speak-with-the-apparitions",
+          "title": "Try to speak with the apparitions",
+          "objectiveAliases": [
+            "Talk to Wiste's Apparition",
+            "Talk to Hort's Apparition",
+            "Talk to Haz's Apparition"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "discuss-the-apparitions-with-nemon",
+          "title": "Discuss the apparitions with Nemon",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "receive-apparitions-approval",
+          "title": "Receive apparition's approval",
+          "objectiveAliases": [
+            "Defeat {npc:M_D1_IS_DracoWar_03_001}",
+            "Defeat {npc:M_D1_IS_Drakan_01_001}",
+            "Defeat {npc:M_D1_IS_Dratona_02_001}",
+            "Recover the remains of the Destruction Archon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-at-the-collapsed-hall-of-fame",
+          "title": "Talk to Nemon at Collapsed Hall of Fame",
+          "objectiveAliases": [
+            "Talk to Nemon at Collapsed Hall of Fame"
+          ],
+          "notes": [ "MSQ" ]
+        }
+      ],
+      "routeIndex": 83
+    },
+    {
+      "id": "2102770",
+      "recommendedLevel": 44,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Blood Barrier",
+      "aliases": [
+        "Blood Barrier"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at Collapsed Hall of Fame"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "ask-about-the-blood-barrier",
+          "title": "Ask about the Blood Barrier",
+          "objectiveAliases": [
+            "Talk to Hort's Apparition",
+            "Talk to Wiste's Apparition"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "investigate-other-apparitions",
+          "title": "Investigate other Apparitions",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "weaken-the-subspace-aura",
+          "title": "Weaken the Subspace Aura",
+          "objectiveAliases": [
+            "Destroy the Incomplete Subspace Rift",
+            "Defeat {npc:M_D1_IS_FafBlood_02_CV01_001}",
+            "Defeat the Balaur Dispatch"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-nemon-at-the-collapsed-hall-of-fame",
+          "title": "Talk to Nemon at the Collapsed Hall of Fame",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP NorthWest > MSQ" ]
+        }
+      ],
+      "routeIndex": 84
+    },
+    {
+      "id": "2102780",
+      "recommendedLevel": 45,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Zikel's Core",
+      "aliases": [
+        "Zikel's Core"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at Collapsed Hall of Fame"
+      ],
+      "notes": [ "MSQ" ],
+      "steps": [
+        {
+          "id": "share-information-with-other-apparitions",
+          "title": "Share information with other apparitions",
+          "objectiveAliases": [
+            "Talk to Hort's Apparition"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "acquire-the-empyrean-core",
+          "title": "Acquire the Empyrean Core",
+          "objectiveAliases": [
+            "Enter the Impetusium"
+          ],
+          "notes": ["If 45 Take GreenQuest SouthWest > MSQ"]
+        },
+        {
+          "id": "join-with-nemon-outside-the-impetusium",
+          "title": "Join with Nemon outside the Impetusium",
+          "objectiveAliases": [
+            "Go to the outskirts of the Impetusium"
+          ],
+          "notes": ["Fly rightside > Do GreenQuest > Do ? next to the GQ-Dungeon > From inside TP far South (Outskirts Stall) > GQuest > MSQ"]
+        }
+      ],
+      "routeIndex": 85
+    },
+    {
+      "id": "2102781",
+      "recommendedLevel": 45,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Farewells",
+      "aliases": [
+        "Farewells"
+      ],
+      "objectiveAliases": [
+        "Talk to Nemon at the outskirts of the Impetusium"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "return-to-urd",
+          "title": "Return to Urd",
+          "objectiveAliases": [
+            "Go to Nornir Assembly"
+          ],
+          "notes": ["TP far North (Nornir)"]
+        },
+        {
+          "id": "talk-to-urd-at-nornir-assembly",
+          "title": "Talk to Urd at Nornir Assembly",
+          "objectiveAliases": [
+            "Deliver the news to Urd"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "discuss-future-plans-with-nemon",
+          "title": "Discuss future plans With Nemon",
+          "objectiveAliases": [
+            "Talk to Nemon"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "bid-farewell-at-the-nornir-assembly",
+          "title": "Bid farewell at the Nornir Assembly",
+          "objectiveAliases": [
+            "Talk to Hallina"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "bid-farewell-at-the-steel-hammer-merchants",
+          "title": "Bid farewell at the Steel Hammer Merchants",
+          "objectiveAliases": [
+            "Talk to Crobakhi"
+          ],
+          "notes": ["TP SouthEast > MSQ"]
+        },
+        {
+          "id": "bid-farewell-at-the-quai-campsite",
+          "title": "Bid farewell at the Quai Campsite",
+          "titleAliases": [
+            "Bid farewell at the Qual"
+          ],
+          "objectiveAliases": [
+            "Talk to Baba"
+          ],
+          "notes": ["TP far NorthWest (Quai Campsite) > MSQ"]
+        },
+        {
+          "id": "bid-farewell-at-safe-haven",
+          "title": "Bid farewell at Safe Haven",
+          "objectiveAliases": [
+            "Talk to Hadala"
+          ],
+          "notes": ["TP North (SafeHaven) > MSQ"]
+        },
+        {
+          "id": "talk-to-nemon-via-selvis",
+          "title": "Talk to Nemon via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": [ "MSQ" ]
+        },
+        {
+          "id": "talk-to-menrik-at-the-fang-hideout",
+          "title": "Talk to Menrik at the Fang Hideout",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "TP SouthWest > MSQ" ]
+        }
+      ],
+      "routeIndex": 86
+    },
+    {
+      "id": "2102800",
+      "recommendedLevel": 45,
+      "chapter": "Encountering Zikel's Core",
+      "title": "Forgotten Commander",
+      "aliases": [
+        "Forgotten Commander"
+      ],
+      "objectiveAliases": [
+        "Talk to Menrik at Fang Hideout"
+      ],
+      "notes": ["MSQ"],
+      "steps": [
+        {
+          "id": "receive-briefing-at-the-draupnir-entrance",
+          "title": "Receive briefing at the Draupnir Entrance",
+          "objectiveAliases": [
+            "Talk to Kiara"
+          ],
+          "notes": ["TP Far SouthEast > MSQ"]
+        },
+        {
+          "id": "investigate-draupnir",
+          "title": "Investigate Draupnir",
+          "objectiveAliases": [
+            "Investigate Draupnir"
+          ],
+          "notes": ["MSQ > Do Draupnir"]
+        },
+        {
+          "id": "report-the-findings-from-draupnir-investigation",
+          "title": "Report the findings from Draupnir investigation",
+          "objectiveAliases": [
+            "Talk to Kiara"
+          ],
+          "notes": ["MSQ"]
+        },
+        {
+          "id": "receive-briefing-in-front-of-the-abyss-portal",
+          "title": "Receive briefing in front of the Abyss Portal",
+          "objectiveAliases": [
+            "Talk to Ivar"
+          ],
+          "notes": [ "TP North or Fly  > MSQ" ]
+        },
+        {
+          "id": "talk-to-koro-at-abyss-base",
+          "title": "Talk to Koro at the Abyss Base",
+          "objectiveAliases": [
+            ""
+          ],
+          "notes": [ "Enter Abyss > MSQ > Equip Weapon > Fill RedBar and enjoy > Guide is over." ]
+        }
+      ],
+      "routeIndex": 87
+    }
+  ]
+}

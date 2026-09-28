@@ -1,0 +1,72 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <!-- Retain WPF's Track and commands so wheel, dragging and page clicks behave normally. -->
+    <Style x:Key="ScrollPage" TargetType="RepeatButton">
+        <Setter Property="Focusable" Value="False"/>
+        <Setter Property="IsTabStop" Value="False"/>
+        <Setter Property="Template">
+            <Setter.Value><ControlTemplate TargetType="RepeatButton">
+                <Border Background="Transparent"/>
+            </ControlTemplate></Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="ScrollThumb" TargetType="Thumb">
+        <Setter Property="MinHeight" Value="28"/>
+        <Setter Property="MinWidth" Value="6"/>
+        <Setter Property="Template">
+            <Setter.Value><ControlTemplate TargetType="Thumb">
+                <Border x:Name="Grip" Background="#526278" CornerRadius="4" Margin="4,2"/>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Grip" Property="Background" Value="#8295B0"/></Trigger>
+                    <Trigger Property="IsDragging" Value="True"><Setter TargetName="Grip" Property="Background" Value="#8BB7FF"/></Trigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate></Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="ScrollBar"><Style.Resources><sys:Double x:Key="{x:Static SystemParameters.VerticalScrollBarButtonHeightKey}">56</sys:Double><sys:Double x:Key="{x:Static SystemParameters.HorizontalScrollBarButtonWidthKey}">56</sys:Double></Style.Resources>
+        <Setter Property="Width" Value="14"/>
+        <Setter Property="MinWidth" Value="14"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Stylus.IsPressAndHoldEnabled" Value="False"/>
+        <Setter Property="Template">
+            <Setter.Value><ControlTemplate TargetType="ScrollBar">
+                <Grid Background="{TemplateBinding Background}">
+                    <Track x:Name="PART_Track" IsDirectionReversed="True" IsEnabled="{TemplateBinding IsEnabled}">
+                        <Track.DecreaseRepeatButton><RepeatButton Command="ScrollBar.PageUpCommand" Style="{StaticResource ScrollPage}"/></Track.DecreaseRepeatButton>
+                        <Track.Thumb><Thumb Style="{StaticResource ScrollThumb}"/></Track.Thumb>
+                        <Track.IncreaseRepeatButton><RepeatButton Command="ScrollBar.PageDownCommand" Style="{StaticResource ScrollPage}"/></Track.IncreaseRepeatButton>
+                    </Track>
+                </Grid>
+            </ControlTemplate></Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Orientation" Value="Horizontal">
+                <Setter Property="Width" Value="Auto"/>
+                <Setter Property="MinWidth" Value="0"/>
+                <Setter Property="Height" Value="14"/>
+                <Setter Property="Template">
+                    <Setter.Value><ControlTemplate TargetType="ScrollBar">
+                        <Grid Background="{TemplateBinding Background}">
+                            <Track x:Name="PART_Track" IsDirectionReversed="False" IsEnabled="{TemplateBinding IsEnabled}">
+                                <Track.DecreaseRepeatButton><RepeatButton Command="ScrollBar.PageLeftCommand" Style="{StaticResource ScrollPage}"/></Track.DecreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb MinWidth="28">
+                                        <Thumb.Template><ControlTemplate TargetType="Thumb">
+                                            <Border x:Name="Grip" Background="#526278" CornerRadius="4" Margin="2,4"/>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Grip" Property="Background" Value="#8295B0"/></Trigger>
+                                                <Trigger Property="IsDragging" Value="True"><Setter TargetName="Grip" Property="Background" Value="#8BB7FF"/></Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate></Thumb.Template>
+                                    </Thumb>
+                                </Track.Thumb>
+                                <Track.IncreaseRepeatButton><RepeatButton Command="ScrollBar.PageRightCommand" Style="{StaticResource ScrollPage}"/></Track.IncreaseRepeatButton>
+                            </Track>
+                        </Grid>
+                    </ControlTemplate></Setter.Value>
+                </Setter>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False"><Setter Property="Opacity" Value="0.35"/></Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

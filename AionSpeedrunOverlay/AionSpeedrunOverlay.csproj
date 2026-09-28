@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <ApplicationIcon>Assets\aion-penguin.ico</ApplicationIcon>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>  
+    <Version>0.1.0-beta.8</Version>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.8</FileVersion>
+    <InformationalVersion>0.1.0-beta.8</InformationalVersion>
+  </PropertyGroup>
+
+<ItemGroup>
+    <Resource Include="Assets\aion-penguin.png"/>
+    <Resource Include="Assets\aion-penguin.ico"/>
+	<Content Include="Data\**\*">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="tessdata\**\*">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenCvSharp4" Version="4.13.0.20260627" />
+    <PackageReference Include="OpenCvSharp4.Extensions" Version="4.13.0.20260627" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.13.0.20260627" />
+    <PackageReference Include="Tesseract" Version="5.2.0" />
+  </ItemGroup>
+
+  <!--
+    The Tesseract wrapper resolves its native DLLs relative to the physical
+    Tesseract.dll location. Keep that small dependency group outside the
+    single-file bundle while bundling the remaining managed/runtime files.
+  -->
+  <Target Name="KeepTesseractFilesOutsideSingleFile"
+          BeforeTargets="GenerateSingleFileBundle"
+          DependsOnTargets="PrepareForBundle"
+          Condition="'$(PublishSingleFile)' == 'true'">
+    <ItemGroup>
+      <ExternalTesseractAssembly Include="@(FilesToBundle)"
+                                 Condition="'%(FilesToBundle.RelativePath)' == 'Tesseract.dll'" />
+      <ExternalTesseractNative Include="@(FilesToBundle)"
+                               Condition="$([System.String]::Copy('%(FilesToBundle.RelativePath)').StartsWith('x64'))" />
+      <UnusedSingleFileAsset Include="@(FilesToBundle)"
+                             Condition="$([System.String]::Copy('%(FilesToBundle.RelativePath)').StartsWith('x86')) Or $([System.String]::Copy('%(FilesToBundle.Filename)').StartsWith('opencv_videoio_ffmpeg'))" />
+      <FilesToBundle Remove="@(ExternalTesseractAssembly)" />
+      <FilesToBundle Remove="@(ExternalTesseractNative)" />
+      <FilesToBundle Remove="@(UnusedSingleFileAsset)" />
+    </ItemGroup>
+    <MakeDir Directories="$(PublishDir)\x64" />
+    <Copy SourceFiles="@(ExternalTesseractAssembly)"
+          DestinationFolder="$(PublishDir)" />
+    <Copy SourceFiles="@(ExternalTesseractNative)"
+          DestinationFolder="$(PublishDir)\x64" />
+  </Target>
+
+</Project>

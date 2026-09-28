@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AionSpeedrunOverlay/AionSpeedrunOverlay.csproj" />
+  <Project Path="AionSpeedrunOverlay.QuestSmoke/AionSpeedrunOverlay.QuestSmoke.csproj" />
+</Solution>

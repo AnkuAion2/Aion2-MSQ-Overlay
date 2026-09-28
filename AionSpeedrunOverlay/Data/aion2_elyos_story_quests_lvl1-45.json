@@ -1,0 +1,3965 @@
+{
+  "schemaVersion": 2,
+  "game": "AION 2",
+  "race": "Elyos",
+  "status": "experimental",
+  "maxRecommendedLevel": 45,
+  "source": {
+    "database": "Aion2t / Aion2.app",
+    "url": "https://aion2.app/db/quests?race=Light&type=Hero",
+    "retrievedAtUtc": "2026-09-27T22:02:29.702767+00:00",
+    "note": "English public Story detail pages; names, levels, objectives and steps only. No live-client validation. Step IDs are locally generated stable slugs; do not regenerate published IDs without migration."
+  },
+  "quests": [
+    {
+      "id": "1100010",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 1,
+      "allowWithoutLevel": true,
+      "chapter": "Ishtar's Castle",
+      "title": "Poeta",
+      "aliases": [
+        "Poeta"
+      ],
+      "objectiveAliases": [
+        "Infiltrate Ishtar Castle"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "escape-ishtar-castle",
+          "title": "Escape Ishtar Castle",
+          "objectiveAliases": [
+            "Leave the Castle"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-a-safe-place-to-hide",
+          "title": "Find a safe place to hide",
+          "objectiveAliases": [
+            "Go to the Dawn Legion Forward Base"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1100010",
+      "routeIndex": 1
+    },
+    {
+      "id": "1101010",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 2,
+      "allowWithoutLevel": false,
+      "chapter": "Island of Death, Poeta",
+      "title": "The Approaching Dawn",
+      "aliases": [
+        "The Approaching Dawn"
+      ],
+      "objectiveAliases": [
+        "Talk to Silvar at the Dawn Legion Forward Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "have-your-identity-verified-by-nania",
+          "title": "Have your identity verified by Nania",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        },
+        {
+          "id": "check-physical-condition",
+          "title": "Check physical condition",
+          "objectiveAliases": [
+            "Talk to Eaetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "remember-the-dawn-legion-forward-base",
+          "title": "Remember the Dawn Legion Forward Base",
+          "objectiveAliases": [
+            "Bind with the Kibelisk"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1101010",
+      "routeIndex": 2
+    },
+    {
+      "id": "1101011",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 2,
+      "allowWithoutLevel": false,
+      "chapter": "Island of Death, Poeta",
+      "title": "Making Yourself Useful",
+      "aliases": [
+        "Making Yourself Useful"
+      ],
+      "objectiveAliases": [
+        "Talk to Eaetos at the Dawn Legion Forward Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "find-somebody-to-help",
+          "title": "Find somebody to help",
+          "objectiveAliases": [
+            "Talk to Robin"
+          ],
+          "notes": []
+        },
+        {
+          "id": "receive-the-gear",
+          "title": "Receive the gear",
+          "objectiveAliases": [
+            "Talk to Arisel"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-gear-in-the-supply-chest",
+          "title": "Find gear in the Supply Chest",
+          "objectiveAliases": [
+            "Find useful gear"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1101011",
+      "routeIndex": 3
+    },
+    {
+      "id": "1101012",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 3,
+      "allowWithoutLevel": false,
+      "chapter": "Island of Death, Poeta",
+      "title": "Lost Supplies",
+      "aliases": [
+        "Lost Supplies"
+      ],
+      "objectiveAliases": [
+        "Talk to Arisel at the Dawn Legion Forward Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "talk-to-robin-via-selvis",
+          "title": "Talk to Robin via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "search-daminu-forest-with-robin",
+          "title": "Search Daminu Forest with Robin",
+          "objectiveAliases": [
+            "Talk to Robin"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1101012",
+      "routeIndex": 4
+    },
+    {
+      "id": "1101018",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 4,
+      "allowWithoutLevel": false,
+      "chapter": "Island of Death, Poeta",
+      "title": "Withered Tree Daminu",
+      "aliases": [
+        "Withered Tree Daminu"
+      ],
+      "objectiveAliases": [
+        "Talk to Nania at the Dawn Legion Forward Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "hear-the-scout-s-report",
+          "title": "Hear the scout's report",
+          "objectiveAliases": [
+            "Talk to Ryan"
+          ],
+          "notes": []
+        },
+        {
+          "id": "clear-the-path-to-the-lake",
+          "title": "Clear the path to the lake",
+          "objectiveAliases": [
+            "Defeat Dratona in the forest"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-the-scout-searching-the-area-nearby",
+          "title": "Find the scout searching the area nearby",
+          "objectiveAliases": [
+            "Talk to Arno"
+          ],
+          "notes": []
+        },
+        {
+          "id": "defeat-the-watchers-at-clione-lake",
+          "title": "Defeat the watchers at Clione Lake",
+          "objectiveAliases": [
+            "Destroy Balaur Watchstone",
+            "Defeat nearby Draconute"
+          ],
+          "notes": []
+        },
+        {
+          "id": "go-to-the-lake-protected-by-the-elim",
+          "title": "Go to the lake protected by the Elim",
+          "objectiveAliases": [
+            "Take the path toward the forest"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1101018",
+      "routeIndex": 5
+    },
+    {
+      "id": "1101020",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 5,
+      "allowWithoutLevel": false,
+      "chapter": "Island of Death, Poeta",
+      "title": "The Power in the Lake",
+      "aliases": [
+        "The Power in the Lake"
+      ],
+      "objectiveAliases": [
+        "Talk to Daminu at Daminu Forest"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "enter-clione-lake-cave",
+          "title": "Enter Clione Lake Cave",
+          "objectiveAliases": [
+            "Investigate the cave"
+          ],
+          "notes": []
+        },
+        {
+          "id": "awaken-your-daeva-power-within-the-dream",
+          "title": "Awaken your Daeva power within the dream",
+          "objectiveAliases": [
+            "Arrive in Ascension Subspace"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1101020",
+      "routeIndex": 6
+    },
+    {
+      "id": "1101021",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 5,
+      "allowWithoutLevel": false,
+      "chapter": "Island of Death, Poeta",
+      "title": "Fledgling Wings",
+      "aliases": [
+        "Fledgling Wings"
+      ],
+      "objectiveAliases": [
+        "Talk to Asahr in Ascension Subspace"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "complete-your-ascension-as-a-daeva",
+          "title": "Complete your ascension as a Daeva",
+          "objectiveAliases": [
+            "The One Who Perceives Complete"
+          ],
+          "notes": []
+        },
+        {
+          "id": "inform-daminu-of-your-ascension",
+          "title": "Inform Daminu of your ascension",
+          "objectiveAliases": [
+            "Go to Daminu"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1101021",
+      "routeIndex": 7
+    },
+    {
+      "id": "1101030",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 6,
+      "allowWithoutLevel": false,
+      "chapter": "Island of Death, Poeta",
+      "title": "Shattered Sky Island",
+      "aliases": [
+        "Shattered Sky Island"
+      ],
+      "objectiveAliases": [
+        "Talk to Nania at the Dawn Legion Forward Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "meet-nania-in-front-of-the-updraft",
+          "title": "Meet Nania in front of the Updraft",
+          "objectiveAliases": [
+            "Go to the Updraft"
+          ],
+          "notes": []
+        },
+        {
+          "id": "learn-about-the-updraft",
+          "title": "Learn about the Updraft",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        },
+        {
+          "id": "search-the-sky-island-with-nania",
+          "title": "Search the sky island with Nania",
+          "objectiveAliases": [
+            "Ride the Updraft to the sky island"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1101030",
+      "routeIndex": 8
+    },
+    {
+      "id": "1101040",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 7,
+      "allowWithoutLevel": false,
+      "chapter": "Island of Death, Poeta",
+      "title": "Search Preparation",
+      "aliases": [
+        "Search Preparation"
+      ],
+      "objectiveAliases": [
+        "Talk to Nania at the Dawn Legion Forward Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "seize-the-base-in-front-of-migzatu-brigade-supply-depot",
+          "title": "Seize the base in front of Migzatu Brigade Supply Depot",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1101040",
+      "routeIndex": 9
+    },
+    {
+      "id": "1101050",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 8,
+      "allowWithoutLevel": false,
+      "chapter": "Island of Death, Poeta",
+      "title": "Drakana Heist",
+      "aliases": [
+        "Drakana Heist"
+      ],
+      "objectiveAliases": [
+        "Talk to Nania at Migzatu Brigade Supply Depot"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "search-inside-the-brigade-supply-depot",
+          "title": "Search inside the Brigade Supply Depot",
+          "objectiveAliases": [
+            "Investigate the Brigade Supply Depot"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1101050",
+      "routeIndex": 10
+    },
+    {
+      "id": "1101070",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 9,
+      "allowWithoutLevel": false,
+      "chapter": "Island of Death, Poeta",
+      "title": "Brigade Base Neutralization",
+      "aliases": [
+        "Brigade Base Neutralization"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid at the Dawn Legion Forward Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "infiltrate-migzatu-brigade-base",
+          "title": "Infiltrate Migzatu Brigade Base",
+          "objectiveAliases": [
+            "Go to the brigade base"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1101070",
+      "routeIndex": 11
+    },
+    {
+      "id": "1102010",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 10,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Dawn Legion",
+      "aliases": [
+        "Dawn Legion"
+      ],
+      "objectiveAliases": [
+        "Wake up in the Dawn Legion Recovery Room"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "wake-up-in-the-recovery-room",
+          "title": "Wake up in the recovery room",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        },
+        {
+          "id": "meet-the-dawn-legion-commander",
+          "title": "Meet the Dawn Legion Commander",
+          "objectiveAliases": [
+            "Go to Caelid's Office"
+          ],
+          "notes": []
+        },
+        {
+          "id": "ask-shuron-for-supplies",
+          "title": "Ask Shuron for supplies",
+          "objectiveAliases": [
+            "Talk to Shuron"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102010",
+      "routeIndex": 12
+    },
+    {
+      "id": "1102011",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 10,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "All Geared Up",
+      "aliases": [
+        "All Geared Up"
+      ],
+      "objectiveAliases": [
+        "Talk to Nania at Dawn Legion Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "repair-the-selvis",
+          "title": "Repair the Selvis",
+          "objectiveAliases": [
+            "Talk to Etezia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "accept-nania-s-call",
+          "title": "Accept Nania's call",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102011",
+      "routeIndex": 13
+    },
+    {
+      "id": "1102020",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 11,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Odyle Collection",
+      "aliases": [
+        "Odyle Collection"
+      ],
+      "objectiveAliases": [
+        "Talk to Kaidros at Dawn Legion Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "meet-nania-at-valley-outpost",
+          "title": "Meet Nania at Valley Outpost",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        },
+        {
+          "id": "collect-the-odyle",
+          "title": "Collect the Odyle",
+          "objectiveAliases": [
+            "Collect Odyle from the Western Odyle Collector",
+            "Defeat Kalgolem"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102020",
+      "routeIndex": 14
+    },
+    {
+      "id": "1102030",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 11,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Bird's-eye View",
+      "aliases": [
+        "Bird's-eye View"
+      ],
+      "objectiveAliases": [
+        "Talk to Gabru at the Cantas Valley Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "report-the-situation-to-nania",
+          "title": "Report the situation to Nania",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "check-the-situation-at-cantas-valley",
+          "title": "Check the situation at Cantas Valley",
+          "objectiveAliases": [
+            "Find Lebronus"
+          ],
+          "notes": []
+        },
+        {
+          "id": "go-to-the-sky-island",
+          "title": "Go to the Sky Island",
+          "objectiveAliases": [
+            "Use the Updraft"
+          ],
+          "notes": []
+        },
+        {
+          "id": "go-to-the-sky-island-2",
+          "title": "Go to the Sky Island",
+          "objectiveAliases": [
+            "Go to Nania"
+          ],
+          "notes": []
+        },
+        {
+          "id": "share-the-state-of-the-valley",
+          "title": "Share the state of the valley",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        },
+        {
+          "id": "go-to-the-coastal-camp-to-find-luteros",
+          "title": "Go to the Coastal Camp to find Luteros",
+          "objectiveAliases": [
+            "Go to the Coastal Camp"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Go to the Coastai Camp to find Luteros"
+          ]
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102030",
+      "routeIndex": 15
+    },
+    {
+      "id": "1102040",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 12,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Valley of Hope",
+      "aliases": [
+        "Valley of Hope"
+      ],
+      "objectiveAliases": [
+        "Talk to Luteros at the Coastal Camp"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "go-to-the-coastal-cave-with-luteros",
+          "title": "Go to the Coastal Cave with Luteros",
+          "objectiveAliases": [
+            "Go to the Coastal Cave"
+          ],
+          "notes": []
+        },
+        {
+          "id": "investigate-the-coastal-cave",
+          "title": "Investigate the Coastal Cave",
+          "objectiveAliases": [
+            "Examine the barrierstone in front of the Coastal Cave"
+          ],
+          "notes": []
+        },
+        {
+          "id": "leave-to-report",
+          "title": "Leave to report",
+          "objectiveAliases": [
+            "Escape from the Coastal Cave"
+          ],
+          "notes": []
+        },
+        {
+          "id": "report-the-situation-to-nania",
+          "title": "Report the situation to Nania",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102040",
+      "routeIndex": 16
+    },
+    {
+      "id": "1102050",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 12,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Soaring Free",
+      "aliases": [
+        "Soaring Free"
+      ],
+      "objectiveAliases": [
+        "Talk to Nania at the Coastal Camp"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "help-nania",
+          "title": "Help Nania",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        },
+        {
+          "id": "prepare-the-funeral",
+          "title": "Prepare the funeral",
+          "objectiveAliases": [
+            "Collect the feathers from the Crestlich Nest"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102050",
+      "routeIndex": 17
+    },
+    {
+      "id": "1102060",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 13,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Visions in Smoke",
+      "aliases": [
+        "Visions in Smoke"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid at Dawn Legion Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "attend-perion-s-funeral",
+          "title": "Attend Perion's funeral",
+          "objectiveAliases": [
+            "Ride the Windstream to the funeral site"
+          ],
+          "notes": []
+        },
+        {
+          "id": "receive-an-invitation-from-the-dream",
+          "title": "Receive an invitation from the dream",
+          "objectiveAliases": [
+            "Enter Dream Crossroad"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102060",
+      "routeIndex": 18
+    },
+    {
+      "id": "1102070",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 13,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Illusion Cavaliers",
+      "aliases": [
+        "Illusion Cavaliers"
+      ],
+      "objectiveAliases": [
+        "Talk to Asahr at Dream Crossroad"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "listen-to-asahr-s-advice",
+          "title": "Listen to Asahr's advice",
+          "objectiveAliases": [
+            "Talk to Asahr"
+          ],
+          "notes": []
+        },
+        {
+          "id": "wake-up-in-the-recovery-room",
+          "title": "Wake up in the Recovery Room",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        },
+        {
+          "id": "attend-the-dawn-legion-meeting",
+          "title": "Attend the Dawn Legion meeting",
+          "objectiveAliases": [
+            "Go to Caelid's Office"
+          ],
+          "notes": []
+        },
+        {
+          "id": "ask-about-the-spirit-fruit",
+          "title": "Ask about the Spirit Fruit",
+          "objectiveAliases": [
+            "Talk to Dakian"
+          ],
+          "notes": []
+        },
+        {
+          "id": "share-information-with-hithanya",
+          "title": "Share information with Hithanya",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-illusion-cavalier-rohin",
+          "title": "Find Illusion Cavalier Rohin",
+          "objectiveAliases": [
+            "Talk to Rohin"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-rohin-s-supplies",
+          "title": "Find Rohin's supplies",
+          "objectiveAliases": [
+            "Investigate Ugaros Thieves Campsite"
+          ],
+          "notes": []
+        },
+        {
+          "id": "deliver-the-supplies-to-rohin",
+          "title": "Deliver the supplies to Rohin",
+          "objectiveAliases": [
+            "Talk to Rohin"
+          ],
+          "notes": []
+        },
+        {
+          "id": "gather-materials-needed-for-altar-restoration",
+          "title": "Gather materials needed for altar restoration",
+          "objectiveAliases": [
+            "Collect Odylium Fragment from nearby creatures"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102070",
+      "routeIndex": 19
+    },
+    {
+      "id": "1102080",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 14,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Collapsed Barrier Tower",
+      "aliases": [
+        "Collapsed Barrier Tower"
+      ],
+      "objectiveAliases": [
+        "Talk to Rohin at the Eastern Cantas Campsite"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "join-hithanya-at-the-marsh",
+          "title": "Join Hithanya at the Marsh",
+          "objectiveAliases": [
+            "Talk to Hithanya"
+          ],
+          "notes": []
+        },
+        {
+          "id": "discuss-the-situation",
+          "title": "Discuss the situation",
+          "objectiveAliases": [
+            "Talk to Hithanya"
+          ],
+          "notes": []
+        },
+        {
+          "id": "retrieve-the-odyle-shard-and-clear-the-coast",
+          "title": "Retrieve the Odyle Shard and clear the coast",
+          "objectiveAliases": [
+            "Retrieve the Odyle Shard from the chest",
+            "Defeat Coastal Zelophi",
+            "Defeat Marsh Vine Spirit"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102080",
+      "routeIndex": 20
+    },
+    {
+      "id": "1102090",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 15,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Rampaging Spirits",
+      "aliases": [
+        "Rampaging Spirits"
+      ],
+      "objectiveAliases": [
+        "Talk to Ione at the Collapsed Barrier Tower"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "calm-the-contaminated-marsh-spirit",
+          "title": "Calm the Contaminated Marsh Spirit",
+          "objectiveAliases": [
+            "Remove the Rift Aura"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102090",
+      "routeIndex": 21
+    },
+    {
+      "id": "1102100",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 16,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Beyond Etheria",
+      "aliases": [
+        "Beyond Etheria"
+      ],
+      "objectiveAliases": [
+        "Talk to Ione at the Collapsed Barrier Tower"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "go-to-spirit-s-rest-with-ione",
+          "title": "Go to Spirit's Rest with Ione",
+          "objectiveAliases": [
+            "Go to Spirit's Rest"
+          ],
+          "notes": []
+        },
+        {
+          "id": "discuss-a-solution",
+          "title": "Discuss a solution",
+          "objectiveAliases": [
+            "Talk to Ione"
+          ],
+          "notes": []
+        },
+        {
+          "id": "rescue-laveis-from-etheria-rift",
+          "title": "Rescue Laveis from Etheria Rift",
+          "objectiveAliases": [
+            "Enter the Etheria Rift"
+          ],
+          "notes": []
+        },
+        {
+          "id": "return-to-spirit-s-rest",
+          "title": "Return to Spirit's Rest",
+          "objectiveAliases": [
+            "Go to Luteros"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102100",
+      "routeIndex": 22
+    },
+    {
+      "id": "1102110",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 16,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Undying Light",
+      "aliases": [
+        "Undying Light"
+      ],
+      "objectiveAliases": [
+        "Talk to Laveis at Spirit's Rest"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "collect-the-materials-to-close-the-rift-fissure",
+          "title": "Collect the materials to close the rift fissure",
+          "objectiveAliases": [
+            "Collect the Odyle Energy from the spirits"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Coiiect the materiais to ciose the rift fissure"
+          ]
+        },
+        {
+          "id": "close-the-rift-fissure",
+          "title": "Close the rift fissure",
+          "objectiveAliases": [
+            "Interact with the rift fissure"
+          ],
+          "notes": []
+        },
+        {
+          "id": "share-the-results",
+          "title": "Share the results",
+          "objectiveAliases": [
+            "Talk to Laveis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "share-thoughts-with-luteros",
+          "title": "Share thoughts with Luteros",
+          "objectiveAliases": [
+            "Talk to Luteros"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102110",
+      "routeIndex": 23
+    },
+    {
+      "id": "1102120",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 16,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Awakened Hope",
+      "aliases": [
+        "Awakened Hope"
+      ],
+      "objectiveAliases": [
+        "Talk to Hithanya at the Marsh Outpost"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "deliver-the-spirit-fruit-to-caelid",
+          "title": "Deliver the Spirit Fruit to Caelid",
+          "objectiveAliases": [
+            "Go to Caelid's Office"
+          ],
+          "notes": []
+        },
+        {
+          "id": "follow-caelid-s-instruction",
+          "title": "Follow Caelid's instruction",
+          "objectiveAliases": [
+            "Go outside the office"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102120",
+      "routeIndex": 24
+    },
+    {
+      "id": "1102125",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 16,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Empyrean Monolith",
+      "aliases": [
+        "Empyrean Monolith"
+      ],
+      "objectiveAliases": [
+        "Talk to Luteros at Dawn Legion Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "find-jackson-near-the-monolith",
+          "title": "Find Jackson near the Monolith",
+          "objectiveAliases": [
+            "Talk to Jackson"
+          ],
+          "notes": []
+        },
+        {
+          "id": "obtain-empyrean-trace-verteron",
+          "title": "Obtain Empyrean Trace: Verteron",
+          "objectiveAliases": [
+            "Interact with Empyrean Trace: Verteron"
+          ],
+          "notes": []
+        },
+        {
+          "id": "obtain-empyrean-trace-verteron-2",
+          "title": "Obtain Empyrean Trace: Verteron",
+          "objectiveAliases": [
+            "Obtained Empyrean Trace: Verteron"
+          ],
+          "notes": []
+        },
+        {
+          "id": "resonate-with-the-monolith-using-empyrean-trace",
+          "title": "Resonate with the Monolith using Empyrean Trace",
+          "objectiveAliases": [
+            "Interact with the Monolith"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-about-the-rewards",
+          "title": "Talk about the rewards",
+          "objectiveAliases": [
+            "Talk to Jackson"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102125",
+      "routeIndex": 25
+    },
+    {
+      "id": "1102130",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 16,
+      "allowWithoutLevel": false,
+      "chapter": "Dreaming of Paradise",
+      "title": "Renewed Resolve",
+      "aliases": [
+        "Renewed Resolve"
+      ],
+      "objectiveAliases": [
+        "Talk to Luteros at Dawn Legion Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "join-the-dawn-legion",
+          "title": "Join the Dawn Legion",
+          "objectiveAliases": [
+            "Go to Caelid's Office"
+          ],
+          "notes": []
+        },
+        {
+          "id": "receive-luteros-s-blessing",
+          "title": "Receive Luteros's blessing",
+          "objectiveAliases": [
+            "Talk to Luteros"
+          ],
+          "notes": []
+        },
+        {
+          "id": "assemble-with-the-dawn-legion",
+          "title": "Assemble with the Dawn Legion",
+          "objectiveAliases": [
+            "Go to Dawn Legion Command Post"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102130",
+      "routeIndex": 26
+    },
+    {
+      "id": "1102140",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 18,
+      "allowWithoutLevel": false,
+      "chapter": "Searching for High Priestess Reda",
+      "title": "A Gesture of Sincerity",
+      "aliases": [
+        "A Gesture of Sincerity"
+      ],
+      "objectiveAliases": [
+        "Talk to Hepallin at Dawn Legion Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "prepare-a-gift-for-the-illusion-mage",
+          "title": "Prepare a gift for the Illusion Mage",
+          "objectiveAliases": [
+            "Collect Hungry Brax Leather"
+          ],
+          "notes": []
+        },
+        {
+          "id": "meet-the-illusion-mage",
+          "title": "Meet the Illusion Mage",
+          "objectiveAliases": [
+            "Talk to Cecilia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "meet-cecilia-s-demands",
+          "title": "Meet Cecilia's demands",
+          "objectiveAliases": [
+            "Close the rift fissure in the water",
+            "Defeat the Kailin by the river"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102140",
+      "routeIndex": 27
+    },
+    {
+      "id": "1102150",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 19,
+      "allowWithoutLevel": false,
+      "chapter": "Searching for High Priestess Reda",
+      "title": "Transformation Prep",
+      "aliases": [
+        "Transformation Prep"
+      ],
+      "objectiveAliases": [
+        "Talk to Cecilia at the hideout in front of the ruins"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "listen-to-phernos-and-caelid",
+          "title": "Listen to Phernos and Caelid",
+          "objectiveAliases": [
+            "Talk to Phernos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "collect-the-transformation-materials",
+          "title": "Collect the transformation materials",
+          "objectiveAliases": [
+            "Collect the Kobold Shoes",
+            "Collect the Kobold Spare Clothes",
+            "Collect the Kobold Diary"
+          ],
+          "notes": []
+        },
+        {
+          "id": "report-to-cecilia",
+          "title": "Report to Cecilia",
+          "objectiveAliases": [
+            "Talk to Cecilia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "learn-the-krall-language",
+          "title": "Learn the Krall language",
+          "objectiveAliases": [
+            "Use the Language Artifact to learn"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102150",
+      "routeIndex": 28
+    },
+    {
+      "id": "1102160",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 20,
+      "allowWithoutLevel": false,
+      "chapter": "Searching for High Priestess Reda",
+      "title": "Fortress Ruins Infiltration",
+      "aliases": [
+        "Fortress Ruins Infiltration"
+      ],
+      "objectiveAliases": [
+        "Talk to Cecilia who infiltrated the Verteron Fortress Ruins"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "attempt-transformation",
+          "title": "Attempt transformation",
+          "objectiveAliases": [
+            "Talk to Cecilia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "have-the-transformation-checked",
+          "title": "Have the transformation checked",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": []
+        },
+        {
+          "id": "get-information-at-the-fortress-ruins",
+          "title": "Get information at the Fortress Ruins",
+          "objectiveAliases": [
+            "Talk to the Kobold Servant",
+            "Talk to the Kobold Sentry",
+            "Talk to the Krall Watcher",
+            "Talk to the Krall Combatant"
+          ],
+          "notes": []
+        },
+        {
+          "id": "obtain-information-on-the-command-center",
+          "title": "Obtain information on the command center",
+          "objectiveAliases": [
+            "Check the Shift Instructions"
+          ],
+          "notes": []
+        },
+        {
+          "id": "check-the-shift-instructions",
+          "title": "Check the Shift Instructions",
+          "objectiveAliases": [
+            "Read the Notes"
+          ],
+          "notes": []
+        },
+        {
+          "id": "share-information-safely",
+          "title": "Share information safely",
+          "objectiveAliases": [
+            "Talk to the Krall Supporter"
+          ],
+          "notes": []
+        },
+        {
+          "id": "go-to-the-krall-command-post",
+          "title": "Go to the Krall Command Post",
+          "objectiveAliases": [
+            "Destroy the Balaur Communicator",
+            "Defeat Krall Armed Soldier, Guardian, and Ranger"
+          ],
+          "notes": []
+        },
+        {
+          "id": "arrive-at-the-krall-command-post",
+          "title": "Arrive at the Krall Command Post",
+          "objectiveAliases": [
+            "Go to the Krall Command Post"
+          ],
+          "notes": []
+        },
+        {
+          "id": "contact-caelid",
+          "title": "Contact Caelid",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-the-command-post-key",
+          "title": "Find the Command Post Key",
+          "objectiveAliases": [
+            "Approach the Command Post"
+          ],
+          "notes": []
+        },
+        {
+          "id": "report-to-caelid",
+          "title": "Report to Caelid",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102160",
+      "routeIndex": 29
+    },
+    {
+      "id": "1102170",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 21,
+      "allowWithoutLevel": false,
+      "chapter": "Searching for High Priestess Reda",
+      "title": "Kaisinel's Seal",
+      "aliases": [
+        "Kaisinel's Seal"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid at the Collapsed Pillar Hideout"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "find-the-kaisinel-s-seal",
+          "title": "Find the Kaisinel's Seal",
+          "objectiveAliases": [
+            "Open the Illusion Sanctum door"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102170",
+      "routeIndex": 30
+    },
+    {
+      "id": "1102180",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 21,
+      "allowWithoutLevel": false,
+      "chapter": "Searching for High Priestess Reda",
+      "title": "Path to the Altar",
+      "aliases": [
+        "Path to the Altar"
+      ],
+      "objectiveAliases": [
+        "Talk to Phernos at the Collapsed Pillar Hideout"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "sweep-the-krall",
+          "title": "Sweep the Krall",
+          "objectiveAliases": [
+            "Defeat the enhanced Krall",
+            "Destroy the Weapon Rack"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102180",
+      "routeIndex": 31
+    },
+    {
+      "id": "1102210",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 22,
+      "allowWithoutLevel": false,
+      "chapter": "Searching for High Priestess Reda",
+      "title": "Illusion Oratory",
+      "aliases": [
+        "Illusion Oratory"
+      ],
+      "objectiveAliases": [
+        "Talk to Phernos in front of the Illusion Oratory"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "find-the-traces-of-the-high-priestess-of-illusion",
+          "title": "Find the traces of the High Priestess of Illusion",
+          "objectiveAliases": [
+            "Open the Illusion Oratory Door"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102210",
+      "routeIndex": 32
+    },
+    {
+      "id": "1102215",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 22,
+      "allowWithoutLevel": false,
+      "chapter": "Searching for High Priestess Reda",
+      "title": "Daeva in a Dream",
+      "aliases": [
+        "Daeva in a Dream"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid in front of the Illusion Oratory"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "ascend-to-the-next-dimension-of-power-as-a-daeva",
+          "title": "Ascend to the next dimension of power as a Daeva",
+          "objectiveAliases": [
+            "Complete The One Who Hears the Voice"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102215",
+      "routeIndex": 33
+    },
+    {
+      "id": "1102220",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 22,
+      "allowWithoutLevel": false,
+      "chapter": "Searching for High Priestess Reda",
+      "title": "Wind Breeze Merchants",
+      "aliases": [
+        "Wind Breeze Merchants"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid in front of the Illusion Oratory"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "assess-the-situation-at-the-temporary-outpost",
+          "title": "Assess the situation at the Temporary Outpost",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102220",
+      "routeIndex": 34
+    },
+    {
+      "id": "1102221",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 22,
+      "allowWithoutLevel": false,
+      "chapter": "Searching for High Priestess Reda",
+      "title": "Precious Minerals",
+      "aliases": [
+        "Precious Minerals"
+      ],
+      "objectiveAliases": [
+        "Talk to Bao at Dawn Legion Temporary Outpost"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "listen-to-the-explanation-about-the-krao-cave",
+          "title": "Listen to the explanation about the Krao Cave",
+          "objectiveAliases": [
+            "Talk to Dili"
+          ],
+          "notes": []
+        },
+        {
+          "id": "investigate-the-krao-cave",
+          "title": "Investigate the Krao Cave",
+          "objectiveAliases": [
+            "Inspect the Krao Cave"
+          ],
+          "notes": []
+        },
+        {
+          "id": "deliver-the-krao-fragment-to-bao",
+          "title": "Deliver the Krao Fragment to Bao",
+          "objectiveAliases": [
+            "Talk to Bao at Dawn Legion Temporary Outpost"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102221",
+      "routeIndex": 35
+    },
+    {
+      "id": "1102223",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 24,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Mutual Benefit",
+      "aliases": [
+        "Mutual Benefit"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid at Dawn Legion Temporary Outpost"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "go-to-the-northern-shugo-station",
+          "title": "Go to the Northern Shugo Station",
+          "objectiveAliases": [
+            "Talk to Bao"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Go to the Northern Shugo Statlon"
+          ]
+        },
+        {
+          "id": "join-bao-at-the-northern-shugo-station",
+          "title": "Join Bao at the Northern Shugo Station",
+          "objectiveAliases": [
+            "Talk to Bao"
+          ],
+          "notes": []
+        },
+        {
+          "id": "go-to-the-wind-breeze-merchant-hq",
+          "title": "Go to the Wind Breeze Merchant HQ",
+          "objectiveAliases": [
+            "Talk to Kochi"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Go to the Wlnd Breeze Merchant HQ"
+          ]
+        },
+        {
+          "id": "confront-bao",
+          "title": "Confront Bao",
+          "objectiveAliases": [
+            "Talk to Bao"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102223",
+      "routeIndex": 36
+    },
+    {
+      "id": "1102230",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 24,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Shugonapped",
+      "aliases": [
+        "Shugonapped"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid in front of Kochi's Quarters"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "get-a-gift-for-kochi",
+          "title": "Get a gift for Kochi",
+          "objectiveAliases": [
+            "Collect the Gravi Herb"
+          ],
+          "notes": []
+        },
+        {
+          "id": "return-to-the-wind-breeze-merchant-hq",
+          "title": "Return to the Wind Breeze Merchant HQ",
+          "objectiveAliases": [
+            "Go to the Wind Breeze Merchant HQ"
+          ],
+          "notes": []
+        },
+        {
+          "id": "assess-the-situation-inside-the-quarters",
+          "title": "Assess the situation inside the quarters",
+          "objectiveAliases": [
+            "Enter Kochi's Quarters"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102230",
+      "routeIndex": 37
+    },
+    {
+      "id": "1102240",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 24,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Finding Kochi",
+      "aliases": [
+        "Finding Kochi"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid in front of Kochi's Quarters"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "investigate-the-northern-tolbas-forest",
+          "title": "Investigate the Northern Tolbas Forest",
+          "objectiveAliases": [
+            "Destroy the Aullaeu Defense Totem",
+            "Defeat the Tolbas Forest Konutin",
+            "Examine the Weapon Remnants"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102240",
+      "routeIndex": 38
+    },
+    {
+      "id": "1102241",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 24,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Mercenary Pursuit",
+      "aliases": [
+        "Mercenary Pursuit"
+      ],
+      "objectiveAliases": [
+        "Talk to Arin at the Wind Breeze Merchant HQ"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "head-to-the-southern-shugo-station",
+          "title": "Head to the Southern Shugo Station",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102241",
+      "routeIndex": 39
+    },
+    {
+      "id": "1102250",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 24,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Weapon's Owner",
+      "aliases": [
+        "Weapon's Owner"
+      ],
+      "objectiveAliases": [
+        "Talk to Astin at the Astin Mercenaries Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "obtain-information-from-the-astin-mercenaries-member",
+          "title": "Obtain information from the Astin Mercenaries member",
+          "objectiveAliases": [
+            "Talk to Carter"
+          ],
+          "notes": []
+        },
+        {
+          "id": "obtain-information-from-the-astin-mercenaries-member-2",
+          "title": "Obtain information from the Astin Mercenaries member",
+          "objectiveAliases": [
+            "Talk to Jade"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102250",
+      "routeIndex": 40
+    },
+    {
+      "id": "1102260",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 25,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Best Served Cold",
+      "aliases": [
+        "Best Served Cold"
+      ],
+      "objectiveAliases": [
+        "Talk to Baison at the Astin Mercenaries Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "investigate-astin-s-secret-storage",
+          "title": "Investigate Astin's Secret Storage",
+          "objectiveAliases": [
+            "Go to the Secret Storage"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102260",
+      "routeIndex": 41
+    },
+    {
+      "id": "1102270",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 25,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Hidden Scheme",
+      "aliases": [
+        "Hidden Scheme"
+      ],
+      "objectiveAliases": [
+        "Talk to Baison at the Astin Mercenaries Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "investigate-the-night-dew-cave",
+          "title": "Investigate the Night Dew Cave",
+          "objectiveAliases": [
+            "Go to the Night Dew Cave"
+          ],
+          "notes": []
+        },
+        {
+          "id": "return-to-astin",
+          "title": "Return to Astin",
+          "objectiveAliases": [
+            "Go to the Mercenaries Base"
+          ],
+          "notes": []
+        },
+        {
+          "id": "ask-where-astin-is",
+          "title": "Ask where Astin is",
+          "objectiveAliases": [
+            "Talk to Jade"
+          ],
+          "notes": []
+        },
+        {
+          "id": "go-to-the-southern-shugo-station",
+          "title": "Go to the Southern Shugo Station",
+          "objectiveAliases": [
+            "Talk to Bao"
+          ],
+          "notes": []
+        },
+        {
+          "id": "retrieve-supplies-from-the-astin-mercenaries",
+          "title": "Retrieve supplies from the Astin Mercenaries",
+          "objectiveAliases": [
+            "Defeat the mercenary to retrieve the supplies"
+          ],
+          "notes": []
+        },
+        {
+          "id": "deliver-the-retrieved-supplies-to-bao",
+          "title": "Deliver the retrieved supplies to Bao",
+          "objectiveAliases": [
+            "Talk to Bao"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102270",
+      "routeIndex": 42
+    },
+    {
+      "id": "1102280",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 25,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Crime Scene",
+      "aliases": [
+        "Crime Scene"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid in front of the Illicit Trade Spot"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "investigate-the-illicit-trade-spot",
+          "title": "Investigate the Illicit Trade Spot",
+          "objectiveAliases": [
+            "Go to the Illicit Trade Spot"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102280",
+      "routeIndex": 43
+    },
+    {
+      "id": "1102290",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 26,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Thorough Preparation",
+      "aliases": [
+        "Thorough Preparation"
+      ],
+      "objectiveAliases": [
+        "Talk to Bao at the Eastern Shugo Station"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "prepare-to-enter-the-aullaeu-village",
+          "title": "Prepare to enter the Aullaeu Village",
+          "objectiveAliases": [
+            "Destroy the Aullaeu Sorcery Totem"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-bao",
+          "title": "Find Bao",
+          "objectiveAliases": [
+            "Talk to Bao"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-orders-to-read-the-situation",
+          "title": "Find Orders to read the situation",
+          "objectiveAliases": [
+            "Collect Aullaeu Orders"
+          ],
+          "notes": []
+        },
+        {
+          "id": "collect-the-transformation-materials",
+          "title": "Collect the Transformation Materials",
+          "objectiveAliases": [
+            "Collect the Aullaeu Village Guard's Feather",
+            "Collect the Helm from the Goods Basket",
+            "Collect the Aullaeu Apprentice Shaman's Accessory"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102290",
+      "routeIndex": 44
+    },
+    {
+      "id": "1102310",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 28,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Shugo Tracks",
+      "aliases": [
+        "Shugo Tracks"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid at the Aullaeu Village Border"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "transform-into-an-aullaeu",
+          "title": "Transform into an Aullaeu",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": []
+        },
+        {
+          "id": "ask-around-at-the-aullaeu-village",
+          "title": "Ask around at the Aullaeu Village",
+          "objectiveAliases": [
+            "Talk to the Aullaeu Sentinel",
+            "Talk to the Aullaeu Trainee"
+          ],
+          "notes": []
+        },
+        {
+          "id": "read-the-scattered-guard-logs",
+          "title": "Read the scattered Guard Logs",
+          "objectiveAliases": [
+            "Check the first Guard Log",
+            "Check the second Guard Log",
+            "Check the third Guard Log"
+          ],
+          "notes": []
+        },
+        {
+          "id": "rescue-the-shugo",
+          "title": "Rescue the Shugo",
+          "objectiveAliases": [
+            "Go to the second floor of the residence"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102310",
+      "routeIndex": 45
+    },
+    {
+      "id": "1102320",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 29,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Shugo in the Cellar",
+      "aliases": [
+        "Shugo in the Cellar"
+      ],
+      "objectiveAliases": [
+        "Talk to Bao at the Aullaeu Village Border"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "talk-to-caelid-in-front-of-the-root-cellar",
+          "title": "Talk to Caelid in front of the Root Cellar",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": []
+        },
+        {
+          "id": "rescue-kochi-from-the-root-cellar",
+          "title": "Rescue Kochi from the Root Cellar",
+          "objectiveAliases": [
+            "Go to the Root Cellar"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102320",
+      "routeIndex": 46
+    },
+    {
+      "id": "1102330",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 29,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Exiled Aullaeu",
+      "aliases": [
+        "Exiled Aullaeu"
+      ],
+      "objectiveAliases": [
+        "Talk to Kochi at the cellar escape point"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "tell-luteros-the-location",
+          "title": "Tell Luteros the location",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "meet-up-at-the-abandoned-wind-breeze-office",
+          "title": "Meet up at the Abandoned Wind Breeze Office",
+          "objectiveAliases": [
+            "Talk to Kochi"
+          ],
+          "notes": []
+        },
+        {
+          "id": "head-for-the-forest-of-exiles",
+          "title": "Head for the Forest of Exiles",
+          "objectiveAliases": [
+            "Defeat the Aullaeu Wandering Brawler",
+            "Defeat the Aullaeu Wandering Swordsman",
+            "Defeat Aullaeu Wandering Ranger"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102330",
+      "routeIndex": 47
+    },
+    {
+      "id": "1102340",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 29,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Holyaul Rescue Operation",
+      "aliases": [
+        "Holyaul Rescue Operation"
+      ],
+      "objectiveAliases": [
+        "Talk to Daki in the Forest of Exiles"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "rescue-holyaul",
+          "title": "Rescue Holyaul",
+          "objectiveAliases": [
+            "Commence the Holyaul Rescue Operation"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102340",
+      "routeIndex": 48
+    },
+    {
+      "id": "1102350",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 30,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Aulamus's key",
+      "aliases": [
+        "Aulamus's key"
+      ],
+      "objectiveAliases": [
+        "Talk to Kochi at the Abandoned Wind Breeze Office"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "clear-the-area",
+          "title": "Clear the area",
+          "objectiveAliases": [
+            "Defeat the Aullaeu Wandering Warrior",
+            "Defeat the Sparkie"
+          ],
+          "notes": []
+        },
+        {
+          "id": "clear-the-sorcery-field",
+          "title": "Clear the Sorcery Field",
+          "objectiveAliases": [
+            "Defeat the Sorcery Field Aullaeu",
+            "Destroy the Sorcery Field Totem"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Clear the Sorcery Fleld",
+            "att 1 Clear the Sorcery Fleld"
+          ]
+        },
+        {
+          "id": "obtain-the-key-to-the-altar",
+          "title": "Obtain the Key to the Altar",
+          "objectiveAliases": [
+            "Talk to Phernos"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102350",
+      "routeIndex": 49
+    },
+    {
+      "id": "1102360",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 30,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Secrets of the Altar",
+      "aliases": [
+        "Secrets of the Altar"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid in front of the Aullaeu Altar"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "investigate-the-aullaeu-altar",
+          "title": "Investigate the Aullaeu Altar",
+          "objectiveAliases": [
+            "Enter the Aullaeu Altar"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-about-what-happened-at-the-altar",
+          "title": "Talk about what happened at the altar",
+          "objectiveAliases": [
+            "Talk to Phernos"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102360",
+      "routeIndex": 50
+    },
+    {
+      "id": "1102370",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 30,
+      "allowWithoutLevel": false,
+      "chapter": "The Past Behind the Sealed Barrier",
+      "title": "Secrets Within Secrets",
+      "aliases": [
+        "Secrets Within Secrets"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid at the Aullaeu Village Border"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "talk-about-another-threat",
+          "title": "Talk about another threat",
+          "objectiveAliases": [
+            "Talk to Kochi"
+          ],
+          "notes": []
+        },
+        {
+          "id": "return-to-the-wind-breeze-merchant-hq",
+          "title": "Return to the Wind Breeze Merchant HQ",
+          "objectiveAliases": [
+            "Talk to Kochi"
+          ],
+          "notes": []
+        },
+        {
+          "id": "go-to-the-urugugu-canyon-entrance",
+          "title": "Go to the Urugugu Canyon Entrance",
+          "objectiveAliases": [
+            "Talk to Sami"
+          ],
+          "notes": []
+        },
+        {
+          "id": "investigate-the-urugugu-canyon",
+          "title": "Investigate the Urugugu Canyon",
+          "objectiveAliases": [
+            "Enter the Urugugu Canyon"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102370",
+      "routeIndex": 51
+    },
+    {
+      "id": "1102500",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 32,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "An Uneasy Alliance",
+      "aliases": [
+        "An Uneasy Alliance"
+      ],
+      "objectiveAliases": [
+        "Talk to Nania at the Wind Breeze Merchant HQ"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "go-to-zumion-village",
+          "title": "Go to Zumion Village",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-out-where-dymones-is",
+          "title": "Find out where Dymones is",
+          "objectiveAliases": [
+            "Go to the Central Plaza"
+          ],
+          "notes": []
+        },
+        {
+          "id": "ask-about-dymones",
+          "title": "Ask about Dymones",
+          "objectiveAliases": [
+            "Talk to Ordan"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-out-where-dymones-is-2",
+          "title": "Find out where Dymones is",
+          "objectiveAliases": [
+            "Go to the residential area"
+          ],
+          "notes": []
+        },
+        {
+          "id": "ask-about-dymones-2",
+          "title": "Ask about Dymones",
+          "objectiveAliases": [
+            "Talk to Aus"
+          ],
+          "notes": []
+        },
+        {
+          "id": "meet-dymones-in-the-blessing-room",
+          "title": "Meet Dymones in the Blessing Room",
+          "objectiveAliases": [
+            "Go to the Blessing Room"
+          ],
+          "notes": []
+        },
+        {
+          "id": "help-the-rock-tomb-hill-outpost",
+          "title": "Help the Rock Tomb Hill Outpost",
+          "objectiveAliases": [
+            "Collect the Odyle Powder from the Highland Sparkie"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102500",
+      "routeIndex": 52
+    },
+    {
+      "id": "1102510",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 32,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Rocky Tomb",
+      "aliases": [
+        "Rocky Tomb"
+      ],
+      "objectiveAliases": [
+        "Talk to Rodelos at the Rock Hill Outpost"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "investigate-the-eastern-area",
+          "title": "Investigate the eastern area",
+          "objectiveAliases": [
+            "Defeat the Renegade Daeva Watcher",
+            "Defeat the Renegade Daeva Patrol",
+            "Inspect the Illusion God's Barrierstone in the east"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Investlgate the eastern area",
+            "att 1 Investlgate the eastern area"
+          ]
+        },
+        {
+          "id": "investigate-the-western-area",
+          "title": "Investigate the western area",
+          "objectiveAliases": [
+            "Defeat the Sura at the western area",
+            "Inspect the Illusion God's Barrierstone in the west"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Investlgate the western area",
+            "att 1 Investlgate the western area"
+          ]
+        },
+        {
+          "id": "talk-to-nania-via-selvis",
+          "title": "Talk to Nania via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102510",
+      "routeIndex": 53
+    },
+    {
+      "id": "1102515",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 32,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Protectors of the Rock Hill",
+      "aliases": [
+        "Protectors of the Rock Hill"
+      ],
+      "objectiveAliases": [
+        "Talk to Rodelos at the Rock Hill Outpost"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "recover-the-fallen-legionnaires-belongings",
+          "title": "Recover the fallen legionnaires' belongings",
+          "objectiveAliases": [
+            "Investigate {env:E_L1_DeadmanRemains_001}"
+          ],
+          "notes": []
+        },
+        {
+          "id": "deliver-the-recovered-belongings",
+          "title": "Deliver the recovered belongings",
+          "objectiveAliases": [
+            "Talk to Rodelos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "check-rodelos-s-report",
+          "title": "Check Rodelos's Report",
+          "objectiveAliases": [
+            "Check the Report"
+          ],
+          "notes": []
+        },
+        {
+          "id": "read-rodelos-s-report",
+          "title": "Read Rodelos's Report",
+          "objectiveAliases": [
+            "Read the Report"
+          ],
+          "notes": []
+        },
+        {
+          "id": "deliver-rodelos-s-report",
+          "title": "Deliver Rodelos's Report",
+          "objectiveAliases": [
+            "Go to Dymones"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102515",
+      "routeIndex": 54
+    },
+    {
+      "id": "1102550",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 32,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Another Dream",
+      "aliases": [
+        "Another Dream"
+      ],
+      "objectiveAliases": [
+        "Talk to Dymones at Zumion Village"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "ascend-to-the-next-dimension-of-power-as-a-daeva",
+          "title": "Ascend to the next dimension of power as a Daeva",
+          "objectiveAliases": [
+            "Complete The One Who Dreams"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102550",
+      "routeIndex": 55
+    },
+    {
+      "id": "1102520",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 33,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Shadow of the Canyon",
+      "aliases": [
+        "Shadow of the Canyon"
+      ],
+      "objectiveAliases": [
+        "Talk to Dymones at Zumion Village"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "find-odite-at-the-canyon-campsite",
+          "title": "Find Odite at the Canyon Campsite",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102520",
+      "routeIndex": 56
+    },
+    {
+      "id": "1102530",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 33,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Barrier Traces",
+      "aliases": [
+        "Barrier Traces"
+      ],
+      "objectiveAliases": [
+        "Talk to Odite at the Canyon Campsite"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "find-traces-of-reda",
+          "title": "Find traces of Reda",
+          "objectiveAliases": [
+            "Destroy the Dark Spiritstone",
+            "Examine the Ancient Tablet",
+            "Examine the Ancient Barrierstone"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-to-caelid-via-selvis",
+          "title": "Talk to Caelid via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "join-caelid",
+          "title": "Join Caelid",
+          "objectiveAliases": [
+            "Approach the barrier"
+          ],
+          "notes": []
+        },
+        {
+          "id": "discuss-the-condition-of-the-barrier",
+          "title": "Discuss the condition of the barrier",
+          "objectiveAliases": [
+            "Talk to Phernos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "infiltrate-the-illusion-hideout",
+          "title": "Infiltrate the Illusion Hideout",
+          "objectiveAliases": [
+            "Examine the Illusion Veil"
+          ],
+          "notes": []
+        },
+        {
+          "id": "discuss-not-being-able-to-approach-the-barrier",
+          "title": "Discuss not being able to approach the barrier",
+          "objectiveAliases": [
+            "Talk to Phernos"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Discuss not being abie to approach the barrier"
+          ]
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102530",
+      "routeIndex": 57
+    },
+    {
+      "id": "1102600",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 33,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Between Faith and Doubt",
+      "aliases": [
+        "Between Faith and Doubt"
+      ],
+      "objectiveAliases": [
+        "Talk to Dymones at Zumion Village"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "discuss-future-plans",
+          "title": "Discuss future plans",
+          "objectiveAliases": [
+            "Go to Notos Legion Office"
+          ],
+          "notes": []
+        },
+        {
+          "id": "receive-the-holy-artifact-from-adrian",
+          "title": "Receive the Holy Artifact from Adrian",
+          "objectiveAliases": [
+            "Talk to Adrian"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102600",
+      "routeIndex": 58
+    },
+    {
+      "id": "1102610",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 34,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Headless Statue",
+      "aliases": [
+        "Headless Statue"
+      ],
+      "objectiveAliases": [
+        "Talk to Lachesis at the Alert Observation Post"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "eliminate-the-wandering-souls",
+          "title": "Eliminate the wandering souls",
+          "objectiveAliases": [
+            "Defeat Wandering Knight's Soul",
+            "Defeat Wandering Ranger's Soul"
+          ],
+          "notes": []
+        },
+        {
+          "id": "examine-the-zumion-priest-statues",
+          "title": "Examine the Zumion Priest Statues",
+          "objectiveAliases": [
+            "Examine the Calliste Statue",
+            "Examine the Agathon Statue",
+            "Examine the Estian Statue"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-to-luteros-via-selvis",
+          "title": "Talk to Luteros via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102610",
+      "routeIndex": 59
+    },
+    {
+      "id": "1102615",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 34,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Priests of Zumion",
+      "aliases": [
+        "Priests of Zumion"
+      ],
+      "objectiveAliases": [
+        "Talk to Luteros at the Destroyed Temple Site"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "examine-the-monolith",
+          "title": "Examine the Monolith",
+          "objectiveAliases": [
+            "Examine the Healing Monolith: Sacrifice",
+            "Examine the Healing Monolith: Declaration of Resistance",
+            "Examine the Healing Monolith: Oath of the Seal"
+          ],
+          "notes": []
+        },
+        {
+          "id": "relay-the-content-of-the-monolith",
+          "title": "Relay the content of the Monolith",
+          "objectiveAliases": [
+            "Talk to Luteros"
+          ],
+          "notes": []
+        },
+        {
+          "id": "collect-the-materials-for-restoring-the-statues",
+          "title": "Collect the materials for restoring the statues",
+          "objectiveAliases": [
+            "Collect the Ashen Kalgolem Fragment",
+            "Collect the essence from the Furious Knight's Corpse",
+            "Retrieve the Statue Head Fragment"
+          ],
+          "notes": []
+        },
+        {
+          "id": "deliver-the-materials-for-restoring-the-statue",
+          "title": "Deliver the materials for restoring the statue",
+          "objectiveAliases": [
+            "Talk to Luteros"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102615",
+      "routeIndex": 60
+    },
+    {
+      "id": "1102620",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 35,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Fragmented Tale",
+      "aliases": [
+        "Fragmented Tale"
+      ],
+      "objectiveAliases": [
+        "Talk to Phernos at the Alert Observation Post"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "eliminate-obstacles-to-resonance",
+          "title": "Eliminate obstacles to resonance",
+          "objectiveAliases": [
+            "Destroy Wandering Knight's Armor",
+            "Destroy Altamia Highland Ruins Device"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-to-luteros-via-selvis",
+          "title": "Talk to Luteros via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "resonate-with-the-restored-statue",
+          "title": "Resonate with the Restored Statue",
+          "objectiveAliases": [
+            "Talk to the Calliste Statue",
+            "Talk to the Agathon Statue"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Resonate wlth the Restored Statue",
+            "att 1 Resonate wlth the Restored Statue"
+          ]
+        },
+        {
+          "id": "resonate-with-the-estian-statue",
+          "title": "Resonate with the Estian Statue",
+          "objectiveAliases": [
+            "Talk to the Estian Statue"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Resonate wlth the Estlan Statue",
+            "att 1 Resonate wlth the Estlan Statue"
+          ]
+        },
+        {
+          "id": "share-thoughts-with-luteros",
+          "title": "Share thoughts with Luteros",
+          "objectiveAliases": [
+            "Talk to Luteros"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102620",
+      "routeIndex": 61
+    },
+    {
+      "id": "1102640",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 35,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Zumion's Ward",
+      "aliases": [
+        "Zumion's Ward"
+      ],
+      "objectiveAliases": [
+        "Talk to Phernos at the Alert Observation Post"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "go-to-the-relic-storage-entrance",
+          "title": "Go to the Relic Storage Entrance",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        },
+        {
+          "id": "investigate-the-zumion-relic-storage",
+          "title": "Investigate the Zumion Relic Storage",
+          "objectiveAliases": [
+            "Enter the Zumion Relic Storage"
+          ],
+          "notes": []
+        },
+        {
+          "id": "deliver-the-warding-feather",
+          "title": "Deliver the Warding Feather",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102640",
+      "routeIndex": 62
+    },
+    {
+      "id": "1102650",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 36,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Purifying Flame",
+      "aliases": [
+        "Purifying Flame"
+      ],
+      "objectiveAliases": [
+        "Talk to Phernos at the Alert Observation Post"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "find-out-the-situation-at-the-contaminated-sanctum",
+          "title": "Find out the situation at the Contaminated Sanctum",
+          "objectiveAliases": [
+            "Talk to Gustino"
+          ],
+          "notes": []
+        },
+        {
+          "id": "collect-the-kindling-materials-for-the-purifying-brazier",
+          "title": "Collect the kindling materials for the Purifying Brazier",
+          "objectiveAliases": [
+            "Obtain the Purifying Powder from the Guardite",
+            "Obtain the Mutated Vine Bundle Root"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-to-luteros-via-selvis",
+          "title": "Talk to Luteros via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "purify-the-contaminated-sanctum",
+          "title": "Purify the Contaminated Sanctum",
+          "objectiveAliases": [
+            "Ignite the Clear Purifying Brazier",
+            "Ignite the Pure Purifying Brazier",
+            "Ignite the Abundant Purifying Brazier"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102650",
+      "routeIndex": 63
+    },
+    {
+      "id": "1102660",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 36,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Perilous Purification",
+      "aliases": [
+        "Perilous Purification"
+      ],
+      "objectiveAliases": [
+        "Talk to Gustino at the Hill of Purification"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "protect-the-purifying-brazier",
+          "title": "Protect the Purifying Brazier",
+          "objectiveAliases": [
+            "Defeat Contaminated Scorpion",
+            "Defeat Yellow-Tailed Skama"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102660",
+      "routeIndex": 64
+    },
+    {
+      "id": "1102670",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 37,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Activating Altar Purification Devices",
+      "aliases": [
+        "Activating Altar Purification Devices"
+      ],
+      "objectiveAliases": [
+        "Talk to Gustino at the Hill of Purification"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "collect-the-materials-for-operating-the-altar-purification-device",
+          "title": "Collect the materials for operating the Altar Purification Device",
+          "objectiveAliases": [
+            "Collect the Contaminated Guardite's Mana Conduit",
+            "Collect the Weak Odyle Aura"
+          ],
+          "notes": []
+        },
+        {
+          "id": "activate-the-altar-purification-device",
+          "title": "Activate the Altar Purification Device",
+          "objectiveAliases": [
+            "Activate the Left Purification Device",
+            "Activate the Center Purification Device",
+            "Activate the Right Purification Device"
+          ],
+          "notes": []
+        },
+        {
+          "id": "purify-the-sanctum",
+          "title": "Purify the Sanctum",
+          "objectiveAliases": [
+            "Ignite the Purifying Brazier"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102670",
+      "routeIndex": 65
+    },
+    {
+      "id": "1102675",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 37,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Path to the Altar",
+      "aliases": [
+        "Path to the Altar"
+      ],
+      "objectiveAliases": [
+        "Talk to Gustino at the Hill of Purification"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "clear-the-area-around-the-purification-device",
+          "title": "Clear the area around the Purification Device",
+          "objectiveAliases": [
+            "Defeat the Contaminated Monster"
+          ],
+          "notes": []
+        },
+        {
+          "id": "purify-the-contaminant",
+          "title": "Purify the Contaminant",
+          "objectiveAliases": [
+            "Destroy the Contamination Clot"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-to-luteros-via-selvis",
+          "title": "Talk to Luteros via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "purify-the-sanctum",
+          "title": "Purify the Sanctum",
+          "objectiveAliases": [
+            "Ignite the Purifying Brazier"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102675",
+      "routeIndex": 66
+    },
+    {
+      "id": "1102680",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 37,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Meslamtaeda's Poison",
+      "aliases": [
+        "Meslamtaeda's Poison"
+      ],
+      "objectiveAliases": [
+        "Talk to Gustino at the Hill of Purification"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "retrieve-meslamtaeda-s-poison",
+          "title": "Retrieve Meslamtaeda's Poison",
+          "objectiveAliases": [
+            "Open the Purifying Altar Door"
+          ],
+          "notes": []
+        },
+        {
+          "id": "exit-the-altar",
+          "title": "Exit the altar",
+          "objectiveAliases": [
+            "Talk to Gustino"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102680",
+      "routeIndex": 67
+    },
+    {
+      "id": "1102690",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 37,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Those Who Remain",
+      "aliases": [
+        "Those Who Remain"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid at the Canyon Campsite"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "investigate-the-illusion-hideout",
+          "title": "Investigate the Illusion Hideout",
+          "objectiveAliases": [
+            "Dispel the Illusion Veil"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102690",
+      "routeIndex": 68
+    },
+    {
+      "id": "1102700",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 37,
+      "allowWithoutLevel": false,
+      "chapter": "Two-Faced",
+      "title": "Fire Temple",
+      "aliases": [
+        "Fire Temple"
+      ],
+      "objectiveAliases": [
+        "Talk to Dymones at Zumion Village"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "talk-to-the-entrance-guard-phion",
+          "title": "Talk to the entrance guard Phion",
+          "objectiveAliases": [
+            "Talk to Phion"
+          ],
+          "notes": []
+        },
+        {
+          "id": "investigate-the-fire-temple",
+          "title": "Investigate the Fire Temple",
+          "objectiveAliases": [
+            "Enter the Fire Temple"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102700",
+      "routeIndex": 69
+    },
+    {
+      "id": "1102740",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 40,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Where the Drana Flows",
+      "aliases": [
+        "Where the Drana Flows"
+      ],
+      "objectiveAliases": [
+        "Talk to Dymones at Zumion Village"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "talk-to-caelid-who-is-concerned-about-the-operation",
+          "title": "Talk to Caelid who is concerned about the operation",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": []
+        },
+        {
+          "id": "meet-kepillia-at-notos-legion-outpost",
+          "title": "Meet Kepillia at Notos Legion Outpost",
+          "objectiveAliases": [
+            "Talk to Kepillia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "question-the-kobold",
+          "title": "Question the Kobold",
+          "objectiveAliases": [
+            "Talk to the Kobold Gatherer",
+            "Talk to the Kobold Fertilizer Worker",
+            "Talk to the Kobold Drudge"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-to-caelid-via-selvis",
+          "title": "Talk to Caelid via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "examine-the-power-tower-management-document",
+          "title": "Examine the Power Tower Management Document",
+          "objectiveAliases": [
+            "Check the Power Tower Management Document Box"
+          ],
+          "notes": []
+        },
+        {
+          "id": "poison-the-drana",
+          "title": "Poison the Drana",
+          "objectiveAliases": [
+            "Inject poison into Condensed Drana Root",
+            "Inject poison into Drana Sprout"
+          ],
+          "notes": []
+        },
+        {
+          "id": "report-to-caelid-via-selvis",
+          "title": "Report to Caelid via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "share-intel-from-the-plantation",
+          "title": "Share intel from the plantation",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102740",
+      "routeIndex": 70
+    },
+    {
+      "id": "1102760",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 41,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "To the Scarlet Forest",
+      "aliases": [
+        "To the Scarlet Forest"
+      ],
+      "objectiveAliases": [
+        "Talk to Kepillia at the Tracker's Campsite"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "prepare-to-head-for-the-scarlet-forest",
+          "title": "Prepare to head for the Scarlet Forest",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-the-notos-legionnaire-who-transformed-into-dratona",
+          "title": "Find the Notos Legionnaire who transformed into Dratona",
+          "objectiveAliases": [
+            "Talk to the transformed legionnaire"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-the-surviving-notos-legionnaire",
+          "title": "Find the surviving Notos Legionnaire",
+          "objectiveAliases": [
+            "Check the Unidentified Corpse"
+          ],
+          "notes": []
+        },
+        {
+          "id": "examine-the-mission-result-found-from-the-corpse",
+          "title": "Examine the mission result found from the corpse",
+          "objectiveAliases": [
+            "Check the Mission Report"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-to-nania-via-selvis",
+          "title": "Talk to Nania via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "deliver-the-mission-report-to-sthen",
+          "title": "Deliver the Mission Report to Sthen",
+          "objectiveAliases": [
+            "Talk to Sthen"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102760",
+      "routeIndex": 71
+    },
+    {
+      "id": "1102780",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 41,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Sowing Seeds of Chaos",
+      "aliases": [
+        "Sowing Seeds of Chaos"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid at the Scarlet Forest Observation Site"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "cause-chaos-at-the-scarlet-forest",
+          "title": "Cause Chaos at the Scarlet Forest",
+          "objectiveAliases": [
+            "Destroy the Drana Injector",
+            "Defeat Damaged Mutated Sura",
+            "Defeat Wandering Sura Warrior",
+            "Defeat Wandering Sura Ranger"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102780",
+      "routeIndex": 72
+    },
+    {
+      "id": "1102800",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 41,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Notos Legion Makeover",
+      "aliases": [
+        "Notos Legion Makeover"
+      ],
+      "objectiveAliases": [
+        "Talk to Sthen at the Scarlet Forest Observation Site"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "collect-the-transformation-materials",
+          "title": "Collect the transformation materials",
+          "objectiveAliases": [
+            "Collect Scarlet Forest Dratona's bludgeon",
+            "Collect Mutated Forest Dratona tissue",
+            "Collect the Balaur Language Manual from the General Goods Chest"
+          ],
+          "notes": []
+        },
+        {
+          "id": "deliver-the-transformation-materials",
+          "title": "Deliver the transformation materials",
+          "objectiveAliases": [
+            "Talk to Sthen"
+          ],
+          "notes": []
+        },
+        {
+          "id": "learn-the-balaur-language",
+          "title": "Learn the Balaur language",
+          "objectiveAliases": [
+            "Use the Language Artifact to learn"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102800",
+      "routeIndex": 73
+    },
+    {
+      "id": "1102820",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 41,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Power Tower Sabotage",
+      "aliases": [
+        "Power Tower Sabotage"
+      ],
+      "objectiveAliases": [
+        "Talk to Sthen at the Scarlet Forest Observation Site"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "clear-threats-by-defeating-the-scarlet-forest-krall",
+          "title": "Clear threats by defeating the Scarlet Forest Krall",
+          "objectiveAliases": [
+            "Eliminate the Scarlet Forest Krall"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-to-sthen-via-selvis",
+          "title": "Talk to Sthen via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "return-to-notos-legion-outpost",
+          "title": "Return to Notos Legion Outpost",
+          "objectiveAliases": [
+            "Talk to Kepillia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "discuss-the-power-tower-infiltration-operation",
+          "title": "Discuss the Power Tower infiltration operation",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        },
+        {
+          "id": "neutralize-the-power-tower-control-unit",
+          "title": "Neutralize the Power Tower Control Unit",
+          "objectiveAliases": [
+            "Talk to transformed Nania"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102820",
+      "routeIndex": 74
+    },
+    {
+      "id": "1102840",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 41,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Thorough Preparation",
+      "aliases": [
+        "Thorough Preparation"
+      ],
+      "objectiveAliases": [
+        "Talk to Kepillia at Notos Legion Outpost"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "cause-chaos-at-the-processing-area",
+          "title": "Cause chaos at the Processing Area",
+          "objectiveAliases": [
+            "Destroy Small Drana Repository",
+            "Defeat Dracuni Gatherer",
+            "Defeat Dracuni Processing Laborer"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102840",
+      "routeIndex": 75
+    },
+    {
+      "id": "1102850",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 42,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Striving for a Purpose",
+      "aliases": [
+        "Striving for a Purpose"
+      ],
+      "objectiveAliases": [
+        "Talk to Kepillia at Notos Legion Outpost"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "sustain-chaos-at-the-processing-area",
+          "title": "Sustain chaos at the Processing Area",
+          "objectiveAliases": [
+            "Destroy the Plantation Large Totem",
+            "Defeat Plantation Kobold Laborer",
+            "Defeat Drana Watch Scout"
+          ],
+          "notes": []
+        },
+        {
+          "id": "return-to-notos-legion-outpost",
+          "title": "Return to Notos Legion Outpost",
+          "objectiveAliases": [
+            "Go to Notos Legion Outpost"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-to-phernos-via-selvis",
+          "title": "Talk to Phernos via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102850",
+      "routeIndex": 76
+    },
+    {
+      "id": "1102870",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 42,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Unpleasant Memories",
+      "aliases": [
+        "Unpleasant Memories"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid at Notos Legion Outpost"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "transform-into-a-kobold",
+          "title": "Transform into a Kobold",
+          "objectiveAliases": [
+            "Talk to Kepillia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "gather-supplies-to-deliver-to-the-disposal-plant",
+          "title": "Gather supplies to deliver to the Disposal Plant",
+          "objectiveAliases": [
+            "Collect the waste"
+          ],
+          "notes": []
+        },
+        {
+          "id": "approach-overseer-davian",
+          "title": "Approach Overseer Davian",
+          "objectiveAliases": [
+            "Talk to Overseer Davian"
+          ],
+          "notes": []
+        },
+        {
+          "id": "receive-entry-permit-from-the-access-control-officer",
+          "title": "Receive entry permit from the Access Control Officer",
+          "objectiveAliases": [
+            "Talk to the Access Control Officer Devisha"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-the-illusion-bracelet-at-the-disposal-plant",
+          "title": "Find the Illusion Bracelet at the disposal plant",
+          "objectiveAliases": [
+            "Go to the Nahid Disposal Plant"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102870",
+      "routeIndex": 77
+    },
+    {
+      "id": "1102880",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 42,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "A Balaur's Trash is a Daeva's Treasure",
+      "aliases": [
+        "A Balaur's Trash is a Daeva's Treasure"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid in front of the disposal plant entrance"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "retrieve-teina-s-bracelet",
+          "title": "Retrieve Teina's Bracelet",
+          "objectiveAliases": [
+            "Open the Nahid Disposal Plant door"
+          ],
+          "notes": []
+        },
+        {
+          "id": "discuss-the-situation-in-front-of-the-disposal-plant-entrance",
+          "title": "Discuss the situation in front of the Disposal Plant entrance",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": []
+        },
+        {
+          "id": "return-to-zumion-village",
+          "title": "Return to Zumion Village",
+          "objectiveAliases": [
+            "Talk to Phernos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "collect-thoughts-during-conversation",
+          "title": "Collect thoughts during conversation",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102880",
+      "routeIndex": 78
+    },
+    {
+      "id": "1102910",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 43,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Time Takes Its Toll",
+      "aliases": [
+        "Time Takes Its Toll"
+      ],
+      "objectiveAliases": [
+        "Talk to Dymones at Zumion Village"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "return-the-bracelet-to-reda",
+          "title": "Return the bracelet to Reda",
+          "objectiveAliases": [
+            "Go to the Illusion Hideout"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102910",
+      "routeIndex": 79
+    },
+    {
+      "id": "1102920",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 44,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "A Means to an End",
+      "aliases": [
+        "A Means to an End"
+      ],
+      "objectiveAliases": [
+        "Talk to Phernos at the Illusion Hideout entrance"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "discuss-the-matters-ahead",
+          "title": "Discuss the matters ahead",
+          "objectiveAliases": [
+            "Go to Notos Legion Office"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102920",
+      "routeIndex": 80
+    },
+    {
+      "id": "1102930",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 44,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Pilgrims of the Garden",
+      "aliases": [
+        "Pilgrims of the Garden"
+      ],
+      "objectiveAliases": [
+        "Talk to Paitos at Pilgrim's Rest"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "assess-the-situation-in-the-garden",
+          "title": "Assess the situation in the garden",
+          "objectiveAliases": [
+            "Talk to Dioni",
+            "Talk to Nestor"
+          ],
+          "notes": []
+        },
+        {
+          "id": "find-the-pilgrim-anteia-in-the-garden",
+          "title": "Find the Pilgrim Anteia in the garden",
+          "objectiveAliases": [
+            "Talk to Anteia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "neutralize-the-threat-within-the-garden",
+          "title": "Neutralize the threat within the garden",
+          "objectiveAliases": [
+            "Close the Rift Fissure",
+            "Defeat Wandering Wind Spirit",
+            "Defeat Tainted Vine Specter"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102930",
+      "routeIndex": 81
+    },
+    {
+      "id": "1102940",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 44,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Another Rift",
+      "aliases": [
+        "Another Rift"
+      ],
+      "objectiveAliases": [
+        "Talk to Anteia at the Garden of the Illusion God"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "talk-to-caelid-via-selvis",
+          "title": "Talk to Caelid via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "check-the-scattered-pilgrims",
+          "title": "Check the scattered pilgrims",
+          "objectiveAliases": [
+            "Talk to Nestor"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Check the scattered pllgrlms",
+            "Check the scattered piigrims"
+          ]
+        },
+        {
+          "id": "check-the-companions-conditions",
+          "title": "Check the companions' conditions",
+          "objectiveAliases": [
+            "Talk to Caelid"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Check the companlons' condltlons"
+          ]
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102940",
+      "routeIndex": 82
+    },
+    {
+      "id": "1102950",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 44,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Memories of the Garden",
+      "aliases": [
+        "Memories of the Garden"
+      ],
+      "objectiveAliases": [
+        "Talk to Nestor at Pilgrim's Rest"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "find-the-pilgrim-inside-the-garden",
+          "title": "Find the pilgrim inside the garden",
+          "objectiveAliases": [
+            "Talk to Dorian"
+          ],
+          "notes": []
+        },
+        {
+          "id": "record-the-illusion-monolith",
+          "title": "Record the Illusion Monolith",
+          "objectiveAliases": [
+            "Read the Oath"
+          ],
+          "notes": []
+        },
+        {
+          "id": "record-the-illusion-monolith-2",
+          "title": "Record the Illusion Monolith",
+          "objectiveAliases": [
+            "Read the message"
+          ],
+          "notes": []
+        },
+        {
+          "id": "record-the-illusion-monolith-3",
+          "title": "Record the Illusion Monolith",
+          "objectiveAliases": [
+            "Read the Proof of the Faith"
+          ],
+          "notes": []
+        },
+        {
+          "id": "record-the-illusion-monolith-4",
+          "title": "Record the Illusion Monolith",
+          "objectiveAliases": [
+            "Read the Memory of the Seal"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102950",
+      "routeIndex": 83
+    },
+    {
+      "id": "1102960",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 45,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "The Path of Pilgrimage",
+      "aliases": [
+        "The Path of Pilgrimage"
+      ],
+      "objectiveAliases": [
+        "Talk to Dorian at the Garden of the Illusion God"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "report-the-disappearance-of-dorian",
+          "title": "Report the disappearance of Dorian",
+          "objectiveAliases": [
+            "Talk to Nestor"
+          ],
+          "notes": []
+        },
+        {
+          "id": "collect-the-essence-to-offer-to-the-brazier",
+          "title": "Collect the essence to offer to the brazier",
+          "objectiveAliases": [
+            "Collect the Illusion Tree's Essence"
+          ],
+          "notes": []
+        },
+        {
+          "id": "deliver-the-illusion-tree-s-essence",
+          "title": "Deliver the Illusion Tree's Essence",
+          "objectiveAliases": [
+            "Talk to Dioni"
+          ],
+          "notes": []
+        },
+        {
+          "id": "recover-the-pilgrim-s-belongings",
+          "title": "Recover the pilgrim's belongings",
+          "objectiveAliases": [
+            "Recover belongings swallowed by the Wandering Dark Spirit",
+            "Recover belongings swallowed by the Wandering Water Spirit",
+            "Recover belongings from the Garden Guardian",
+            "Recover belongings from the corpse"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102960",
+      "routeIndex": 84
+    },
+    {
+      "id": "1102970",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 45,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Sacred Offering",
+      "aliases": [
+        "Sacred Offering"
+      ],
+      "objectiveAliases": [
+        "Talk to Dioni at Pilgrim's Rest"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "offer-the-illusion-tree-s-essence",
+          "title": "Offer the Illusion Tree's Essence",
+          "objectiveAliases": [
+            "Offer the essence to the Message Brazier"
+          ],
+          "notes": []
+        },
+        {
+          "id": "offer-the-illusion-tree-s-essence-2",
+          "title": "Offer the Illusion Tree's Essence",
+          "objectiveAliases": [
+            "Offer the essence to the Oath Brazier"
+          ],
+          "notes": []
+        },
+        {
+          "id": "offer-the-illusion-tree-s-essence-3",
+          "title": "Offer the Illusion Tree's Essence",
+          "objectiveAliases": [
+            "Offer the essence to the Seal Brazier"
+          ],
+          "notes": []
+        },
+        {
+          "id": "offer-the-illusion-tree-s-essence-4",
+          "title": "Offer the Illusion Tree's Essence",
+          "objectiveAliases": [
+            "Offer the essence to the Faith Brazier"
+          ],
+          "notes": []
+        },
+        {
+          "id": "talk-to-caelid-via-selvis",
+          "title": "Talk to Caelid via Selvis",
+          "objectiveAliases": [
+            "Talk via Selvis"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102970",
+      "routeIndex": 85
+    },
+    {
+      "id": "1102980",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 45,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "The Core of Illusion God",
+      "aliases": [
+        "The Core of Illusion God"
+      ],
+      "objectiveAliases": [
+        "Talk to Caelid at the Ardus Shrine entrance"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "obtain-the-core-at-ardus-shrine",
+          "title": "Obtain the core at Ardus Shrine",
+          "objectiveAliases": [
+            "Interact with Table of Testament"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102980",
+      "routeIndex": 86
+    },
+    {
+      "id": "1102985",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 45,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Diverging Paths",
+      "aliases": [
+        "Diverging Paths"
+      ],
+      "objectiveAliases": [
+        "Talk to Phernos at the Ardus Shrine entrance"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "return-to-zumion-village",
+          "title": "Return to Zumion Village",
+          "objectiveAliases": [
+            "Talk to Phernos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "go-to-a-quiet-place",
+          "title": "Go to a quiet place",
+          "objectiveAliases": [
+            "Go to the residential area"
+          ],
+          "notes": []
+        },
+        {
+          "id": "discuss-future-plans",
+          "title": "Discuss future plans",
+          "objectiveAliases": [
+            "Talk to Nania"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102985",
+      "routeIndex": 87
+    },
+    {
+      "id": "1102990",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 45,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Draupnir",
+      "aliases": [
+        "Draupnir"
+      ],
+      "objectiveAliases": [
+        "Talk to Dymones at Zumion Village"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "learn-about-draupnir",
+          "title": "Learn about Draupnir",
+          "objectiveAliases": [
+            "Talk to Paitos"
+          ],
+          "notes": [],
+          "titleAliases": [
+            "Learn about Draupnlr"
+          ]
+        },
+        {
+          "id": "investigate-draupnir",
+          "title": "Investigate Draupnir",
+          "objectiveAliases": [
+            "Investigate Draupnir"
+          ],
+          "notes": []
+        },
+        {
+          "id": "learn-about-the-abyss",
+          "title": "Learn about the Abyss",
+          "objectiveAliases": [
+            "Talk to Paitos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "ask-about-how-to-reach-the-abyss",
+          "title": "Ask about how to reach the Abyss",
+          "objectiveAliases": [
+            "Talk to Edna"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102990",
+      "routeIndex": 88
+    },
+    {
+      "id": "1102995",
+      "recognitionKind": "elyos",
+      "recommendedLevel": 45,
+      "allowWithoutLevel": false,
+      "chapter": "Encountering Kaisinel's Core",
+      "title": "Witness to a Nightmare",
+      "aliases": [
+        "Witness to a Nightmare"
+      ],
+      "objectiveAliases": [
+        "Talk to Koro at the Abyss Base"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "ascend-to-the-next-dimension-as-a-daeva",
+          "title": "Ascend to the next dimension as a Daeva",
+          "objectiveAliases": [
+            "Complete The One Who Witnessed the Nightmare"
+          ],
+          "notes": []
+        }
+      ],
+      "sourceUrl": "https://aion2.app/db/quests/1102995",
+      "routeIndex": 89
+    }
+  ]
+}

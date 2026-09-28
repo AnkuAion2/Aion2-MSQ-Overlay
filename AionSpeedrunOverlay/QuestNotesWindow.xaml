@@ -1,0 +1,98 @@
+<Window x:Class="AionSpeedrunOverlay.QuestNotesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="Assets/aion-penguin.ico"
+        Title="Quest notes" Width="1040" Height="720" MinWidth="760" MinHeight="640"
+        WindowStyle="None" UseLayoutRounding="True" TextOptions.TextFormattingMode="Display" WindowStartupLocation="CenterOwner" ShowInTaskbar="False" Topmost="True"
+        Background="#101722" Foreground="#E2E8F0" FontFamily="Segoe UI">
+    <WindowChrome.WindowChrome><WindowChrome CaptionHeight="48" ResizeBorderThickness="6" GlassFrameThickness="0" CornerRadius="10" UseAeroCaptionButtons="False"/></WindowChrome.WindowChrome>
+    <Window.Resources><ResourceDictionary><ResourceDictionary.MergedDictionaries><ResourceDictionary Source="Themes/EditorTheme.xaml"/></ResourceDictionary.MergedDictionaries></ResourceDictionary></Window.Resources>
+    <Border BorderBrush="#2A3A50" BorderThickness="1" Background="#101722" CornerRadius="10">
+    <Grid>
+        <Grid.RowDefinitions><RowDefinition Height="48"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+        <Border Background="#141F30" BorderBrush="#25344B" BorderThickness="0,0,0,1" CornerRadius="10,10,0,0">
+            <Grid Margin="20,0,12,0">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <Border Width="7" Height="7" CornerRadius="3.5" Background="#8BB7FF" Margin="0,0,10,0"/>
+                    <TextBlock Text="AION ROUTE" Foreground="#DFE9F9" FontSize="11" FontWeight="SemiBold"/>
+                    <TextBlock Text=" / QUEST LIBRARY" Foreground="#8195B1" FontSize="11" Margin="9,0,0,0"/>
+                </StackPanel>
+                <Button x:Name="CaptionCloseButton" Content="&#x00D7;" Style="{StaticResource CaptionClose}" HorizontalAlignment="Right"
+                        WindowChrome.IsHitTestVisibleInChrome="True" Click="Close_Click"/>
+            </Grid>
+        </Border>
+    <Grid Grid.Row="1" Margin="24,20,24,22">
+        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+        <StackPanel>
+            <TextBlock x:Name="LibraryTitle" Text="Your quest notes" FontSize="28" FontWeight="SemiBold"/>
+            <TextBlock Text="Edit your route at any point in the story. Changes are saved locally."
+                       Foreground="#94A3B8" TextWrapping="Wrap" Margin="0,5,0,16"/>
+        </StackPanel>
+        <Grid Grid.Row="1" Margin="0,0,0,14">
+            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+            <StackPanel>
+                <TextBlock Text="Search quest, step, chapter or note" Foreground="#94A3B8" Margin="0,0,0,5"/>
+                <TextBox x:Name="SearchBox" TextChanged="Search_Changed" ToolTip="Search quest, step, chapter or note"
+                         AutomationProperties.Name="Search quest, step, chapter or note"/>
+            </StackPanel>
+            <TextBlock x:Name="CountText" Grid.Column="1" VerticalAlignment="Center" Margin="14,0,0,0" Foreground="#94A3B8"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions><ColumnDefinition Width="5*" MinWidth="250"/><ColumnDefinition Width="18"/><ColumnDefinition Width="6*" MinWidth="320"/></Grid.ColumnDefinitions>
+            <ListBox x:Name="EntriesList" Background="#131D2B" Foreground="#E2E8F0" BorderBrush="#2A3B53"
+                     SelectionChanged="Entry_Selected" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                     VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.IsVirtualizingWhenGrouping="True"
+                     VirtualizingPanel.VirtualizationMode="Recycling" ScrollViewer.CanContentScroll="True"
+                     AutomationProperties.Name="Quest steps and notes">
+                <ListBox.GroupStyle>
+                    <GroupStyle><GroupStyle.HeaderTemplate><DataTemplate>
+                        <TextBlock Text="{Binding Name}" FontWeight="SemiBold" Foreground="#93C5FD"
+                                   TextWrapping="Wrap" Margin="10,16,10,6"/>
+                    </DataTemplate></GroupStyle.HeaderTemplate></GroupStyle>
+                </ListBox.GroupStyle>
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                        <Setter Property="Padding" Value="12,10"/><Setter Property="Margin" Value="0,2"/>
+                        <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="ListBoxItem">
+                            <Border x:Name="Row" CornerRadius="8" Padding="{TemplateBinding Padding}" Background="Transparent">
+                                <ContentPresenter/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Row" Property="Background" Value="#1E3046"/></Trigger>
+                                <Trigger Property="IsSelected" Value="True"><Setter TargetName="Row" Property="Background" Value="#244B73"/></Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate></Setter.Value></Setter>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate><DataTemplate><StackPanel>
+                    <TextBlock Text="{Binding Entry.StepTitle}" TextWrapping="Wrap"/>
+                    <TextBlock Text="{Binding Preview}" Foreground="#A5B4C8" TextTrimming="CharacterEllipsis" Margin="0,3,0,0"/>
+                </StackPanel></DataTemplate></ListBox.ItemTemplate>
+            </ListBox>
+            <Border Grid.Column="2" Background="#151F30" BorderBrush="#2A3B53" BorderThickness="1" CornerRadius="12" Padding="18"><Grid x:Name="EditorPanel" IsEnabled="False">
+                <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                <TextBlock x:Name="QuestTitle" FontSize="17" FontWeight="SemiBold" TextWrapping="Wrap"/>
+                <TextBlock x:Name="StepTitle" Grid.Row="1" Foreground="#93C5FD" TextWrapping="Wrap" Margin="0,6,0,12"/>
+                <TextBlock x:Name="NoteInfo" Grid.Row="2" TextWrapping="Wrap" Foreground="#94A3B8" Margin="0,0,0,10"/>
+                <TextBox x:Name="NoteText" Grid.Row="3" AcceptsReturn="True" TextWrapping="Wrap"
+                         VerticalScrollBarVisibility="Auto" TextChanged="Note_Changed" FontSize="14"
+                         AutomationProperties.Name="Selected step note"/>
+                <TextBlock Grid.Row="4" Text="One instruction per line. Existing image attachments are preserved."
+                           TextWrapping="Wrap" Foreground="#94A3B8" Margin="0,10,0,12"/>
+                <WrapPanel Grid.Row="5">
+                    <Button x:Name="SaveButton" Margin="0,0,8,6" Content="Save" Click="Save_Click" Background="#285DA5"/>
+                    <Button x:Name="CancelButton" Margin="0,0,8,6" Content="Cancel edits" Click="Cancel_Click"/>
+                    <Button x:Name="ResetButton" Margin="0,0,0,6" Content="Restore default text" Click="Reset_Click"/>
+                </WrapPanel>
+            </Grid></Border>
+        </Grid>
+        <Grid Grid.Row="3" Margin="0,16,0,0">
+            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+            <TextBlock x:Name="StatusText" Text="Select a quest step to edit its note." VerticalAlignment="Center" TextWrapping="Wrap" Foreground="#94A3B8"/>
+            <Button Grid.Column="1" Content="Close" Click="Close_Click" Margin="16,0,0,0"/>
+        </Grid>
+    </Grid>
+    </Grid>
+    </Border>
+</Window>

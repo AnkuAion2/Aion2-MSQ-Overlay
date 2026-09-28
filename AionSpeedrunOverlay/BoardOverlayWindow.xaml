@@ -1,0 +1,17 @@
+<Window x:Class="AionSpeedrunOverlay.BoardOverlayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Daevanion Board Markers"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        ShowActivated="False"
+        ShowInTaskbar="False"
+        Focusable="False"
+        ResizeMode="NoResize">
+
+    <Canvas x:Name="BoardMarkerCanvas"
+            Background="Transparent"
+            IsHitTestVisible="False"/>
+</Window>

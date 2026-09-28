@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "quests": [
+    {
+      "id": "instance-the-being-beneath-the-lake",
+      "recognitionKind": "instance",
+      "allowWithoutLevel": true,
+      "chapter": "Tutorial instance",
+      "title": "The Being Beneath the Lake",
+      "aliases": [
+        "The Being Beneath the Lake"
+      ],
+      "objectiveAliases": [
+        "Dive into the water"
+      ],
+      "notes": [],
+      "steps": [
+        {
+          "id": "dive-into-the-water",
+          "title": "Dive into the water",
+          "objectiveAliases": [
+            "Dive into the water"
+          ],
+          "notes": []
+        },
+        {
+          "id": "move-deeper-into-the-cave",
+          "title": "Dive and move deeper into the cave",
+          "objectiveAliases": [
+            "Dive and move deeper into the cave",
+            "Move deeper into the cave"
+          ],
+          "notes": []
+        },
+        {
+          "id": "approach-the-lake",
+          "title": "Approach the lake",
+          "objectiveAliases": [
+            "Approach the lake"
+          ],
+          "notes": []
+        }
+      ]
+    }
+  ]
+}
